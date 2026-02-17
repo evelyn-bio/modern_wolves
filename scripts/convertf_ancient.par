@@ -1,0 +1,11 @@
+#convertf for ancient samples
+genotypename: PH/angsd_genotypes/combined.ped
+snpname: PH/angsd_genotypes/combined.map
+indivname: PH/angsd_genotypes/combined.ped
+outputformat: EIGENSTRAT
+genotypeoutname: PH/angsd_genotypes/combined.geno
+snpoutname:      PH/angsd_genotypes/combined.snp
+indivoutname:    PH/angsd_genotypes/combined.indiv
+familynames: NO
+checksizemode: NO
+

@@ -1,0 +1,10 @@
+genotypename: smartpca/phased.european.info08.name.nodups.maf01.geno
+snpname:      smartpca/phased.european.info08.name.nodups.maf01.snp
+indivname:    smartpca/phased.european.info08.name.nodups.maf01.norelated.indiv
+evecoutname:  smartpca/phased.european.info08.name.nodups.maf01.evec
+evaloutname:  smartpca/phased.european.info08.name.nodups.maf01.eval 
+numoutevec: 20
+poplistname: scripts/poplist.txt
+numchrom: 38
+lsqproject:  YES
+numoutlieriter: 0

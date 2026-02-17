@@ -1,0 +1,11 @@
+#convertf for ancient samples
+genotypename: smartpca/phased.european.info08.name.nodups.maf01.ped
+snpname: smartpca/phased.european.info08.name.nodups.maf01.map
+indivname: smartpca/phased.european.info08.name.nodups.maf01.ped
+outputformat: EIGENSTRAT
+genotypeoutname: smartpca/phased.european.info08.name.nodups.maf01.geno
+snpoutname:      smartpca/phased.european.info08.name.nodups.maf01.snp
+indivoutname:    smartpca/phased.european.info08.name.nodups.maf01.indiv
+familynames: NO
+checksizemode: NO
+

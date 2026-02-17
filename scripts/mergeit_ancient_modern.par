@@ -1,0 +1,15 @@
+geno1: PH/angsd_genotypes/combined.geno
+snp1:  PH/angsd_genotypes/combined.snp
+ind1:  PH/angsd_genotypes/combined.indiv
+geno2: PH/phased.all.info08.name.nodups.maf01.tv.geno
+snp2: PH/phased.all.info08.name.nodups.maf01.tv.snp
+ind2: PH/phased.all.info08.name.nodups.maf01.tv.indiv
+genooutfilename: PH/ancient_modern_merged.geno
+snpoutfilename: PH/ancient_modern_merged.snp
+indoutfilename: PH/ancient_modern_merged.ind
+outputformat: PACKEDANCESTRYMAP
+familynames: NO
+checksizemode: NO
+hashcheck: NO
+allowdups:  YES 
+numchrom: 38

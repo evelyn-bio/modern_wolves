@@ -1,0 +1,11 @@
+#convertf for ancient samples
+genotypename: PH/phased.all.info08.name.nodups.maf01.tv.ped
+snpname: PH/phased.all.info08.name.nodups.maf01.tv.map
+indivname: PH/phased.all.info08.name.nodups.maf01.tv.ped
+outputformat: EIGENSTRAT
+genotypeoutname: PH/phased.all.info08.name.nodups.maf01.tv.geno
+snpoutname:      PH/phased.all.info08.name.nodups.maf01.tv.snp
+indivoutname:    PH/phased.all.info08.name.nodups.maf01.tv.indiv
+familynames: NO
+checksizemode: NO
+
