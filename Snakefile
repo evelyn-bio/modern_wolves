@@ -39,7 +39,10 @@ rule all:
         expand("orientagraph/og_rep/allpop_m{m}_rep{r}.treeout.gz", m=config["migrations"], r=config["replicates"]),
         expand("orientagraph/og_log/log_allpop_m{m}_rep{r}.log", m=config["migrations"], r=config["replicates"]),
         expand("orientagraph/og_rep2/allpop_m{m}_rep{r}.treeout.gz", m=config["migrations"], r=config["replicates"]),
-        expand("orientagraph/og_log2/log_allpop_m{m}_rep{r}.log", m=config["migrations"], r=config["replicates"])
+        expand("orientagraph/og_log2/log_allpop_m{m}_rep{r}.log", m=config["migrations"], r=config["replicates"]),
+        expand("pidiversity/country/{country}_pi5000_all.windowed.pi", country=config["pi_locations"]),
+        expand("pidiversity/country/{country}_average_pi.txt", country=config["pi_locations"]),
+        "pidiversity/country/average_pi5000_all.txt"
       
 # ---- RELATED: identify related samples in king ----
 rule king_related:
@@ -707,6 +710,7 @@ rule dstat_ancientdog:
     shell:
         """
         awk '{{print "AndeanFox\t" $1 "\tAL2657\tGShepDog"}}' {input.indiv} > {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tIN18-005\tGShepDog"}}' {input.indiv} >> {output.list}
         awk '{{print "AndeanFox\t" $1 "\tCGG33\tGShepDog"}}' {input.indiv} >> {output.list}
         awk '{{print "AndeanFox\t" $1 "\tJK2181\tGShepDog"}}' {input.indiv} >> {output.list}
         awk '{{print "AndeanFox\t" $1 "\tTumat2\tGShepDog"}}' {input.indiv} >> {output.list}
@@ -830,8 +834,8 @@ rule run_orientagraph_all:
         "orientagraph/og_rep/allpop_m{m}_rep{r}.treeout.gz",
         log="orientagraph/og_log/log_allpop_m{m}_rep{r}.log"
     resources:
-        mem_mb=80000,
-        runtime=10*60
+        mem_mb=100000,
+        runtime=18*60
     conda:
         "orientagraph"
     shell:
@@ -883,7 +887,7 @@ rule run_orientagraph_noSWASIA:
         "orientagraph/og_rep2/allpop_m{m}_rep{r}.treeout.gz",
         log="orientagraph/og_log2/log_allpop_m{m}_rep{r}.log"
     resources:
-        mem_mb=120000,
+        mem_mb=150000,
         runtime=15*60
     conda:
         "orientagraph"
@@ -902,3 +906,52 @@ rule run_orientagraph_noSWASIA:
             exit 1
         fi
         """
+
+# ---- VCFTOOLS: pi diversity ----    
+
+rule pi_diversity_population:
+    input:
+        vcf="popgen/phased.all.info08.name.nodups.vcf.gz",
+        meta="data/allcanids_metadata_ancestrygroups_edited_nonrelated_updated.txt"
+    output:
+        "pidiversity/country/{country}_pi5000_all.windowed.pi",
+        avg="pidiversity/country/{country}_average_pi.txt"
+    resources:
+        mem_mb=50000,
+        runtime=4*60
+    shell:
+        """
+        set -euo pipefail
+        country="{wildcards.country}"
+        # Count individuals for this population
+        count=$(awk -F'\t' -v p="$country" 'NR > 1 && $6 == p' {input.meta} | wc -l)
+        if [ "$count" -gt 3 ]; then
+            # Make sample list
+            awk -F'\t' -v p="$country" 'NR > 1 && $6 == p {{print $1}}' {input.meta} | sort -u \
+                > pidiversity/country/${{country}}.txt
+
+            # Calculate nucleotide diversity (pi)
+            vcftools --gzvcf {input.vcf} \
+                     --keep pidiversity/country/${{country}}.txt \
+                     --window-pi 5000 \
+                     --out pidiversity/country/${{country}}_pi5000_all
+
+            # Append average pi
+            awk -v country="$country" 'NR > 1 {{sum += $6; n++}} END {{print country "\\t" (n ? sum / n : 0)}}' \
+                pidiversity/country/${{country}}_pi5000_all.windowed.pi > {output.avg}
+        else
+            > pidiversity/country/${{country}}_pi5000_all.windowed.pi
+            echo -e "$country\tNA" > {output.avg}
+        fi
+        """
+
+rule pi_diversity_summary:
+    input:
+        expand("pidiversity/country/{country}_average_pi.txt", country=config["pi_locations"])
+    output:
+        "pidiversity/country/average_pi5000_all.txt"
+    shell:
+        """
+        cat {input} >> {output}
+        """
+
