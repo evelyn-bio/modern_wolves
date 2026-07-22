@@ -1,4 +1,4 @@
-#Imputation pipeline for wolf genomes
+## Imputation pipeline for wolf genomes
 
 A Snakemake workflow for imputation of wolf genomes using a phased canid reference panel using the GLIMPSE1 pipeline.
 This workflow is part of a study on wolf population genetics. A preprint of this study can be found here:
@@ -35,38 +35,28 @@ This repository contains three Snakemake workflows:
 
 ## Workflow structure
   
-Reference panel preparation
-            �
-            ?
- Downsampling (optional)
-            �
-            ?
-     Variant calling
-            �
-            ?
-       Imputation
-            �
-            ?
-   Filtering & phasing
-            �
-            ?
-  Final imputed panel
+- Reference panel preparation
+- Downsampling (optional)
+- Variant calling
+- Imputation
+- Filtering & phasing
+- Final imputed panel
 
 ---
 
 ## Repository structure
 
 ```text
-MW_imputation/
-+-- Snakefile
-+-- config.yaml
-+-- rules/
-�   +-- refpanel.smk
-�   +-- downsample.smk
-�   +-- imputepanel.smk
-+-- envs/
-+-- scripts/
-+-- README.md
+imputation/
+├── Snakefile
+├── config.yaml
+├── rules/
+│   ├── refpanel.smk
+│   ├── downsample.smk
+│   └── imputepanel.smk
+├── envs/
+├── scripts/
+└── README.md
 ```
 
 ---

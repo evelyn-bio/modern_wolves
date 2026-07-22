@@ -1,0 +1,651 @@
+ID	admixturegroup	newgroup	newgroupfull	colour	Location	age	Latitude	Longitude	Species	related	oldgroup
+MW046	4	CAR	Carpathian	#C3ACCE	Slovakia	2011	48.65	19.4131	Wolf	Nonrelated	CAR
+MW047	4	CAR	Carpathian	#C3ACCE	Slovakia	2013	48.9124	18.7279	Wolf	Nonrelated	CAR
+MW048	4	CAR	Carpathian	#C3ACCE	Slovakia	2013	49.3985	19.307	Wolf	Nonrelated	CAR
+MW050	4	CAR	Carpathian	#C3ACCE	Slovakia	2015	49.1709	22.0248	Wolf	Nonrelated	CAR
+MW051	4	CAR	Carpathian	#C3ACCE	Slovakia	2015	48.8756	22.1472	Wolf	Nonrelated	CAR
+MW253	4	CAR	Carpathian	#C3ACCE	Poland	2013	49.27366	22.68584	Wolf	Nonrelated	CAR
+MW254	4	CAR	Carpathian	#C3ACCE	Poland	2014	49.2735	22.2862	Wolf	Nonrelated	CAR
+MW255	4	CAR	Carpathian	#C3ACCE	Poland	2015	49.57457	21.89296	Wolf	Nonrelated	CAR
+MW257	4	CAR	Carpathian	#C3ACCE	Poland	2017	49.53444	21.9035	Wolf	Nonrelated	CAR
+MW258	4	CAR	Carpathian	#C3ACCE	Poland	2018	49.20206	22.36225	Wolf	Nonrelated	CAR
+MW259	4	CAR	Carpathian	#C3ACCE	Poland	2018	49.43792	21.69074	Wolf	Nonrelated	CAR
+MW260	4	CAR	Carpathian	#C3ACCE	Poland	2018	49.26159	22.48799	Wolf	Nonrelated	CAR
+MW261	4	CAR	Carpathian	#C3ACCE	Poland	2019	49.71314	18.96991	Wolf	Nonrelated	CAR
+MW296	4	CAR	Carpathian	#C3ACCE	Poland	2015	49.9193	22.9735	Wolf	Nonrelated	CAR
+MW332	4	CAR	Carpathian	#C3ACCE	Slovakia	2015	49.3116	21.8325	Wolf	Nonrelated	CAR
+MW335	4	CAR	Carpathian	#C3ACCE	Slovakia	2013	48.3823	19.3151	Wolf	Nonrelated	CAR
+MW336	4	CAR	Carpathian	#C3ACCE	Slovakia	2014	49.3181	18.8802	Wolf	Nonrelated	CAR
+MW337	4	CAR	Carpathian	#C3ACCE	Slovakia	2017	49.32047	21.84349	Wolf	Nonrelated	CAR
+MW339	4	CAR	Carpathian	#C3ACCE	Slovakia	2018	49.21531	19.44052	Wolf	Nonrelated	CAR
+MW342	4	CAR	Carpathian	#C3ACCE	Slovakia	2017	48.91577	19.26219	Wolf	Nonrelated	CAR
+MW697A	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.0108	19.4953	Wolf	Nonrelated	CAR
+MW698A	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	48.7853	20.1361	Wolf	Nonrelated	CAR
+MW699A	4	CAR	Carpathian	#C3ACCE	Slovakia	2017	48.7231	20.2541	Wolf	Nonrelated	CAR
+MW704A	4	CAR	Carpathian	#C3ACCE	Slovakia	2017	48.7163	19.6992	Wolf	Nonrelated	CAR
+MW710A	4	CAR	Carpathian	#C3ACCE	Slovakia	2010	48.6531	19.431	Wolf	Nonrelated	CAR
+MW712A	4	CAR	Carpathian	#C3ACCE	Slovakia	2015	49.1176	19.7938	Wolf	Nonrelated	CAR
+MW878	4	CAR	Carpathian	#C3ACCE	Slovakia	2010	48.6233	19.0548	Wolf	Nonrelated	CAR
+MW933	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.1742	19.2575	Wolf	Nonrelated	CAR
+MW935	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.0405	19.6171	Wolf	Nonrelated	CAR
+MW939	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	48.8416	19.4981	Wolf	Nonrelated	CAR
+MW941	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.099	20.85	Wolf	Nonrelated	CAR
+MW943	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	48.8209	20.8001	Wolf	Nonrelated	CAR
+MW944	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	48.7983	20.7332	Wolf	Nonrelated	CAR
+MW945	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.0244	20.6741	Wolf	Nonrelated	CAR
+MW946	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	48.8532	20.5262	Wolf	Nonrelated	CAR
+MW949	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	48.8297	20.7583	Wolf	Nonrelated	CAR
+MW952	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.1526	19.0098	Wolf	Nonrelated	CAR
+MW953	4	CAR	Carpathian	#C3ACCE	Slovakia	2020	48.669	19.699	Wolf	Nonrelated	CAR
+MW957	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.3348	19.6748	Wolf	Nonrelated	CAR
+MW959	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.3484	21.2218	Wolf	Nonrelated	CAR
+MW960	4	CAR	Carpathian	#C3ACCE	Slovakia	2015	49.0725	22.0934	Wolf	Nonrelated	CAR
+MW961	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	48.9007	22.3936	Wolf	Nonrelated	CAR
+MW962	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	48.6409	19.4602	Wolf	Nonrelated	CAR
+MW964	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.2079	19.535	Wolf	Nonrelated	CAR
+MW965	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.1066	19.4374	Wolf	Nonrelated	CAR
+MW966	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.09834	20.20651	Wolf	Nonrelated	CAR
+MW967	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.0097	20.0902	Wolf	Nonrelated	CAR
+MW969	4	CAR	Carpathian	#C3ACCE	Slovakia	2015	49.0151	20.1641	Wolf	Nonrelated	CAR
+MW970	4	CAR	Carpathian	#C3ACCE	Slovakia	2016	49.0097	20.0902	Wolf	Nonrelated	CAR
+MW469	5	KAR	Karelian	#643B80	Russia	1996	64.7	43.39103	Wolf	Nonrelated	CASIA
+MW1063	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	57.15	63.05	Wolf	Nonrelated	CASIA
+MW1064	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	56.55	63.5	Wolf	Nonrelated	CASIA
+MW1065	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	57.15	58.4	Wolf	Nonrelated	CASIA
+MW1066	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	54.3	55.2	Wolf	Nonrelated	CASIA
+MW1068	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	56.42	58.5	Wolf	Nonrelated	CASIA
+MW1070	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	56.43	63.47	Wolf	Nonrelated	CASIA
+MW1071	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	56.58	63.28	Wolf	Nonrelated	CASIA
+MW1073	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	56.55	63.15	Wolf	Nonrelated	CASIA
+MW1210	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	58.2	57.2	Wolf	Nonrelated	CASIA
+MW1212	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	57.15	58.4	Wolf	Nonrelated	CASIA
+MW1213	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	56.45	57.5	Wolf	Nonrelated	CASIA
+MW1215	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	57.4	63	Wolf	Nonrelated	CASIA
+MW1219	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	56.5	64.59	Wolf	Nonrelated	CASIA
+MW486	14	VOUR	Volga-Ural	#6BC2EB	Russia	2000	65.86165	44.22931	Wolf	Nonrelated	CASIA
+MW487	14	VOUR	Volga-Ural	#6BC2EB	Russia	1999	65.86165	44.22931	Wolf	Nonrelated	CASIA
+MW491	14	VOUR	Volga-Ural	#6BC2EB	Russia	2000	65.86165	44.22931	Wolf	Nonrelated	CASIA
+MW868	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	57	59	Wolf	Nonrelated	CASIA
+MW869	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	57	60	Wolf	Nonrelated	CASIA
+MW870	14	VOUR	Volga-Ural	#6BC2EB	Russia	2020	57	59	Wolf	Nonrelated	CASIA
+AW538	14	VOUR	Volga-Ural	#6BC2EB	Finland	2003	62.53633	24.18494	ZWolf	Nonrelated	CASIA
+AW539	14	VOUR	Volga-Ural	#6BC2EB	Finland	1999	62.53633	24.18494	ZWolf	Nonrelated	CASIA
+AW541	14	VOUR	Volga-Ural	#6BC2EB	Finland	1981	60.17487	24.98467	ZWolf	Nonrelated	CASIA
+MW1002	14	VOUR	Volga-Ural	#6BC2EB	Finland	1985	62.6734482	30.9116358	ZWolf	Nonrelated	CASIA
+MW1005	14	VOUR	Volga-Ural	#6BC2EB	Finland	1986	62.5377395	24.1798262	ZWolf	Nonrelated	CASIA
+MW1006	14	VOUR	Volga-Ural	#6BC2EB	Finland	1986	62.5377395	24.1798262	ZWolf	Nonrelated	CASIA
+MW1222	14	VOUR	Volga-Ural	#6BC2EB	Sweden	2020	61.71045	16.15425	ZWolf	Nonrelated	CASIA
+MW1227	14	VOUR	Volga-Ural	#6BC2EB	Sweden	2020	59.32442	18.10098	ZWolf	Nonrelated	CASIA
+MW1229	14	VOUR	Volga-Ural	#6BC2EB	Sweden	2018	61.21232	14.53508	ZWolf	Nonrelated	CASIA
+MW1231	14	VOUR	Volga-Ural	#6BC2EB	Sweden	2019	59.32704	18.10374	ZWolf	Nonrelated	CASIA
+MW1232	14	VOUR	Volga-Ural	#6BC2EB	Sweden	2020	60.1282	18.6435	ZWolf	Nonrelated	CASIA
+MW001	7	CEL	Central European Lowlands	#6B0504	Denmark	2020	56.273653	8.318263	Wolf	Nonrelated	CEL
+MW002	7	CEL	Central European Lowlands	#6B0504	Denmark	2020	56.75073	8.422565	Wolf	Nonrelated	CEL
+MW045	7	CEL	Central European Lowlands	#6B0504	Czech-Republic	2019	50.797808	14.417685	Wolf	Nonrelated	CEL
+MW052	7	CEL	Central European Lowlands	#6B0504	Germany	2009	51.104541	13.201738	Wolf	Nonrelated	CEL
+MW055	7	CEL	Central European Lowlands	#6B0504	Germany	2015	50.652051	9.162438	Wolf	Nonrelated	CEL
+MW056	7	CEL	Central European Lowlands	#6B0504	Germany	2015	51.104541	13.201738	Wolf	Nonrelated	CEL
+MW058	7	CEL	Central European Lowlands	#6B0504	Germany	2015	52.131392	13.216249	Wolf	Nonrelated	CEL
+MW059	7	CEL	Central European Lowlands	#6B0504	Germany	2015	51.104541	13.201738	Wolf	Nonrelated	CEL
+MW070	7	CEL	Central European Lowlands	#6B0504	Germany	2015	52.131392	13.216249	Wolf	Nonrelated	CEL
+MW072	7	CEL	Central European Lowlands	#6B0504	Germany	2015	52.636704	9.845077	Wolf	Nonrelated	CEL
+MW073	7	CEL	Central European Lowlands	#6B0504	Germany	2016	52.636704	9.845077	Wolf	Nonrelated	CEL
+MW076	7	CEL	Central European Lowlands	#6B0504	Germany	2016	51.104541	13.201738	Wolf	Nonrelated	CEL
+MW077	7	CEL	Central European Lowlands	#6B0504	Germany	2015	52.131392	13.216249	Wolf	Nonrelated	CEL
+MW078	7	CEL	Central European Lowlands	#6B0504	Germany	2016	51.010989	10.845346	Wolf	Nonrelated	CEL
+MW080	7	CEL	Central European Lowlands	#6B0504	Germany	2015	51.950265	11.692273	Wolf	Nonrelated	CEL
+MW083	7	CEL	Central European Lowlands	#6B0504	Germany	2016	50.652051	9.162438	Wolf	Nonrelated	CEL
+MW085	7	CEL	Central European Lowlands	#6B0504	Germany	2016	52.131392	13.216249	Wolf	Nonrelated	CEL
+MW088	7	CEL	Central European Lowlands	#6B0504	Germany	2016	52.131392	13.216249	Wolf	Nonrelated	CEL
+MW089	7	CEL	Central European Lowlands	#6B0504	Germany	2017	53.612651	12.429595	Wolf	Nonrelated	CEL
+MW090	7	CEL	Central European Lowlands	#6B0504	Germany	2017	51.104541	13.201738	Wolf	Nonrelated	CEL
+MW091	7	CEL	Central European Lowlands	#6B0504	Germany	2017	52.131392	13.216249	Wolf	Nonrelated	CEL
+MW094	7	CEL	Central European Lowlands	#6B0504	Germany	2018	52.636704	9.845077	Wolf	Nonrelated	CEL
+MW095	7	CEL	Central European Lowlands	#6B0504	Germany	2018	51.104541	13.201738	Wolf	Nonrelated	CEL
+MW096	7	CEL	Central European Lowlands	#6B0504	Germany	2018	52.636704	9.845077	Wolf	Nonrelated	CEL
+MW098	7	CEL	Central European Lowlands	#6B0504	Germany	2018	52.131392	13.216249	Wolf	Nonrelated	CEL
+MW262	7	CEL	Central European Lowlands	#6B0504	Poland	2013	51.63869	15.19362	Wolf	Nonrelated	CEL
+MW270	7	CEL	Central European Lowlands	#6B0504	Poland	2016	51.562	15.0614	Wolf	Nonrelated	CEL
+MW271	7	CEL	Central European Lowlands	#6B0504	Poland	2017	51.60928	14.97246	Wolf	Nonrelated	CEL
+MW272	7	CEL	Central European Lowlands	#6B0504	Poland	2017	54.13323	17.84086	Wolf	Nonrelated	CEL
+MW273	7	CEL	Central European Lowlands	#6B0504	Poland	2017	52.5431	14.76891	Wolf	Nonrelated	CEL
+MW274	7	CEL	Central European Lowlands	#6B0504	Poland	2016	53.2381	15.97129	Wolf	Nonrelated	CEL
+MW276	7	CEL	Central European Lowlands	#6B0504	Poland	2018	53.0496	16.1429	Wolf	Nonrelated	CEL
+MW277	7	CEL	Central European Lowlands	#6B0504	Poland	2018	53.06771	16.54556	Wolf	Nonrelated	CEL
+MW278	7	CEL	Central European Lowlands	#6B0504	Poland	2013	53.39909	16.70848	Wolf	Nonrelated	CEL
+MW280	7	CEL	Central European Lowlands	#6B0504	Poland	2016	53.3845	16.73929	Wolf	Nonrelated	CEL
+MW281	7	CEL	Central European Lowlands	#6B0504	Poland	2016	53.3709	16.65359	Wolf	Nonrelated	CEL
+MW283	7	CEL	Central European Lowlands	#6B0504	Poland	2017	53.52417	16.41971	Wolf	Nonrelated	CEL
+MW286	7	CEL	Central European Lowlands	#6B0504	Poland	2012	52.71581	16.08352	Wolf	Nonrelated	CEL
+MW287	7	CEL	Central European Lowlands	#6B0504	Poland	2017	52.54669	15.07533	Wolf	Nonrelated	CEL
+MW288	7	CEL	Central European Lowlands	#6B0504	Poland	2018	52.7872	15.73189	Wolf	Nonrelated	CEL
+MW289	7	CEL	Central European Lowlands	#6B0504	Poland	2017	52.53113	14.79944	Wolf	Nonrelated	CEL
+MW291	7	CEL	Central European Lowlands	#6B0504	Poland	2015	52.5454	17.0451	Wolf	Nonrelated	CEL
+MW292	7	CEL	Central European Lowlands	#6B0504	Poland	2016	54.71869	17.27036	Wolf	Nonrelated	CEL
+MW293	7	CEL	Central European Lowlands	#6B0504	Poland	2017	51.13076	15.59971	Wolf	Nonrelated	CEL
+MW295	7	CEL	Central European Lowlands	#6B0504	Poland	2019	50.5737	21.93079	Wolf	Nonrelated	CEL
+MW333	7	CEL	Central European Lowlands	#6B0504	Czech-Republic	2018	50.653	15.6133	Wolf	Nonrelated	CEL
+MW334	7	CEL	Central European Lowlands	#6B0504	Czech-Republic	2018	50.3376	14.8746	Wolf	Nonrelated	CEL
+MW338	7	CEL	Central European Lowlands	#6B0504	Czech-Republic	2020	50.67852	14.539699	Wolf	Nonrelated	CEL
+MW340	7	CEL	Central European Lowlands	#6B0504	Czech-Republic	2019	50.27093	14.66497	Wolf	Nonrelated	CEL
+MW515	7	CEL	Central European Lowlands	#6B0504	Austria	2020	48.65342	15.33925	Wolf	Nonrelated	CEL
+MW061	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2014	46.135413	25.708109	Wolf	Nonrelated	DINBAL
+MW062	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2014	46.128965	25.610115	Wolf	Nonrelated	DINBAL
+MW063	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2014	45.94316	24.96676	Wolf	Nonrelated	DINBAL
+MW064	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2014	46.069015	26.087026	Wolf	Nonrelated	DINBAL
+MW068	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2015	45.94316	24.96676	Wolf	Nonrelated	DINBAL
+MW081	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2015	46.493201	25.745835	Wolf	Nonrelated	DINBAL
+MW082	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2015	46.493201	25.745835	Wolf	Nonrelated	DINBAL
+MW1118	10	DINBAL	Dinaric Balkan	#FDCA40	Bulgaria	2005	42.86	23.31	Wolf	Nonrelated	DINBAL
+MW1120	10	DINBAL	Dinaric Balkan	#FDCA40	Bulgaria	2020	41.7	23.1	Wolf	Nonrelated	DINBAL
+MW1121	10	DINBAL	Dinaric Balkan	#FDCA40	Croatia	1996	43.7	16.62	Wolf	Nonrelated	DINBAL
+MW1122	10	DINBAL	Dinaric Balkan	#FDCA40	Croatia	1996	45.4	14.72	Wolf	Nonrelated	DINBAL
+MW1123	10	DINBAL	Dinaric Balkan	#FDCA40	Croatia	2000	45.39	14.8	Wolf	Nonrelated	DINBAL
+MW1124	10	DINBAL	Dinaric Balkan	#FDCA40	Croatia	2004	44.59	15.44	Wolf	Nonrelated	DINBAL
+MW1125	10	DINBAL	Dinaric Balkan	#FDCA40	Croatia	2005	43.6	16.54	Wolf	Nonrelated	DINBAL
+MW1126	10	DINBAL	Dinaric Balkan	#FDCA40	Croatia	2008	43.16	17.32	Wolf	Nonrelated	DINBAL
+MW1127	10	DINBAL	Dinaric Balkan	#FDCA40	Croatia	2009	43.16	17.32	Wolf	Nonrelated	DINBAL
+MW1128	10	DINBAL	Dinaric Balkan	#FDCA40	Croatia	2009	43.55	16.3	Wolf	Nonrelated	DINBAL
+MW1130	10	DINBAL	Dinaric Balkan	#FDCA40	Croatia	2009	43.63	16.77	Wolf	Nonrelated	DINBAL
+MW1131	10	DINBAL	Dinaric Balkan	#FDCA40	Greece	1998	40.3	21.8	Wolf	Nonrelated	DINBAL
+MW1133	10	DINBAL	Dinaric Balkan	#FDCA40	Greece	1999	40.3	21.8	Wolf	Nonrelated	DINBAL
+MW1134	10	DINBAL	Dinaric Balkan	#FDCA40	Greece	1999	40.3	21.8	Wolf	Nonrelated	DINBAL
+MW1135	10	DINBAL	Dinaric Balkan	#FDCA40	Greece	1999	40.1	21.42	Wolf	Nonrelated	DINBAL
+MW1140	10	DINBAL	Dinaric Balkan	#FDCA40	Greece	2010	40.71	21.81	Wolf	Nonrelated	DINBAL
+MW1169	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2020	46.48	24.82	Wolf	Nonrelated	DINBAL
+MW1171	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2020	46.43	24.79	Wolf	Nonrelated	DINBAL
+MW1173	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2020	46.58	25.13	Wolf	Nonrelated	DINBAL
+MW703A	10	DINBAL	Dinaric Balkan	#FDCA40	Bosnia-and-Herzegovina	2009	43.7831	19.2918	Wolf	Nonrelated	DINBAL
+MW705A	10	DINBAL	Dinaric Balkan	#FDCA40	Romania	2020	45.6792	26.2527	Wolf	Nonrelated	DINBAL
+MW706A	10	DINBAL	Dinaric Balkan	#FDCA40	Bulgaria	2011	42.6977	23.32186	Wolf	Nonrelated	DINBAL
+MW876	10	DINBAL	Dinaric Balkan	#FDCA40	Bulgaria	2020	41.7333	24.35	Wolf	Nonrelated	DINBAL
+MW877	10	DINBAL	Dinaric Balkan	#FDCA40	Bosnia-and-Herzegovina	2020	43.45	18.6	Wolf	Nonrelated	DINBAL
+MW884	10	DINBAL	Dinaric Balkan	#FDCA40	Ukraine	2011	50.5301	30.4224	Wolf	Nonrelated	DINBAL
+MW922	10	DINBAL	Dinaric Balkan	#FDCA40	Ukraine	2020	48.0167	25.2333	Wolf	Nonrelated	DINBAL
+Chinese_CAN11	1	EASIA	Eastern Asian	#DB3A34	China	2020	35.7594035	93.6699489	Wolf	Nonrelated	EASIA
+Chinese_CAN16	1	EASIA	Eastern Asian	#DB3A34	China	2020	35.7594035	93.6699489	Wolf	Nonrelated	EASIA
+Chinese_CAN24	1	EASIA	Eastern Asian	#DB3A34	China	2020	44.9859211	90.7146768	Wolf	Nonrelated	EASIA
+Chinese_CAN30	1	EASIA	Eastern Asian	#DB3A34	China	2020	44.2583554	84.7838073	Wolf	Nonrelated	EASIA
+Chinese_CAN32	1	EASIA	Eastern Asian	#DB3A34	China	2020	31.5903791	84.264246	Wolf	Nonrelated	EASIA
+Chinese_CAN6	1	EASIA	Eastern Asian	#DB3A34	China	2020	45.0191656	102.650335	Wolf	Nonrelated	EASIA
+Chinese_CAN7	1	EASIA	Eastern Asian	#DB3A34	China	2020	45.0191656	102.650335	Wolf	Nonrelated	EASIA
+Chinese_CAN9	1	EASIA	Eastern Asian	#DB3A34	China	2020	29.633774	91.0561504	Wolf	Nonrelated	EASIA
+InnerMongoliaWolf	1	EASIA	Eastern Asian	#DB3A34	China	2020	45.0191656	102.650335	Wolf	Nonrelated	EASIA
+KoreanWolf4	1	EASIA	Eastern Asian	#DB3A34	Korea	2020	36.5886	127.9306	Wolf	Nonrelated	EASIA
+LiaoNingWolf	1	EASIA	Eastern Asian	#DB3A34	China	2020	41.0836561	120.075563	Wolf	Nonrelated	EASIA
+MW1075	1	EASIA	Eastern Asian	#DB3A34	Kazakhstan	2020	51	51	Wolf	Nonrelated	EASIA
+MW1076	1	EASIA	Eastern Asian	#DB3A34	Kazakhstan	2020	51	51	Wolf	Nonrelated	EASIA
+MW1077	1	EASIA	Eastern Asian	#DB3A34	Kazakhstan	2020	51	51	Wolf	Nonrelated	EASIA
+MW1078	1	EASIA	Eastern Asian	#DB3A34	Kazakhstan	2020	51	51	Wolf	Nonrelated	EASIA
+MW1216	1	EASIA	Eastern Asian	#DB3A34	Kazakhstan	2020	51	53	Wolf	Nonrelated	EASIA
+MW497	1	EASIA	Eastern Asian	#DB3A34	Russia	2000	60.97868	32.97086	Wolf	Nonrelated	EASIA
+MW522	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	58.823997	126.200618	Wolf	Nonrelated	EASIA
+MW523	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	58.12038	125.029419	Wolf	Nonrelated	EASIA
+MW524	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	57.443441	127.41704	Wolf	Nonrelated	EASIA
+MW526	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	59.557867	125.349784	Wolf	Nonrelated	EASIA
+MW528	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	58.963331	131.302699	Wolf	Nonrelated	EASIA
+MW530	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	64.882755	111.577808	Wolf	Nonrelated	EASIA
+MW531	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	64.882755	109.181271	Wolf	Nonrelated	EASIA
+MW532	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	63.924068	110.477065	Wolf	Nonrelated	EASIA
+MW533	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	65.650613	110.237129	Wolf	Nonrelated	EASIA
+MW534	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	64.774078	125.904257	Wolf	Nonrelated	EASIA
+MW535	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	60.760583	128.023531	Wolf	Nonrelated	EASIA
+MW538	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	72.384805	114.594015	Wolf	Nonrelated	EASIA
+MW539	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	63.349629	124.076338	Wolf	Nonrelated	EASIA
+MW540	1	EASIA	Eastern Asian	#DB3A34	Russia	2015	63.37469	143.005505	Wolf	Nonrelated	EASIA
+MW561	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2018	43.71147	111.91448	Wolf	Nonrelated	EASIA
+MW563	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2018	47.89048	106.95719	Wolf	Nonrelated	EASIA
+MW564	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2018	47.89048	106.95719	Wolf	Nonrelated	EASIA
+MW574	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2019	47.89048	106.95719	Wolf	Nonrelated	EASIA
+MW575	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2019	47.89048	106.95719	Wolf	Nonrelated	EASIA
+MW576	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2019	47.89048	106.95719	Wolf	Nonrelated	EASIA
+MW577	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2019	47.89048	106.95719	Wolf	Nonrelated	EASIA
+MW578	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2019	47.89048	106.95719	Wolf	Nonrelated	EASIA
+MW588	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2019	48.73024	98.23747	Wolf	Nonrelated	EASIA
+MW601	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2018	43.19782	107.19761	Wolf	Nonrelated	EASIA
+MW607	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2019	47.17159	110.81555	Wolf	Nonrelated	EASIA
+MW608	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2019	47.17159	110.81555	Wolf	Nonrelated	EASIA
+MW610	1	EASIA	Eastern Asian	#DB3A34	Mongolia	2019	47.17159	110.81555	Wolf	Nonrelated	EASIA
+MW874	1	EASIA	Eastern Asian	#DB3A34	Russia	2020	53	50	Wolf	Nonrelated	EASIA
+MW875	1	EASIA	Eastern Asian	#DB3A34	Russia	2020	53	50	Wolf	Nonrelated	EASIA
+MW886	1	EASIA	Eastern Asian	#DB3A34	Ukraine	2011	50.5301	30.4224	Wolf	Nonrelated	EASIA
+Shanxi1Wolf	1	EASIA	Eastern Asian	#DB3A34	China	2020	37.6384029	110.156489	Wolf	Nonrelated	EASIA
+Wang_GW1	1	EASIA	Eastern Asian	#DB3A34	Russia	2020	50.843683	84.6522059	Wolf	Nonrelated	EASIA
+Wang_GW2	1	EASIA	Eastern Asian	#DB3A34	Russia	2020	65.6873915	156.795897	Wolf	Nonrelated	EASIA
+Novembre_Chinese_Wolf	1	EASIA	Eastern Asian	#DB3A34	China	2015	NA	NA	ZWolf	Nonrelated	EASIA
+MW015	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2009	54.054096	24.528943	Wolf	Nonrelated	EEL
+MW021	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2009	56.213542	24.925611	Wolf	Nonrelated	EEL
+MW027	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2009	54.97959	24.739058	Wolf	Nonrelated	EEL
+MW039	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2010	54.470509	24.798117	Wolf	Nonrelated	EEL
+MW040	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2010	53.996045	23.803762	Wolf	Nonrelated	EEL
+MW1081	2	EEL	Eastern European Lowlands	#0072B2	Russia	2020	53.32	48.06	Wolf	Nonrelated	EEL
+MW1101	2	EEL	Eastern European Lowlands	#0072B2	Belarus	1995	52.86	24.14	Wolf	Nonrelated	EEL
+MW1102	2	EEL	Eastern European Lowlands	#0072B2	Belarus	1995	52.94	24.06	Wolf	Nonrelated	EEL
+MW1103	2	EEL	Eastern European Lowlands	#0072B2	Belarus	1999	52.58	23.85	Wolf	Nonrelated	EEL
+MW1104	2	EEL	Eastern European Lowlands	#0072B2	Belarus	1999	51.78	29.75	Wolf	Nonrelated	EEL
+MW1105	2	EEL	Eastern European Lowlands	#0072B2	Belarus	1999	55.33	30.67	Wolf	Nonrelated	EEL
+MW1106	2	EEL	Eastern European Lowlands	#0072B2	Belarus	2000	55.67	30.5	Wolf	Nonrelated	EEL
+MW1108	2	EEL	Eastern European Lowlands	#0072B2	Belarus	2000	54.3	29.67	Wolf	Nonrelated	EEL
+MW1109	2	EEL	Eastern European Lowlands	#0072B2	Belarus	2000	55.42	29.5	Wolf	Nonrelated	EEL
+MW1147	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2000	54.89	25.4	Wolf	Nonrelated	EEL
+MW1163	2	EEL	Eastern European Lowlands	#0072B2	Poland	1997	52.79	23.85	Wolf	Nonrelated	EEL
+MW1175	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2001	50.83	27.17	Wolf	Nonrelated	EEL
+MW1183	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2003	51.75	33.25	Wolf	Nonrelated	EEL
+MW1184	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2005	48.13	39.8	Wolf	Nonrelated	EEL
+MW297	2	EEL	Eastern European Lowlands	#0072B2	Poland	2019	50.5353	22.8904	Wolf	Nonrelated	EEL
+MW367	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2014	54.65194	23.03515	Wolf	Nonrelated	EEL
+MW368	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2014	54.65194	23.03515	Wolf	Nonrelated	EEL
+MW369	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2014	54.65194	23.03515	Wolf	Nonrelated	EEL
+MW374	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2014	54.63791	24.93468	Wolf	Nonrelated	EEL
+MW694A	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	46.8333	35.2667	Wolf	Nonrelated	EEL
+MW695A	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	48.4833	28.9	Wolf	Nonrelated	EEL
+MW702A	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2011	50.9167	34.55	Wolf	Nonrelated	EEL
+MW707A	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	47.5	32.25	Wolf	Nonrelated	EEL
+MW722A	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2013	55.83883	24.98014	Wolf	Nonrelated	EEL
+MW723A	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2013	55.16943	23.88127	Wolf	Nonrelated	EEL
+MW800	2	EEL	Eastern European Lowlands	#0072B2	Latvia	2014	56.67453	22.00497	Wolf	Nonrelated	EEL
+MW882	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2011	48.5736	39.3023	Wolf	Nonrelated	EEL
+MW885	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2011	50.5301	30.4224	Wolf	Nonrelated	EEL
+MW887	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2011	48.0112	37.7927	Wolf	Nonrelated	EEL
+MW888	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2011	48.0112	37.7927	Wolf	Nonrelated	EEL
+MW896	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	51.2333	31.4667	Wolf	Nonrelated	EEL
+MW897	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	51.2333	31.4667	Wolf	Nonrelated	EEL
+MW900	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	47.5	32.25	Wolf	Nonrelated	EEL
+MW906	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	50.9167	34.55	Wolf	Nonrelated	EEL
+MW907	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	48.4833	28.9	Wolf	Nonrelated	EEL
+MW908	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	48.37943	31.16557	Wolf	Nonrelated	EEL
+MW911	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	50.95	28.9333	Wolf	Nonrelated	EEL
+MW912	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	50.95	28.9333	Wolf	Nonrelated	EEL
+MW916	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	47.0333	30.8833	Wolf	Nonrelated	EEL
+MW917	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	47.0333	30.8833	Wolf	Nonrelated	EEL
+MW918	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	47.65	30.1	Wolf	Nonrelated	EEL
+MW920	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	47.9167	30.1167	Wolf	Nonrelated	EEL
+MW926	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	47.45	36.0833	Wolf	Nonrelated	EEL
+MW929	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	48.45	39.1333	Wolf	Nonrelated	EEL
+MW930	2	EEL	Eastern European Lowlands	#0072B2	Ukraine	2020	49.75	38.6333	Wolf	Nonrelated	EEL
+Wang_GW3	2	EEL	Eastern European Lowlands	#0072B2	Russia	2020	53.2799469	34.2068799	Wolf	Nonrelated	EEL
+MW057	9	ITA	Italian	#FFA8A9	Germany	2015	48.661604	9.350134	Wolf	Nonrelated	ITA
+MW097	9	ITA	Italian	#FFA8A9	Germany	2018	52.636704	9.845077	Wolf	Nonrelated	ITA
+MW298	9	ITA	Italian	#FFA8A9	Italy	2003	41.98833	13.06826	Wolf	Nonrelated	ITA
+MW300	9	ITA	Italian	#FFA8A9	Italy	2007	42.05603	13.10448	Wolf	Nonrelated	ITA
+MW301	9	ITA	Italian	#FFA8A9	Italy	2007	41.92571	13.23055	Wolf	Nonrelated	ITA
+MW303	9	ITA	Italian	#FFA8A9	Italy	2010	41.98833	13.06826	Wolf	Nonrelated	ITA
+MW304	9	ITA	Italian	#FFA8A9	Italy	2010	41.87194	12.56737	Wolf	Nonrelated	ITA
+MW306	9	ITA	Italian	#FFA8A9	Italy	2011	41.98048	13.03602	Wolf	Nonrelated	ITA
+MW308	9	ITA	Italian	#FFA8A9	Italy	2012	42.14003	12.10473	Wolf	Nonrelated	ITA
+MW309	9	ITA	Italian	#FFA8A9	Italy	2012	42.1	12.86666	Wolf	Nonrelated	ITA
+MW310	9	ITA	Italian	#FFA8A9	Italy	2020	41.8088	13.79008	Wolf	Nonrelated	ITA
+MW451	6	EFIN	Eastern Finland	#6DA34D	Finland	1998	62.66788	30.93949	Wolf	Nonrelated	KAR1
+D-05-18	5	KAR	Karelian	#643B80	Sweden	1975	69.6304287	29.6547394	Wolf	Nonrelated	KAR1
+D-77-01	5	KAR	Karelian	#643B80	Sweden	1975	67.3349132	20.1703108	Wolf	Nonrelated	KAR1
+D-79-01	5	KAR	Karelian	#643B80	Sweden	1975	67.7597268	21.648905	Wolf	Nonrelated	KAR1
+M-02-15	5	KAR	Karelian	#643B80	Sweden	1975	67.4752128	18.4850953	Wolf	Nonrelated	KAR1
+MW1000	5	KAR	Karelian	#643B80	Finland	1984	62.6734482	30.9116358	Wolf	Nonrelated	KAR1
+MW1001	5	KAR	Karelian	#643B80	Finland	1984	62.6734482	30.9116358	Wolf	Nonrelated	KAR1
+MW1003	5	KAR	Karelian	#643B80	Finland	1985	62.6734482	30.9116358	Wolf	Nonrelated	KAR1
+MW1004	5	KAR	Karelian	#643B80	Finland	1985	62.2118357	30.3615205	Wolf	Nonrelated	KAR1
+MW1016	5	KAR	Karelian	#643B80	Finland	1998	66.87593	28.95791	Wolf	Nonrelated	KAR1
+MW1017	5	KAR	Karelian	#643B80	Finland	1999	66.76782	28.99474	Wolf	Nonrelated	KAR1
+MW1019	5	KAR	Karelian	#643B80	Finland	2001	66.59099	29.13842	Wolf	Nonrelated	KAR1
+MW1025	5	KAR	Karelian	#643B80	Finland	2008	66.6896	28.78461	Wolf	Nonrelated	KAR1
+MW1028	5	KAR	Karelian	#643B80	Finland	2009	65.70976	29.90863	Wolf	Nonrelated	KAR1
+MW1029	5	KAR	Karelian	#643B80	Finland	2009	66.84249	28.91923	Wolf	Nonrelated	KAR1
+MW1032	5	KAR	Karelian	#643B80	Finland	2010	68.1648	28.33854	Wolf	Nonrelated	KAR1
+MW1037	5	KAR	Karelian	#643B80	Finland	2011	69.0947	27.92322	Wolf	Nonrelated	KAR1
+MW1042	5	KAR	Karelian	#643B80	Finland	2011	65.47214	29.72865	Wolf	Nonrelated	KAR1
+MW1047	5	KAR	Karelian	#643B80	Finland	2012	64.5861	29.3431518	Wolf	Nonrelated	KAR1
+MW1051	5	KAR	Karelian	#643B80	Finland	2013	68.4091766	28.3223679	Wolf	Nonrelated	KAR1
+MW1054	5	KAR	Karelian	#643B80	Finland	2014	62.3756426	30.2513095	Wolf	Nonrelated	KAR1
+MW348	5	KAR	Karelian	#643B80	Finland	2017	61.6748233	29.8212187	Wolf	Nonrelated	KAR1
+MW359	5	KAR	Karelian	#643B80	Finland	2016	63.6762401	28.0423145	Wolf	Nonrelated	KAR1
+MW403	5	KAR	Karelian	#643B80	Finland	1998	63.3185	30.02645	Wolf	Nonrelated	KAR1
+MW404	5	KAR	Karelian	#643B80	Finland	1998	66.83265	28.67011	Wolf	Nonrelated	KAR1
+MW406	5	KAR	Karelian	#643B80	Finland	1999	61.89182	29.82726	Wolf	Nonrelated	KAR1
+MW415	5	KAR	Karelian	#643B80	Finland	2000	64.12874	29.52028	Wolf	Nonrelated	KAR1
+MW422	5	KAR	Karelian	#643B80	Finland	2001	64.12874	29.52028	Wolf	Nonrelated	KAR1
+MW433	5	KAR	Karelian	#643B80	Finland	2001	64.88411	28.91165	Wolf	Nonrelated	KAR1
+MW442	5	KAR	Karelian	#643B80	Finland	1996	64.99809	25.69908	Wolf	Nonrelated	KAR1
+MW457	5	KAR	Karelian	#643B80	Finland	1997	62.66788	30.93949	Wolf	Nonrelated	KAR1
+MW464	5	KAR	Karelian	#643B80	Russia	1997	63.15587	32.99055	Wolf	Nonrelated	KAR1
+MW466	5	KAR	Karelian	#643B80	Russia	1999	63.15587	32.99055	Wolf	Nonrelated	KAR1
+MW472	5	KAR	Karelian	#643B80	Russia	1999	62.91318	34.46192	Wolf	Nonrelated	KAR1
+MW474	5	KAR	Karelian	#643B80	Russia	1999	63.15587	32.99055	Wolf	Nonrelated	KAR1
+MW476	5	KAR	Karelian	#643B80	Russia	1998	63.15587	32.99055	Wolf	Nonrelated	KAR1
+MW478	5	KAR	Karelian	#643B80	Russia	1995	62.2062	34.26757	Wolf	Nonrelated	KAR1
+MW482	5	KAR	Karelian	#643B80	Russia	2000	60.97868	32.97086	Wolf	Nonrelated	KAR1
+MW483	5	KAR	Karelian	#643B80	Russia	2000	61.80423	36.52604	Wolf	Nonrelated	KAR1
+MW484	5	KAR	Karelian	#643B80	Russia	2000	61.80423	36.52604	Wolf	Nonrelated	KAR1
+MW485	5	KAR	Karelian	#643B80	Russia	2000	63.15587	32.99055	Wolf	Nonrelated	KAR1
+MW490	5	KAR	Karelian	#643B80	Russia	1999	63.91905	38.08377	Wolf	Nonrelated	KAR1
+MW495	5	KAR	Karelian	#643B80	Russia	1999	63.91905	38.08377	Wolf	Nonrelated	KAR1
+MW504	5	KAR	Karelian	#643B80	Russia	2020	61.52401	40	Wolf	Nonrelated	KAR1
+MW545	5	KAR	Karelian	#643B80	Russia	2018	62.665931	34.292776	Wolf	Nonrelated	KAR1
+MW550	5	KAR	Karelian	#643B80	Russia	2018	61.419537	35.262143	Wolf	Nonrelated	KAR1
+MW552	5	KAR	Karelian	#643B80	Russia	2018	61.419537	35.262143	Wolf	Nonrelated	KAR1
+MW553	5	KAR	Karelian	#643B80	Russia	2018	61.419537	35.262143	Wolf	Nonrelated	KAR1
+MW555	5	KAR	Karelian	#643B80	Russia	2018	62.45033	33.238877	Wolf	Nonrelated	KAR1
+MW556	5	KAR	Karelian	#643B80	Russia	2018	62.295949	34.405013	Wolf	Nonrelated	KAR1
+MW560	5	KAR	Karelian	#643B80	Russia	2017	62.486782	33.711679	Wolf	Nonrelated	KAR1
+MW732A	5	KAR	Karelian	#643B80	Estonia	2014	58.9574	24.22799	Wolf	Nonrelated	KAR1
+MW733A	5	KAR	Karelian	#643B80	Finland	2017	64.34331604	25.88144639	Wolf	Nonrelated	KAR1
+MW734A	5	KAR	Karelian	#643B80	Finland	2016	65.10894048	29.63221293	Wolf	Nonrelated	KAR1
+MW740A	5	KAR	Karelian	#643B80	Finland	2017	68.6402804	28.469675	Wolf	Nonrelated	KAR1
+MW744A	5	KAR	Karelian	#643B80	Finland	2017	64.67183	29.07741	Wolf	Nonrelated	KAR1
+MW747A	5	KAR	Karelian	#643B80	Finland	2011	67.69996	29.51117	Wolf	Nonrelated	KAR1
+MW751A	5	KAR	Karelian	#643B80	Finland	2012	68.1428958	28.8980399	Wolf	Nonrelated	KAR1
+MW759A	5	KAR	Karelian	#643B80	Finland	2015	63.58929683	29.53955399	Wolf	Nonrelated	KAR1
+MW976	5	KAR	Karelian	#643B80	Finland	2016	66.1832798	28.250044	Wolf	Nonrelated	KAR1
+MW981	5	KAR	Karelian	#643B80	Finland	2018	64.5970192	29.3901424	Wolf	Nonrelated	KAR1
+MW986	5	KAR	Karelian	#643B80	Finland	2018	68.1120395	25.899859	Wolf	Nonrelated	KAR1
+MW988	5	KAR	Karelian	#643B80	Finland	2019	63.1265554	30.0604154	Wolf	Nonrelated	KAR1
+MW990	5	KAR	Karelian	#643B80	Finland	1982	66.8309713	28.6699331	Wolf	Nonrelated	KAR1
+MW992	5	KAR	Karelian	#643B80	Finland	1983	62.6734482	30.9116358	Wolf	Nonrelated	KAR1
+MW997	5	KAR	Karelian	#643B80	Finland	2017	65.5202578	29.7808303	Wolf	Nonrelated	KAR1
+MW999	5	KAR	Karelian	#643B80	Finland	1984	62.2118357	30.3615205	Wolf	Nonrelated	KAR1
+V113	5	KAR	Karelian	#643B80	Russia	2020	62.3659	34.215968	Wolf	Nonrelated	KAR1
+V114	5	KAR	Karelian	#643B80	Russia	2020	61.843127	36.495927	Wolf	Nonrelated	KAR1
+V115	5	KAR	Karelian	#643B80	Russia	2020	61.810496	36.219553	Wolf	Nonrelated	KAR1
+V116	5	KAR	Karelian	#643B80	Russia	2020	61.662461	37.212984	Wolf	Nonrelated	KAR1
+V117	5	KAR	Karelian	#643B80	Russia	2020	62.153229	36.696085	Wolf	Nonrelated	KAR1
+V126	5	KAR	Karelian	#643B80	Russia	2020	64.260856	32.024328	Wolf	Nonrelated	KAR1
+V132	5	KAR	Karelian	#643B80	Russia	2020	61.419537	35.262143	Wolf	Nonrelated	KAR1
+V136	5	KAR	Karelian	#643B80	Russia	2020	62.295949	34.405013	Wolf	Nonrelated	KAR1
+V143	5	KAR	Karelian	#643B80	Russia	2020	62.57127	33.978121	Wolf	Nonrelated	KAR1
+W63	5	KAR	Karelian	#643B80	Finland	2020	64.19328	28.69488	Wolf	Nonrelated	KAR1
+W71	5	KAR	Karelian	#643B80	Finland	2010	65.43394	28.07916	Wolf	Nonrelated	KAR1
+W77	5	KAR	Karelian	#643B80	Finland	2017	67.66502	28.50351	Wolf	Nonrelated	KAR1
+W79	5	KAR	Karelian	#643B80	Finland	2013	68.05804	29.20357	Wolf	Nonrelated	KAR1
+W80	5	KAR	Karelian	#643B80	Finland	2014	67.7943	29.50003	Wolf	Nonrelated	KAR1
+W82	5	KAR	Karelian	#643B80	Finland	2014	67.31318	29.3362	Wolf	Nonrelated	KAR1
+W86	5	KAR	Karelian	#643B80	Finland	2015	68.64109	28.55907	Wolf	Nonrelated	KAR1
+G82-10	6	EFIN	Eastern Finland	#6DA34D	Sweden	1981	62.2513002	14.301979	Wolf	Nonrelated	KAR2
+M-07-02	6	EFIN	Eastern Finland	#6DA34D	Sweden	1975	66.5816236	22.8987731	Wolf	Nonrelated	KAR2
+MW1013	6	EFIN	Eastern Finland	#6DA34D	Finland	2003	62.6734482	30.9116358	Wolf	Nonrelated	KAR2
+MW1015	6	EFIN	Eastern Finland	#6DA34D	Finland	2008	62.2118357	30.3615205	Wolf	Nonrelated	KAR2
+MW1022	6	EFIN	Eastern Finland	#6DA34D	Finland	2006	65.75718	26.91114	Wolf	Nonrelated	KAR2
+MW1026	6	EFIN	Eastern Finland	#6DA34D	Finland	2008	64.69315	29.83221	Wolf	Nonrelated	KAR2
+MW1036	6	EFIN	Eastern Finland	#6DA34D	Finland	2011	65.97496	25.75565	Wolf	Nonrelated	KAR2
+MW1039	6	EFIN	Eastern Finland	#6DA34D	Finland	2011	65.14826	29.71752	Wolf	Nonrelated	KAR2
+MW1046	6	EFIN	Eastern Finland	#6DA34D	Finland	2012	65.6554	29.81049	Wolf	Nonrelated	KAR2
+MW1059	6	EFIN	Eastern Finland	#6DA34D	Finland	2016	64.187481	26.8876367	Wolf	Nonrelated	KAR2
+MW313	6	EFIN	Eastern Finland	#6DA34D	Finland	2012	63.743086	27.001454	Wolf	Nonrelated	KAR2
+MW315	6	EFIN	Eastern Finland	#6DA34D	Finland	2004	61.4495643	29.4624741	Wolf	Nonrelated	KAR2
+MW316	6	EFIN	Eastern Finland	#6DA34D	Finland	2004	62.1754058	28.8588172	Wolf	Nonrelated	KAR2
+MW318	6	EFIN	Eastern Finland	#6DA34D	Finland	2005	61.783573	28.1717304	Wolf	Nonrelated	KAR2
+MW320	6	EFIN	Eastern Finland	#6DA34D	Finland	2009	63.9490052	26.8489407	Wolf	Nonrelated	KAR2
+MW326	6	EFIN	Eastern Finland	#6DA34D	Finland	2010	61.8357354	27.6200198	Wolf	Nonrelated	KAR2
+MW330	6	EFIN	Eastern Finland	#6DA34D	Finland	2012	63.8891879	26.3127715	Wolf	Nonrelated	KAR2
+MW358	6	EFIN	Eastern Finland	#6DA34D	Finland	1998	66.9168193	28.9154748	Wolf	Nonrelated	KAR2
+MW360	6	EFIN	Eastern Finland	#6DA34D	Finland	2015	63.5351203	28.0113483	Wolf	Nonrelated	KAR2
+MW362	6	EFIN	Eastern Finland	#6DA34D	Finland	2017	62.9034028	28.5115117	Wolf	Nonrelated	KAR2
+MW363	6	EFIN	Eastern Finland	#6DA34D	Finland	2017	63.8166336	27.3537502	Wolf	Nonrelated	KAR2
+MW400	6	EFIN	Eastern Finland	#6DA34D	Finland	1998	62.66788	30.93949	Wolf	Nonrelated	KAR2
+MW402	6	EFIN	Eastern Finland	#6DA34D	Finland	1998	62.66788	30.93949	Wolf	Nonrelated	KAR2
+MW409	6	EFIN	Eastern Finland	#6DA34D	Finland	1999	61.55018	29.5024	Wolf	Nonrelated	KAR2
+MW412	6	EFIN	Eastern Finland	#6DA34D	Finland	1998	61.74291	26.11372	Wolf	Nonrelated	KAR2
+MW413	6	EFIN	Eastern Finland	#6DA34D	Finland	1999	61.28629	28.82751	Wolf	Nonrelated	KAR2
+MW414	6	EFIN	Eastern Finland	#6DA34D	Finland	2000	62.66788	30.93949	Wolf	Nonrelated	KAR2
+MW416	6	EFIN	Eastern Finland	#6DA34D	Finland	2000	64.12874	29.52028	Wolf	Nonrelated	KAR2
+MW421	6	EFIN	Eastern Finland	#6DA34D	Finland	2000	68.9062	27.02775	Wolf	Nonrelated	KAR2
+MW434	6	EFIN	Eastern Finland	#6DA34D	Finland	2001	61.55018	29.5024	Wolf	Nonrelated	KAR2
+MW736A	6	EFIN	Eastern Finland	#6DA34D	Finland	2016	65.43899846	29.7293022	Wolf	Nonrelated	KAR2
+MW737A	6	EFIN	Eastern Finland	#6DA34D	Finland	2017	66.05745121	29.80523093	Wolf	Nonrelated	KAR2
+MW738A	6	EFIN	Eastern Finland	#6DA34D	Finland	2017	64.17906905	30.01867883	Wolf	Nonrelated	KAR2
+MW739A	6	EFIN	Eastern Finland	#6DA34D	Finland	2017	62.258787	30.2493156	Wolf	Nonrelated	KAR2
+MW743A	6	EFIN	Eastern Finland	#6DA34D	Finland	2017	64.1790691	30.0186788	Wolf	Nonrelated	KAR2
+MW748A	6	EFIN	Eastern Finland	#6DA34D	Finland	2011	64.67183	29.07741	Wolf	Nonrelated	KAR2
+MW749A	6	EFIN	Eastern Finland	#6DA34D	Finland	2012	64.9483908	28.29541121	Wolf	Nonrelated	KAR2
+MW753A	6	EFIN	Eastern Finland	#6DA34D	Finland	2013	64.30203085	29.89646548	Wolf	Nonrelated	KAR2
+MW755A	6	EFIN	Eastern Finland	#6DA34D	Finland	2015	63.9863282	25.7203108	Wolf	Nonrelated	KAR2
+MW758A	6	EFIN	Eastern Finland	#6DA34D	Finland	2016	63.89533153	28.19380148	Wolf	Nonrelated	KAR2
+MW761A	6	EFIN	Eastern Finland	#6DA34D	Finland	2015	63.97505089	27.24177132	Wolf	Nonrelated	KAR2
+MW763A	6	EFIN	Eastern Finland	#6DA34D	Finland	2016	63.8239611	26.734501	Wolf	Nonrelated	KAR2
+MW770A	6	EFIN	Eastern Finland	#6DA34D	Finland	2017	60.9200038	24.0787996	Wolf	Nonrelated	KAR2
+MW974	6	EFIN	Eastern Finland	#6DA34D	Finland	2016	64.6777454	29.7761469	Wolf	Nonrelated	KAR2
+MW983	6	EFIN	Eastern Finland	#6DA34D	Finland	2018	68.7514441	28.4500799	Wolf	Nonrelated	KAR2
+MW984	6	EFIN	Eastern Finland	#6DA34D	Finland	2018	65.6989764	27.64602	Wolf	Nonrelated	KAR2
+MW991	6	EFIN	Eastern Finland	#6DA34D	Finland	1982	62.2118357	30.3615205	Wolf	Nonrelated	KAR2
+V119	6	EFIN	Eastern Finland	#6DA34D	Russia	2020	62.92906	34.482034	Wolf	Nonrelated	KAR2
+W12	6	EFIN	Eastern Finland	#6DA34D	Finland	2001	64.35293	30.02992	Wolf	Nonrelated	KAR2
+W27	6	EFIN	Eastern Finland	#6DA34D	Finland	2020	64.21971	30.16259	Wolf	Nonrelated	KAR2
+W4	6	EFIN	Eastern Finland	#6DA34D	Finland	2020	64.18218	29.90971	Wolf	Nonrelated	KAR2
+W49	6	EFIN	Eastern Finland	#6DA34D	Finland	1999	62.0982	30.50865	Wolf	Nonrelated	KAR2
+W69	6	EFIN	Eastern Finland	#6DA34D	Finland	2020	64.388	25.56817	Wolf	Nonrelated	KAR2
+W78	6	EFIN	Eastern Finland	#6DA34D	Finland	2017	67.61319	28.82885	Wolf	Nonrelated	KAR2
+W98	6	EFIN	Eastern Finland	#6DA34D	Finland	2017	68.04907	28.48055	Wolf	Nonrelated	KAR2
+AW086	12	WFIN	Western Finland	#B8D8D8	Norway	2009	64.246503	12.38226	Wolf	Nonrelated	KAR3
+G100-14	12	WFIN	Western Finland	#B8D8D8	Sweden	2010.5	60.1282	18.6435	Wolf	Nonrelated	KAR3
+MW023	12	WFIN	Western Finland	#B8D8D8	Lithuania	2009	56.153484	25.194591	Wolf	Nonrelated	KAR3
+MW1031	12	WFIN	Western Finland	#B8D8D8	Finland	2010	67.67033	29.6659	Wolf	Nonrelated	KAR3
+MW1038	12	WFIN	Western Finland	#B8D8D8	Finland	2011	64.26391	30.40289	Wolf	Nonrelated	KAR3
+MW314	12	WFIN	Western Finland	#B8D8D8	Finland	2004	62.0788776	21.6252135	Wolf	Nonrelated	KAR3
+MW317	12	WFIN	Western Finland	#B8D8D8	Finland	2004	60.7363744	28.0417279	Wolf	Nonrelated	KAR3
+MW319	12	WFIN	Western Finland	#B8D8D8	Finland	2008	60.9031523	21.93624	Wolf	Nonrelated	KAR3
+MW322	12	WFIN	Western Finland	#B8D8D8	Finland	2010	63.671639	27.522087	Wolf	Nonrelated	KAR3
+MW323	12	WFIN	Western Finland	#B8D8D8	Finland	2010	63.084089	23.366698	Wolf	Nonrelated	KAR3
+MW325	12	WFIN	Western Finland	#B8D8D8	Finland	2010	62.2620173	24.0421082	Wolf	Nonrelated	KAR3
+MW331	12	WFIN	Western Finland	#B8D8D8	Finland	2012	61.7670342	24.3282483	Wolf	Nonrelated	KAR3
+MW343	12	WFIN	Western Finland	#B8D8D8	Finland	2015	61.0849944	22.5615337	Wolf	Nonrelated	KAR3
+MW344	12	WFIN	Western Finland	#B8D8D8	Finland	2016	60.8118365	22.5851296	Wolf	Nonrelated	KAR3
+MW345	12	WFIN	Western Finland	#B8D8D8	Finland	2016	60.151865	23.3965385	Wolf	Nonrelated	KAR3
+MW346	12	WFIN	Western Finland	#B8D8D8	Finland	2016	60.7720311	22.4387799	Wolf	Nonrelated	KAR3
+MW350	12	WFIN	Western Finland	#B8D8D8	Finland	2016	61.0078654	28.4609596	Wolf	Nonrelated	KAR3
+MW356	12	WFIN	Western Finland	#B8D8D8	Finland	2015	63.5876671	24.5905758	Wolf	Nonrelated	KAR3
+MW357	12	WFIN	Western Finland	#B8D8D8	Finland	2014	63.3886446	24.5931381	Wolf	Nonrelated	KAR3
+MW407	12	WFIN	Western Finland	#B8D8D8	Finland	1999	62.66788	30.93949	Wolf	Nonrelated	KAR3
+MW453	12	WFIN	Western Finland	#B8D8D8	Finland	1997	62.66788	30.93949	Wolf	Nonrelated	KAR3
+MW973	12	WFIN	Western Finland	#B8D8D8	Finland	2018	62.4359465	22.4217054	Wolf	Nonrelated	KAR3
+MW977	12	WFIN	Western Finland	#B8D8D8	Finland	2017	64.0289819	24.3745799	Wolf	Nonrelated	KAR3
+MW978	12	WFIN	Western Finland	#B8D8D8	Finland	2017	63.9921851	24.4585624	Wolf	Nonrelated	KAR3
+MW980	12	WFIN	Western Finland	#B8D8D8	Finland	2017	63.6936051	22.8799924	Wolf	Nonrelated	KAR3
+MW982	12	WFIN	Western Finland	#B8D8D8	Finland	2018	68.7714791	28.7307936	Wolf	Nonrelated	KAR3
+MW987	12	WFIN	Western Finland	#B8D8D8	Finland	2019	66.8920486	28.8500604	Wolf	Nonrelated	KAR3
+MW019	13	NBAL	Northern Baltic	#26532B	Lithuania	2009	55.058071	25.070977	Wolf	Nonrelated	NBAL
+MW1107	13	NBAL	Northern Baltic	#26532B	Belarus	2000	55.67	29	Wolf	Nonrelated	NBAL
+MW1110	13	NBAL	Northern Baltic	#26532B	Belarus	2002	51.65	27.5	Wolf	Nonrelated	NBAL
+MW1141	13	NBAL	Northern Baltic	#26532B	Latvia	1999	57.25	26.5	Wolf	Nonrelated	NBAL
+MW1142	13	NBAL	Northern Baltic	#26532B	Latvia	1999	56.53	26.97	Wolf	Nonrelated	NBAL
+MW1150	13	NBAL	Northern Baltic	#26532B	Latvia	2008	57.27	27.12	Wolf	Nonrelated	NBAL
+MW715A	13	NBAL	Northern Baltic	#26532B	Latvia	2015	57.08066	27.12569	Wolf	Nonrelated	NBAL
+MW716A	13	NBAL	Northern Baltic	#26532B	Latvia	2016	56.79746	27.7513	Wolf	Nonrelated	NBAL
+MW717A	13	NBAL	Northern Baltic	#26532B	Latvia	2013	57.4337	26.59737	Wolf	Nonrelated	NBAL
+MW720A	13	NBAL	Northern Baltic	#26532B	Latvia	2012	56.63119	24.75658	Wolf	Nonrelated	NBAL
+MW721A	13	NBAL	Northern Baltic	#26532B	Lithuania	2013	55.0431	24.95698	Wolf	Nonrelated	NBAL
+MW725A	13	NBAL	Northern Baltic	#26532B	Estonia	2013	59.19153	26.20508	Wolf	Nonrelated	NBAL
+MW726A	13	NBAL	Northern Baltic	#26532B	Estonia	2011	59.31418	26.37123	Wolf	Nonrelated	NBAL
+MW727A	13	NBAL	Northern Baltic	#26532B	Estonia	2012	58.21048	27.25667	Wolf	Nonrelated	NBAL
+MW728A	13	NBAL	Northern Baltic	#26532B	Estonia	2013	59.12216	25.02187	Wolf	Nonrelated	NBAL
+MW729A	13	NBAL	Northern Baltic	#26532B	Estonia	2012	58.68466	26.58329	Wolf	Nonrelated	NBAL
+MW730A	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.5792	25.18318	Wolf	Nonrelated	NBAL
+MW731A	13	NBAL	Northern Baltic	#26532B	Estonia	2015	58.6001	27.13331	Wolf	Nonrelated	NBAL
+MW789	13	NBAL	Northern Baltic	#26532B	Latvia	2014	57.86075	24.97655	Wolf	Nonrelated	NBAL
+MW791	13	NBAL	Northern Baltic	#26532B	Latvia	2015	56.86696	25.87458	Wolf	Nonrelated	NBAL
+MW792	13	NBAL	Northern Baltic	#26532B	Latvia	2011	56.58834	26.68068	Wolf	Nonrelated	NBAL
+MW793	13	NBAL	Northern Baltic	#26532B	Latvia	2016	56.66865	26.56162	Wolf	Nonrelated	NBAL
+MW797	13	NBAL	Northern Baltic	#26532B	Latvia	2015	56.71255	26.4029	Wolf	Nonrelated	NBAL
+MW803	13	NBAL	Northern Baltic	#26532B	Latvia	2015	57.76941	24.53916	Wolf	Nonrelated	NBAL
+MW805	13	NBAL	Northern Baltic	#26532B	Latvia	2014	57.58732	25.06566	Wolf	Nonrelated	NBAL
+MW806	13	NBAL	Northern Baltic	#26532B	Latvia	2015	57.70238	24.7483	Wolf	Nonrelated	NBAL
+MW808	13	NBAL	Northern Baltic	#26532B	Latvia	2013	57.32734	27.53034	Wolf	Nonrelated	NBAL
+MW809	13	NBAL	Northern Baltic	#26532B	Latvia	2016	57.60859	24.60747	Wolf	Nonrelated	NBAL
+MW810	13	NBAL	Northern Baltic	#26532B	Latvia	2013	57.4668	26.23402	Wolf	Nonrelated	NBAL
+MW816	13	NBAL	Northern Baltic	#26532B	Latvia	2016	57.09259	25.46923	Wolf	Nonrelated	NBAL
+MW818	13	NBAL	Northern Baltic	#26532B	Latvia	2016	57.29179	27.10834	Wolf	Nonrelated	NBAL
+MW819	13	NBAL	Northern Baltic	#26532B	Latvia	2011	57.76245	24.88793	Wolf	Nonrelated	NBAL
+MW821	13	NBAL	Northern Baltic	#26532B	Latvia	2011	56.5501	26.92296	Wolf	Nonrelated	NBAL
+MW823	13	NBAL	Northern Baltic	#26532B	Latvia	2014	57.49908	27.00554	Wolf	Nonrelated	NBAL
+MW824	13	NBAL	Northern Baltic	#26532B	Latvia	2013	56.99705	26.43065	Wolf	Nonrelated	NBAL
+MW826	13	NBAL	Northern Baltic	#26532B	Estonia	2012	58.0639	24.77399	Wolf	Nonrelated	NBAL
+MW827	13	NBAL	Northern Baltic	#26532B	Estonia	2012	58.26687	25.40363	Wolf	Nonrelated	NBAL
+MW828	13	NBAL	Northern Baltic	#26532B	Estonia	2012	58.60342	26.21017	Wolf	Nonrelated	NBAL
+MW829	13	NBAL	Northern Baltic	#26532B	Estonia	2013	58.05383	26.23935	Wolf	Nonrelated	NBAL
+MW830	13	NBAL	Northern Baltic	#26532B	Estonia	2012	59.45635	26.00972	Wolf	Nonrelated	NBAL
+MW831	13	NBAL	Northern Baltic	#26532B	Estonia	2012	58.92829	24.87684	Wolf	Nonrelated	NBAL
+MW833	13	NBAL	Northern Baltic	#26532B	Estonia	2013	59.18324	25.46497	Wolf	Nonrelated	NBAL
+MW834	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.98892	26.24269	Wolf	Nonrelated	NBAL
+MW835	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.3316	22.25549	Wolf	Nonrelated	NBAL
+MW836	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.10514	26.13706	Wolf	Nonrelated	NBAL
+MW839	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.13212	26.81311	Wolf	Nonrelated	NBAL
+MW840	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.70525	22.59625	Wolf	Nonrelated	NBAL
+MW841	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.80506	25.42214	Wolf	Nonrelated	NBAL
+MW843	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.98892	26.24269	Wolf	Nonrelated	NBAL
+MW844	13	NBAL	Northern Baltic	#26532B	Estonia	2013	58.3617	26.89136	Wolf	Nonrelated	NBAL
+MW845	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.28652	22.02447	Wolf	Nonrelated	NBAL
+MW847	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.68616	24.77731	Wolf	Nonrelated	NBAL
+MW849	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.50415	23.11514	Wolf	Nonrelated	NBAL
+MW850	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.9574	24.22799	Wolf	Nonrelated	NBAL
+MW852	13	NBAL	Northern Baltic	#26532B	Estonia	2014	57.60886	26.83421	Wolf	Nonrelated	NBAL
+MW853	13	NBAL	Northern Baltic	#26532B	Estonia	2014	57.7321	27.28346	Wolf	Nonrelated	NBAL
+MW854	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.92395	22.59194	Wolf	Nonrelated	NBAL
+MW855	13	NBAL	Northern Baltic	#26532B	Estonia	2014	57.60104	27.22926	Wolf	Nonrelated	NBAL
+MW857	13	NBAL	Northern Baltic	#26532B	Estonia	2020	58.25495	22.49189	Wolf	Nonrelated	NBAL
+MW859	13	NBAL	Northern Baltic	#26532B	Estonia	2014	58.81528	26.28567	Wolf	Nonrelated	NBAL
+MW862	13	NBAL	Northern Baltic	#26532B	Estonia	2014	57.92663	27.33287	Wolf	Nonrelated	NBAL
+MW865	13	NBAL	Northern Baltic	#26532B	Estonia	2013	59.19631	25.54195	Wolf	Nonrelated	NBAL
+MW867	13	NBAL	Northern Baltic	#26532B	Estonia	2013	59.36186	27.18939	Wolf	Nonrelated	NBAL
+MW109	11	NWIB	Northwestern Iberian	#2B3A68	Spain	2020	42.57505	-8.13385	Wolf	Nonrelated	NWIB
+MW113	11	NWIB	Northwestern Iberian	#2B3A68	Spain	2020	43.36139	-5.85932	Wolf	Nonrelated	NWIB
+MW117	11	NWIB	Northwestern Iberian	#2B3A68	Spain	2020	42.57505	-8.13385	Wolf	Nonrelated	NWIB
+MW119	11	NWIB	Northwestern Iberian	#2B3A68	Portugal	2020	41.80611	-6.75673	Wolf	Nonrelated	NWIB
+MW121	11	NWIB	Northwestern Iberian	#2B3A68	Spain	2020	42.57505	-8.13385	Wolf	Nonrelated	NWIB
+MW122	11	NWIB	Northwestern Iberian	#2B3A68	Spain	2020	42.57505	-8.13385	Wolf	Nonrelated	NWIB
+MW123	11	NWIB	Northwestern Iberian	#2B3A68	Spain	2020	42.57505	-8.13385	Wolf	Nonrelated	NWIB
+MW124	11	NWIB	Northwestern Iberian	#2B3A68	Spain	2020	43.36139	-5.85932	Wolf	Nonrelated	NWIB
+MW126	11	NWIB	Northwestern Iberian	#2B3A68	Spain	2020	41.83568	-4.39763	Wolf	Nonrelated	NWIB
+MW127	11	NWIB	Northwestern Iberian	#2B3A68	Spain	2020	41.83568	-4.39763	Wolf	Nonrelated	NWIB
+PortugueseWolf	11	NWIB	Northwestern Iberian	#2B3A68	Portugal	2015	41.619679	-7.6161	Wolf	Nonrelated	NWIB
+MW029	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2009	54.960751	24.372238	Wolf	Nonrelated	SBAL
+MW042	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2010	55.029921	25.206769	Wolf	Nonrelated	SBAL
+MW366	2	EEL	Eastern European Lowlands	#0072B2	Lithuania	2014	54.85886	24.42779	Wolf	Nonrelated	SBAL
+MW012	8	SBAL	Southern Baltic	#F58A07	Lithuania	2010	55.70708	22.310879	Wolf	Nonrelated	SBAL
+MW013	8	SBAL	Southern Baltic	#F58A07	Lithuania	2010	55.963611	22.714514	Wolf	Nonrelated	SBAL
+MW014	8	SBAL	Southern Baltic	#F58A07	Lithuania	2010	55.776516	23.301206	Wolf	Nonrelated	SBAL
+MW017	8	SBAL	Southern Baltic	#F58A07	Lithuania	2009	54.426991	23.840195	Wolf	Nonrelated	SBAL
+MW018	8	SBAL	Southern Baltic	#F58A07	Lithuania	2010	56.142613	21.350396	Wolf	Nonrelated	SBAL
+MW020	8	SBAL	Southern Baltic	#F58A07	Lithuania	2009	56.152023	23.224096	Wolf	Nonrelated	SBAL
+MW024	8	SBAL	Southern Baltic	#F58A07	Lithuania	2009	56.226309	22.142644	Wolf	Nonrelated	SBAL
+MW026	8	SBAL	Southern Baltic	#F58A07	Lithuania	2010	54.98302	24.689207	Wolf	Nonrelated	SBAL
+MW028	8	SBAL	Southern Baltic	#F58A07	Lithuania	2009	55.780094	25.007696	Wolf	Nonrelated	SBAL
+MW031	8	SBAL	Southern Baltic	#F58A07	Lithuania	2009	55.370458	22.608719	Wolf	Nonrelated	SBAL
+MW033	8	SBAL	Southern Baltic	#F58A07	Lithuania	2009	54.844232	23.566109	Wolf	Nonrelated	SBAL
+MW036	8	SBAL	Southern Baltic	#F58A07	Lithuania	2010	55.206593	22.58431	Wolf	Nonrelated	SBAL
+MW041	8	SBAL	Southern Baltic	#F58A07	Lithuania	2011	54.451083	23.549764	Wolf	Nonrelated	SBAL
+MW1143	8	SBAL	Southern Baltic	#F58A07	Latvia	2000	56.45	23.04	Wolf	Nonrelated	SBAL
+MW1144	8	SBAL	Southern Baltic	#F58A07	Latvia	2000	56.97	21.52	Wolf	Nonrelated	SBAL
+MW1145	8	SBAL	Southern Baltic	#F58A07	Latvia	2000	56.97	21.52	Wolf	Nonrelated	SBAL
+MW1146	8	SBAL	Southern Baltic	#F58A07	Latvia	2000	57.36	25.92	Wolf	Nonrelated	SBAL
+MW1149	8	SBAL	Southern Baltic	#F58A07	Latvia	2006	56.97	23.44	Wolf	Nonrelated	SBAL
+MW1152	8	SBAL	Southern Baltic	#F58A07	Latvia	2008	57.16	22.55	Wolf	Nonrelated	SBAL
+MW370	8	SBAL	Southern Baltic	#F58A07	Lithuania	2014	56.2455	22.74711	Wolf	Nonrelated	SBAL
+MW372	8	SBAL	Southern Baltic	#F58A07	Lithuania	2014	55.91078	21.8454	Wolf	Nonrelated	SBAL
+MW373	8	SBAL	Southern Baltic	#F58A07	Lithuania	2014	55.33468	26.16591	Wolf	Nonrelated	SBAL
+MW713A	8	SBAL	Southern Baltic	#F58A07	Latvia	2014	56.16369	21.15948	Wolf	Nonrelated	SBAL
+MW714A	8	SBAL	Southern Baltic	#F58A07	Latvia	2011	56.71573	21.6053	Wolf	Nonrelated	SBAL
+MW718A	8	SBAL	Southern Baltic	#F58A07	Latvia	2012	56.67331	22.57438	Wolf	Nonrelated	SBAL
+MW719A	8	SBAL	Southern Baltic	#F58A07	Latvia	2015	57.06998	22.24288	Wolf	Nonrelated	SBAL
+MW784	8	SBAL	Southern Baltic	#F58A07	Latvia	2013	56.54676	22.62796	Wolf	Nonrelated	SBAL
+MW786	8	SBAL	Southern Baltic	#F58A07	Latvia	2011	56.60623	24.52218	Wolf	Nonrelated	SBAL
+MW787	8	SBAL	Southern Baltic	#F58A07	Latvia	2016	56.3113	25.50704	Wolf	Nonrelated	SBAL
+MW788	8	SBAL	Southern Baltic	#F58A07	Latvia	2015	57.50763	22.35196	Wolf	Nonrelated	SBAL
+MW790	8	SBAL	Southern Baltic	#F58A07	Latvia	2013	56.90309	22.81014	Wolf	Nonrelated	SBAL
+MW795	8	SBAL	Southern Baltic	#F58A07	Latvia	2016	56.45032	26.2288	Wolf	Nonrelated	SBAL
+MW796	8	SBAL	Southern Baltic	#F58A07	Latvia	2016	57.54032	24.71344	Wolf	Nonrelated	SBAL
+MW798	8	SBAL	Southern Baltic	#F58A07	Latvia	2015	57.22462	21.67758	Wolf	Nonrelated	SBAL
+MW799	8	SBAL	Southern Baltic	#F58A07	Latvia	2020	57.05759	22.49862	Wolf	Nonrelated	SBAL
+MW801	8	SBAL	Southern Baltic	#F58A07	Latvia	2016	56.59535	24.19895	Wolf	Nonrelated	SBAL
+MW802	8	SBAL	Southern Baltic	#F58A07	Latvia	2016	57.03406	22.78018	Wolf	Nonrelated	SBAL
+MW804	8	SBAL	Southern Baltic	#F58A07	Latvia	2015	57.33077	23.10214	Wolf	Nonrelated	SBAL
+MW812	8	SBAL	Southern Baltic	#F58A07	Latvia	2015	57.51502	22.02315	Wolf	Nonrelated	SBAL
+MW814	8	SBAL	Southern Baltic	#F58A07	Latvia	2015	57.50484	27.19197	Wolf	Nonrelated	SBAL
+MW815	8	SBAL	Southern Baltic	#F58A07	Latvia	2015	56.3136	24.4405	Wolf	Nonrelated	SBAL
+MW820	8	SBAL	Southern Baltic	#F58A07	Latvia	2014	56.44887	21.57967	Wolf	Nonrelated	SBAL
+MW822	8	SBAL	Southern Baltic	#F58A07	Latvia	2014	56.88665	21.19518	Wolf	Nonrelated	SBAL
+MW825	8	SBAL	Southern Baltic	#F58A07	Latvia	2012	56.55936	25.63925	Wolf	Nonrelated	SBAL
+AW033	15	SCAN	Scandinavian	#C96480	Norway	2014	62.293914	10.967767	Wolf	Nonrelated	SCAN
+D-00-12	15	SCAN	Scandinavian	#C96480	Sweden	2002.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-00-15	15	SCAN	Scandinavian	#C96480	Sweden	1994.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-05-23	15	SCAN	Scandinavian	#C96480	Sweden	1995.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-06-14	15	SCAN	Scandinavian	#C96480	Sweden	2002.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-07-09	15	SCAN	Scandinavian	#C96480	Sweden	2002.5	60.201993	14.1897029	Wolf	Nonrelated	SCAN
+D-07-17	15	SCAN	Scandinavian	#C96480	Sweden	2002.5	60.8159705	13.548185	Wolf	Nonrelated	SCAN
+D-07-24	15	SCAN	Scandinavian	#C96480	Sweden	2002.5	60.9971681	11.3752095	Wolf	Nonrelated	SCAN
+D-08-08	15	SCAN	Scandinavian	#C96480	Sweden	2007	60.3083792	14.9471122	Wolf	Nonrelated	SCAN
+D-08-19	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-08-21	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	59.6799085	16.0181417	Wolf	Nonrelated	SCAN
+D-10-15	15	SCAN	Scandinavian	#C96480	Sweden	2009	60.7260156	14.6059004	Wolf	Nonrelated	SCAN
+D-10-20	15	SCAN	Scandinavian	#C96480	Sweden	2002.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-10-30	15	SCAN	Scandinavian	#C96480	Sweden	2002.5	61.034411	16.0361435	Wolf	Nonrelated	SCAN
+D-10-44	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-10-50	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-10-68	15	SCAN	Scandinavian	#C96480	Sweden	2008	62.0197239	12.8715016	Wolf	Nonrelated	SCAN
+D-11-17	15	SCAN	Scandinavian	#C96480	Sweden	2006	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-11-58	15	SCAN	Scandinavian	#C96480	Sweden	2009	58.8475349	11.6791043	Wolf	Nonrelated	SCAN
+D-86-01	15	SCAN	Scandinavian	#C96480	Sweden	1983	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-89-01	15	SCAN	Scandinavian	#C96480	Sweden	1986.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-89-03	15	SCAN	Scandinavian	#C96480	Sweden	1986.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-91-01	15	SCAN	Scandinavian	#C96480	Sweden	1986.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-92-05	15	SCAN	Scandinavian	#C96480	Sweden	1986.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+D-93-02	15	SCAN	Scandinavian	#C96480	Sweden	1986.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+G106-13	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+G109-11	15	SCAN	Scandinavian	#C96480	Sweden	2010	59.2766869	14.7364393	Wolf	Nonrelated	SCAN
+G110-11	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+G126-13	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	62.0913261	13.0278821	Wolf	Nonrelated	SCAN
+G139-12	15	SCAN	Scandinavian	#C96480	Sweden	2010	62.1586274	12.344931	Wolf	Nonrelated	SCAN
+G174-13	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+G24-14	15	SCAN	Scandinavian	#C96480	Sweden	2013	60.1282	18.6435	Wolf	Nonrelated	SCAN
+G32-15	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	60.1282	18.6435	Wolf	Nonrelated	SCAN
+G34-10	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	62.1750636	15.3580596	Wolf	Nonrelated	SCAN
+G47-11	15	SCAN	Scandinavian	#C96480	Sweden	2010	60.1282	18.6435	Wolf	Nonrelated	SCAN
+G50-12	15	SCAN	Scandinavian	#C96480	Sweden	2010	60.9575446	16.0472353	Wolf	Nonrelated	SCAN
+G58-15	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	59.6403173	13.5828845	Wolf	Nonrelated	SCAN
+G87-12	15	SCAN	Scandinavian	#C96480	Sweden	2011	61.8467975	12.4174112	Wolf	Nonrelated	SCAN
+G97-13	15	SCAN	Scandinavian	#C96480	Sweden	2010	60.1282	18.6435	Wolf	Nonrelated	SCAN
+M-01-06	15	SCAN	Scandinavian	#C96480	Sweden	2000	60.1282	18.6435	Wolf	Nonrelated	SCAN
+M-06-03	15	SCAN	Scandinavian	#C96480	Sweden	2005	60.1282	18.6435	Wolf	Nonrelated	SCAN
+M-07-06	15	SCAN	Scandinavian	#C96480	Sweden	2006	60.3876967	13.5295308	Wolf	Nonrelated	SCAN
+M-09-05	15	SCAN	Scandinavian	#C96480	Sweden	2002.5	61.6283885	11.3336976	Wolf	Nonrelated	SCAN
+M-10-04	15	SCAN	Scandinavian	#C96480	Sweden	2010.5	61.507213	15.8839979	Wolf	Nonrelated	SCAN
+M-98-03	15	SCAN	Scandinavian	#C96480	Sweden	1992	60.1282	18.6435	Wolf	Nonrelated	SCAN
+MW011	15	SCAN	Scandinavian	#C96480	Norway	2018	61.444915	11.383014	Wolf	Nonrelated	SCAN
+MW1045	15	SCAN	Scandinavian	#C96480	Finland	2011	67.59133	29.32968	Wolf	Nonrelated	SCAN
+MW1234	15	SCAN	Scandinavian	#C96480	Norway	2021	60.75822	12.06164	Wolf	Nonrelated	SCAN
+MW145	15	SCAN	Scandinavian	#C96480	Norway	2004	59.95454	11.763735	Wolf	Nonrelated	SCAN
+MW151	15	SCAN	Scandinavian	#C96480	Norway	2015	58.62437	7.43113	Wolf	Nonrelated	SCAN
+MW152	15	SCAN	Scandinavian	#C96480	Norway	2011	60.449007	12.127128	Wolf	Nonrelated	SCAN
+MW156	15	SCAN	Scandinavian	#C96480	Norway	2016	59.767993	11.07334	Wolf	Nonrelated	SCAN
+MW158	15	SCAN	Scandinavian	#C96480	Norway	2016	62.166667	11.2	Wolf	Nonrelated	SCAN
+MW162	15	SCAN	Scandinavian	#C96480	Norway	2018	59.433139	10.705307	Wolf	Nonrelated	SCAN
+MW163	15	SCAN	Scandinavian	#C96480	Norway	2018	59.469166	11.162215	Wolf	Nonrelated	SCAN
+MW164	15	SCAN	Scandinavian	#C96480	Norway	2019	61.471177	11.323356	Wolf	Nonrelated	SCAN
+IndiaWolf	3	SWASIA	Southwestern Asian	#3CAEA3	India	2020	20.7504232	73.7273399	Wolf	Nonrelated	SWASIA
+IranWolf	3	SWASIA	Southwestern Asian	#3CAEA3	Iran	2020	32.214843	49.1915619	Wolf	Nonrelated	SWASIA
+IsraeliWolf	3	SWASIA	Southwestern Asian	#3CAEA3	Israel	2020	33.262671	35.7398528	Wolf	Nonrelated	SWASIA
+MW167	3	SWASIA	Southwestern Asian	#3CAEA3	Israel	2004	33.2	35.66	Wolf	Nonrelated	SWASIA
+MW169	3	SWASIA	Southwestern Asian	#3CAEA3	Israel	2008	33.044	35.838	Wolf	Nonrelated	SWASIA
+MW170	3	SWASIA	Southwestern Asian	#3CAEA3	Israel	2013	33.27	36.62	Wolf	Nonrelated	SWASIA
+MW171	3	SWASIA	Southwestern Asian	#3CAEA3	Israel	2013	29.51	34.92	Wolf	Nonrelated	SWASIA
+MW172	3	SWASIA	Southwestern Asian	#3CAEA3	Israel	2013	32.84	35.81	Wolf	Nonrelated	SWASIA
+MW174	3	SWASIA	Southwestern Asian	#3CAEA3	Israel	2015	32.642	35.519	Wolf	Nonrelated	SWASIA
+MW175	3	SWASIA	Southwestern Asian	#3CAEA3	Israel	2016	31.201	35.353	Wolf	Nonrelated	SWASIA
+MW176	3	SWASIA	Southwestern Asian	#3CAEA3	Israel	2017	31.153	35.364	Wolf	Nonrelated	SWASIA
+MW376	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2011	40.19272	42.29462	Wolf	Nonrelated	SWASIA
+MW378	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2013	40.192723	42.294624	Wolf	Nonrelated	SWASIA
+MW379	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2013	40.276919	42.583303	Wolf	Nonrelated	SWASIA
+MW381	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2013	40.277573	42.711946	Wolf	Nonrelated	SWASIA
+MW383	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2013	40.192723	42.294624	Wolf	Nonrelated	SWASIA
+MW385	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2020	40.311065	42.592634	Wolf	Nonrelated	SWASIA
+MW386	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2014	40.192723	42.294624	Wolf	Nonrelated	SWASIA
+MW387	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2017	40.192723	42.294624	Wolf	Nonrelated	SWASIA
+MW388	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2018	40.271596	42.616514	Wolf	Nonrelated	SWASIA
+MW389	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2020	40.192723	42.294624	Wolf	Nonrelated	SWASIA
+MW390	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2017	40.265505	42.614991	Wolf	Nonrelated	SWASIA
+MW391	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2017	40.271596	42.638596	Wolf	Nonrelated	SWASIA
+MW393	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2018	40.270073	42.680474	Wolf	Nonrelated	SWASIA
+MW394	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2018	40.28454	42.575397	Wolf	Nonrelated	SWASIA
+MW395	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2018	40.243423	42.493924	Wolf	Nonrelated	SWASIA
+MW396	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2019	40.277687	42.581488	Wolf	Nonrelated	SWASIA
+MW397	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2019	40.245707	42.492401	Wolf	Nonrelated	SWASIA
+MW398	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2019	40.244238	42.466792	Wolf	Nonrelated	SWASIA
+MW399	3	SWASIA	Southwestern Asian	#3CAEA3	Turkey	2019	40.270616	42.626751	Wolf	Nonrelated	SWASIA
+Saudi_wolf_B1	3	SWASIA	Southwestern Asian	#3CAEA3	Saudi	2020	23.9530695	46.2544796	Wolf	Nonrelated	SWASIA
+Syrian_wolf	3	SWASIA	Southwestern Asian	#3CAEA3	Syria	2020	34.802075	38.996815	Wolf	Nonrelated	SWASIA

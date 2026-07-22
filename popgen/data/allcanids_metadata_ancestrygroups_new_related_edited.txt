@@ -1,0 +1,1088 @@
+ID	admixture	Location	age	Latitude	Longitude	Species	Label	oldgroup	newgroup	newgroupfull
+MW053	NA	Germany	2012	50.118346	7.308953	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW253	4	Poland	2013	49.27366	22.68584	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW254	4	Poland	2014	49.2735	22.2862	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW255	4	Poland	2015	49.57457	21.89296	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW256	NA	Poland	2015	49.54918	21.8509	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW257	4	Poland	2017	49.53444	21.9035	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW258	4	Poland	2018	49.20206	22.36225	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW259	4	Poland	2018	49.43792	21.69074	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW260	4	Poland	2018	49.26159	22.48799	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW261	4	Poland	2019	49.71314	18.96991	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW296	4	Poland	2015	49.9193	22.9735	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW046	4	Slovakia	2011	48.65	19.4131	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW047	4	Slovakia	2013	48.9124	18.7279	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW048	4	Slovakia	2013	49.3985	19.307	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW050	4	Slovakia	2015	49.1709	22.0248	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW051	4	Slovakia	2015	48.8756	22.1472	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW332	4	Slovakia	2015	49.3116	21.8325	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW335	4	Slovakia	2013	48.3823	19.3151	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW336	4	Slovakia	2014	49.3181	18.8802	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW337	4	Slovakia	2017	49.32047	21.84349	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW339	4	Slovakia	2018	49.21531	19.44052	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW342	4	Slovakia	2017	48.91577	19.26219	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW697A	4	Slovakia	2016	49.0108	19.4953	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW698A	4	Slovakia	2016	48.7853	20.1361	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW699A	4	Slovakia	2017	41.7333	24.35	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW704A	4	Slovakia	2017	48.7163	19.6992	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW710A	4	Slovakia	2010	48.6531	19.431	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW712A	4	Slovakia	2015	49.1176	19.7938	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW878	4	Slovakia	2010	48.6233	19.0548	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW879	NA	Slovakia	2020	48.6233	19.0548	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW880	NA	Slovakia	2020	48.6233	19.0548	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW933	4	Slovakia	2016	49.1742	19.2575	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW934	NA	Slovakia	2020	49.0297	19.9377	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW935	4	Slovakia	2016	49.0405	19.6171	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW936	NA	Slovakia	2020	48.5257	19.9472	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW937	NA	Slovakia	2020	48.5899	19.9912	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW938	NA	Slovakia	2020	48.5898	19.9911	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW939	4	Slovakia	2016	48.8416	19.4981	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW941	4	Slovakia	2016	49.099	20.85	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW942	NA	Slovakia	2020	48.8833	20.5833	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW943	4	Slovakia	2016	48.8209	20.8001	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW944	4	Slovakia	2016	48.7983	20.7332	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW945	4	Slovakia	2016	49.0244	20.6741	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW946	4	Slovakia	2016	48.8532	20.5262	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW948	NA	Slovakia	2020	49.0298	20.4647	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW949	4	Slovakia	2016	48.8297	20.7583	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW950	NA	Slovakia	2020	48.8367	20.5316	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW952	4	Slovakia	2016	49.1526	19.0098	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW953	4	Slovakia	2020	48.669	19.699	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW954	NA	Slovakia	2020	49.2623	21.6322	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW955	NA	Slovakia	2020	49.0175	20.909	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW956	NA	Slovakia	2020	49.3484	21.2218	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW957	4	Slovakia	2016	49.3348	19.6748	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW958	NA	Slovakia	2020	49.0642	20.9141	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW959	4	Slovakia	2016	49.3484	21.2218	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW960	4	Slovakia	2015	49.0725	22.0934	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW961	4	Slovakia	2016	48.9007	22.3936	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW962	4	Slovakia	2016	48.6409	19.4602	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW963	NA	Slovakia	2020	48.7163	19.6992	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW964	4	Slovakia	2016	49.2079	19.535	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW965	4	Slovakia	2016	49.1066	19.4374	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW966	4	Slovakia	2016	49.09834	20.20651	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW967	4	Slovakia	2016	49.0097	20.0902	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW969	4	Slovakia	2015	49.0151	20.1641	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW970	4	Slovakia	2016	49.0097	20.0902	Wolf	Wolf_Modern	Carpathian	CAR	Carpathian
+MW1176	4	Ukraine	2001	48.47	22.72	Wolf	Wolf_Modern	Baltic	CAR	Carpathian
+MW1179	4	Ukraine	2001	49.22	23.3	Wolf	Wolf_Modern	Baltic	CAR	Carpathian
+MW1180	4	Ukraine	2001	48.82	23.22	Wolf	Wolf_Modern	Baltic	CAR	Carpathian
+MW1182	4	Ukraine	2002	49.92	23.35	Wolf	Wolf_Modern	Baltic	CAR	Carpathian
+MW1063	14	Russia	2020	57.15	63.05	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1064	14	Russia	2020	56.55	63.5	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1065	14	Russia	2020	57.15	58.4	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1066	14	Russia	2020	54.3	55.2	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1067	NA	Russia	2020	56.45	57.5	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1068	14	Russia	2020	56.42	58.5	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1069	NA	Russia	2020	57.34	62.42	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1070	14	Russia	2020	56.43	63.47	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1071	14	Russia	2020	56.58	63.28	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1072	NA	Russia	2020	56.55	63.15	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1073	14	Russia	2020	56.55	63.15	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1082	NA	Russia	2020	56.5	64.59	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1210	14	Russia	2020	58.2	57.2	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1212	14	Russia	2020	57.15	58.4	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1213	14	Russia	2020	56.45	57.5	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1215	14	Russia	2020	57.4	63	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW1219	14	Russia	2020	56.5	64.59	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW469	14	Russia	1996	64.7	43.39103	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW486	14	Russia	2000	65.86165	44.22931	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW487	14	Russia	1999	65.86165	44.22931	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW491	14	Russia	2000	65.86165	44.22931	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW494	NA	Russia	2000	65.86165	44.22931	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW868	14	Russia	2020	57	59	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW869	14	Russia	2020	57	60	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW870	14	Russia	2020	57	59	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW871	NA	Russia	2020	53	57	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW872	NA	Russia	2020	53	57	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW873	NA	Russia	2020	53	57	Wolf	Wolf_Modern	Asian_Central	CASIA	Central Asian
+MW515	8	Austria	2020	48.65342	15.33925	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW045	8	Czech-Republic	2019	50.797808	14.417685	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW333	8	Czech-Republic	2018	50.653	15.6133	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW334	8	Czech-Republic	2018	50.3376	14.8746	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW338	8	Czech-Republic	2020	50.67852	14.539699	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW340	8	Czech-Republic	2019	50.27093	14.66497	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW001	8	Denmark	2020	56.273653	8.318263	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW002	8	Denmark	2020	56.75073	8.422565	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW052	8	Germany	2009	51.104541	13.201738	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW055	8	Germany	2015	50.652051	9.162438	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW056	8	Germany	2015	51.104541	13.201738	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW058	8	Germany	2015	52.131392	13.216249	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW059	8	Germany	2015	51.104541	13.201738	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW070	8	Germany	2015	52.131392	13.216249	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW072	8	Germany	2015	52.636704	9.845077	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW073	8	Germany	2016	52.636704	9.845077	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW076	8	Germany	2016	51.104541	13.201738	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW077	8	Germany	2015	52.131392	13.216249	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW078	8	Germany	2016	51.010989	10.845346	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW080	8	Germany	2015	51.950265	11.692273	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW083	8	Germany	2016	50.652051	9.162438	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW085	8	Germany	2016	52.131392	13.216249	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW088	8	Germany	2016	52.131392	13.216249	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW089	8	Germany	2017	53.612651	12.429595	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW090	8	Germany	2017	51.104541	13.201738	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW091	8	Germany	2017	52.131392	13.216249	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW094	8	Germany	2018	52.636704	9.845077	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW095	8	Germany	2018	51.104541	13.201738	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW096	8	Germany	2018	52.636704	9.845077	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW098	8	Germany	2018	52.131392	13.216249	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW262	8	Poland	2013	51.63869	15.19362	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW263	NA	Poland	2014	51.55846	15.25794	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW270	8	Poland	2016	51.562	15.0614	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW271	8	Poland	2017	51.60928	14.97246	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW272	8	Poland	2017	54.13323	17.84086	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW273	8	Poland	2017	52.5431	14.76891	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW274	8	Poland	2016	53.2381	15.97129	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW276	8	Poland	2018	53.0496	16.1429	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW277	8	Poland	2018	53.06771	16.54556	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW278	8	Poland	2013	53.39909	16.70848	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW280	8	Poland	2016	53.3845	16.73929	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW281	8	Poland	2016	53.3709	16.65359	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW282	NA	Poland	2017	53.3845	16.74329	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW283	8	Poland	2017	53.52417	16.41971	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW284	NA	Poland	2018	53.28931	16.14308	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW285	NA	Poland	2013	52.88775	18.58079	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW286	8	Poland	2012	52.71581	16.08352	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW287	8	Poland	2017	52.54669	15.07533	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW288	8	Poland	2018	52.7872	15.73189	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW289	8	Poland	2017	52.53113	14.79944	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW290	NA	Poland	2017	52.51208	14.88157	Wolf	Wolf_Modern	Central_European_lowlands	CEL	Central European Lowlands
+MW291	8	Poland	2015	52.5454	17.0451	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW292	8	Poland	2016	54.71869	17.27036	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW293	8	Poland	2017	51.13076	15.59971	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW295	8	Poland	2019	50.5737	21.93079	Wolf	Wolf_Modern	Carpathian	CEL	Central European Lowlands
+MW1012	NA	Finland	1997	62.5289025	30.4875865	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1013	5	Finland	2003	62.6734482	30.9116358	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1015	5	Finland	2008	62.2118357	30.3615205	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1021	NA	Finland	2020	62.77375	30.98756	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1022	5	Finland	2006	65.75718	26.91114	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1024	NA	Finland	2008	64.25504	30.36527	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1026	5	Finland	2008	64.69315	29.83221	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1027	NA	Finland	2020	64.68679	28.27584	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1036	5	Finland	2011	65.97496	25.75565	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1039	5	Finland	2011	65.14826	29.71752	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1040	NA	Finland	2020	65.04571	27.36401	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1041	NA	Finland	2020	65.42658	29.67745	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1044	NA	Finland	2011	64.64852	29.23017	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1046	5	Finland	2012	65.6554	29.81049	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1050	NA	Finland	2020	64.9281774	29.5324003	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1057	NA	Finland	2016	62.2964953	30.7390734	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1058	NA	Finland	2020	63.4185184	24.6152109	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1059	5	Finland	2016	64.187481	26.8876367	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW1060	NA	Finland	2016	64.0860815	25.3156583	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW313	5	Finland	2012	63.743086	27.001454	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW315	5	Finland	2004	61.4495643	29.4624741	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW316	5	Finland	2004	62.1754058	28.8588172	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW318	5	Finland	2005	61.783573	28.1717304	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW320	5	Finland	2009	63.9490052	26.8489407	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW326	5	Finland	2010	61.8357354	27.6200198	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW329	NA	Finland	2011	63.8472605	27.1021965	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW330	5	Finland	2012	63.8891879	26.3127715	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW352	NA	Finland	2017	60.5466584	22.5906619	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW358	5	Finland	1998	66.9168193	28.9154748	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW360	5	Finland	2015	63.5351203	28.0113483	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW361	NA	Finland	2017	63.3737564	28.0958178	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW362	5	Finland	2017	62.9034028	28.5115117	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW363	5	Finland	2017	63.8166336	27.3537502	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW400	5	Finland	1998	62.66788	30.93949	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW402	5	Finland	1998	62.66788	30.93949	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW409	5	Finland	1999	61.55018	29.5024	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW410	NA	Finland	1999	64.88407	28.91171	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW412	5	Finland	1998	61.74291	26.11372	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW413	5	Finland	1999	61.28629	28.82751	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW414	5	Finland	2000	62.66788	30.93949	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW416	5	Finland	2000	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW421	5	Finland	2000	68.9062	27.02775	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW425	NA	Finland	2001	64.67914	28.48402	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW426	NA	Finland	2001	64.67914	28.48402	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW427	NA	Finland	2001	64.67914	28.48402	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW429	NA	Finland	2001	64.67914	28.48402	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW434	5	Finland	2001	61.55018	29.5024	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW438	NA	Finland	2001	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW446	NA	Finland	1998	66.83265	28.67011	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW448	NA	Finland	1998	62.8062	30.15538	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW455	NA	Finland	1997	61.92411	25.74815	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW459	NA	Finland	2002	61.55018	29.5024	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW736A	5	Finland	2016	65.43899846	29.7293022	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW737A	5	Finland	2017	66.05745121	29.80523093	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW738A	5	Finland	2017	64.17906905	30.01867883	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW739A	5	Finland	2017	62.258787	30.2493156	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW741A	NA	Finland	2017	63.7973086	29.3591838	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW743A	5	Finland	2017	64.1790691	30.0186788	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW748A	5	Finland	2011	64.67183	29.07741	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW749A	5	Finland	2012	64.9483908	28.29541121	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW750A	NA	Finland	2012	63.9493108	27.0853907	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW752A	NA	Finland	2012	64.9483908	28.2954112	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW753A	5	Finland	2013	64.30203085	29.89646548	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW755A	5	Finland	2015	63.9863282	25.7203108	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW757A	NA	Finland	2016	64.3020309	29.8964655	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW758A	5	Finland	2016	63.89533153	28.19380148	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW760A	NA	Finland	2016	63.5892968	29.539554	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW761A	5	Finland	2015	63.97505089	27.24177132	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW762A	NA	Finland	2016	63.9750509	27.2417713	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW763A	5	Finland	2016	63.8239611	26.734501	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW765A	NA	Finland	2015	63.981444	26.5422133	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW769A	NA	Finland	2017	62.9798322	28.6776393	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW770A	5	Finland	2017	60.9200038	24.0787996	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW771A	NA	Finland	2017	63.8713608	27.5911336	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW774A	NA	Finland	2017	63.360105	28.0620065	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW779A	NA	Finland	2017	63.6224031	28.053088	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW782A	NA	Finland	2017	63.65746	28.1430702	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW972	NA	Finland	2020	60.9416289	24.1897366	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW974	5	Finland	2016	64.6777454	29.7761469	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW983	5	Finland	2018	68.7514441	28.4500799	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW984	5	Finland	2018	65.6989764	27.64602	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW991	5	Finland	1982	62.2118357	30.3615205	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W12	5	Finland	2001	64.35293	30.02992	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W13	NA	Finland	2020	62.35584	30.10892	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W14	NA	Finland	2020	63.6614	29.80055	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W15	NA	Finland	2020	64.69704	26.398	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W16	NA	Finland	2020	63.69178	28.49546	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W17	NA	Finland	2020	63.54006	30.07035	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W18	NA	Finland	2020	64.27375	28.82116	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W19	NA	Finland	2020	66.06104	25.71121	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W20	NA	Finland	2020	64.06776	29.01471	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W21	NA	Finland	2020	63.46851	28.96664	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W22	NA	Finland	2020	65.04528	27.36766	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W23	NA	Finland	2020	61.25126	26.90788	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W24	NA	Finland	2020	64.46547	29.32468	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W25	NA	Finland	2020	63.00205	30.56424	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W26	NA	Finland	2018	64.873	28.28797	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W27	5	Finland	2020	64.21971	30.16259	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W28	NA	Finland	2020	64.20904	29.81117	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W29	NA	Finland	2020	63.39621	28.97033	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W3	NA	Finland	2020	63.81928	26.66727	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W30	NA	Finland	2020	63.80517	29.1436	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W34	NA	Finland	2020	64.64486	29.82102	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W38	NA	Finland	2020	64.29608	24.75864	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W4	5	Finland	2020	64.18218	29.90971	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W40	NA	Finland	2020	63.76897	27.67596	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W41	NA	Finland	2020	63.63186	29.31942	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W48	NA	Finland	2020	64.07259	27.55402	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W49	5	Finland	1999	62.0982	30.50865	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W5	NA	Finland	2020	63.89053	26.32077	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W50	NA	Finland	2020	63.7542	29.21604	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W51	NA	Finland	2020	63.08291	28.80501	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W52	NA	Finland	2020	65.46399	28.60288	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W53	NA	Finland	2020	64.49573	29.02563	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W54	NA	Finland	2020	64.49573	29.02563	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W56	NA	Finland	2020	64.68922	28.80845	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W60	NA	Finland	2020	64.41545	29.21063	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W61	NA	Finland	2020	63.8847	28.39758	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W62	NA	Finland	2020	65.21143	28.04694	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W64	NA	Finland	2020	64.06524	28.96851	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W65	NA	Finland	2020	64.21297	30.16033	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W67	NA	Finland	2020	63.78787	28.08007	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W68	NA	Finland	2020	64.25681	24.4926	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W69	5	Finland	2020	64.388	25.56817	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W7	NA	Finland	2020	64.24933	29.94895	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W73	NA	Finland	2020	64.32136	29.9054	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W74	NA	Finland	2020	64.36372	28.53426	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W75	NA	Finland	2020	67.97393	27.57423	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W76	NA	Finland	2020	68.23716	27.4331	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W78	5	Finland	2017	67.61319	28.82885	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W8	NA	Finland	2020	67.65864	29.62979	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W83	NA	Finland	2020	64.07676	30.30942	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W84	NA	Finland	2020	64.07051	28.86479	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W85	NA	Finland	2020	64.00761	27.27111	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W87	NA	Finland	2020	63.93188	29.98621	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W91	NA	Finland	2020	65.89889	29.69932	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W92	NA	Finland	2020	64.00369	28.84074	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W93	NA	Finland	2020	68.47324	25.81392	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W95	NA	Finland	2020	65.57926	28.13972	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W96	NA	Finland	2020	64.67334	29.46218	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W97	NA	Finland	2020	64.66486	29.6712	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+W98	5	Finland	2017	68.04907	28.48055	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+MW496	NA	Russia	1999	63.91905	38.08377	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+V119	5	Russia	2020	62.92906	34.482034	Wolf	Wolf_Modern	Karelian	CKAR	Central Karelian
+M-07-02	5	Sweden	1975	66.5816236	22.8987731	Wolf	Wolf_Modern	Scandinavian	CKAR	Central Karelian
+G82-10	5	Sweden	1981	62.2513002	14.301979	Wolf	Wolf_Modern	Scandinavian	CKAR	Central Karelian
+MW703A	10	Bosnia-and-Herzegovina	2009	43.7831	19.2918	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW877	10	Bosnia-and-Herzegovina	2020	43.45	18.6	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1111	10	Bulgaria	2000	42.39	23	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1112	10	Bulgaria	2002	41.8	24.75	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1113	10	Bulgaria	2002	42.22	23.8	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1114	10	Bulgaria	2003	42.41	22.56	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1115	10	Bulgaria	2003	42.84	24.51	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1117	10	Bulgaria	2005	41.75	23.22	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1118	10	Bulgaria	2005	42.86	23.31	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1119	10	Bulgaria	2006	41.72	23.1	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1120	10	Bulgaria	2020	41.7	23.1	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW706A	10	Bulgaria	2011	42.6977	23.32186	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW876	10	Bulgaria	2020	41.7333	24.35	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1121	10	Croatia	1996	43.7	16.62	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1122	10	Croatia	1996	45.4	14.72	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1123	10	Croatia	2000	45.39	14.8	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1124	10	Croatia	2004	44.59	15.44	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1125	10	Croatia	2005	43.6	16.54	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1126	10	Croatia	2008	43.16	17.32	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1127	10	Croatia	2009	43.16	17.32	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1128	10	Croatia	2009	43.55	16.3	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1130	10	Croatia	2009	43.63	16.77	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+Novembre_Croatian_Wolf	NA	Croatia	2020	43.673586	16.099769	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1131	10	Greece	1998	40.3	21.8	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1133	10	Greece	1999	40.3	21.8	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1134	10	Greece	1999	40.3	21.8	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1135	10	Greece	1999	40.1	21.42	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW1140	10	Greece	2010	40.71	21.81	Wolf	Wolf_Modern	Dinaric-Balkan	DINBAL	Dinaric Balkan
+MW061	10	Romania	2014	46.135413	25.708109	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW062	10	Romania	2014	46.128965	25.610115	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW063	10	Romania	2014	45.94316	24.96676	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW064	10	Romania	2014	46.069015	26.087026	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW066	NA	Romania	2014	45.134775	23.166059	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW068	10	Romania	2015	45.94316	24.96676	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW081	10	Romania	2015	46.493201	25.745835	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW082	10	Romania	2015	46.493201	25.745835	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW1169	10	Romania	2020	46.48	24.82	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW1171	10	Romania	2020	46.43	24.79	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW1173	10	Romania	2020	46.58	25.13	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW705A	10	Romania	2020	45.6792	26.2527	Wolf	Wolf_Modern	Carpathian	DINBAL	Dinaric Balkan
+MW1177	10	Ukraine	2001	48.23	24.38	Wolf	Wolf_Modern	Baltic	DINBAL	Dinaric Balkan
+MW1181	10	Ukraine	2001	49.17	23.15	Wolf	Wolf_Modern	Baltic	DINBAL	Dinaric Balkan
+MW884	10	Ukraine	2011	50.5301	30.4224	Wolf	Wolf_Modern	Baltic	DINBAL	Dinaric Balkan
+MW922	10	Ukraine	2020	48.0167	25.2333	Wolf	Wolf_Modern	Baltic	DINBAL	Dinaric Balkan
+Chinese_CAN11	1	China	2020	35.7594035	93.6699489	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Chinese_CAN16	1	China	2020	35.7594035	93.6699489	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Chinese_CAN24	1	China	2020	44.9859211	90.7146768	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Chinese_CAN30	1	China	2020	44.2583554	84.7838073	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Chinese_CAN32	1	China	2020	31.5903791	84.264246	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Chinese_CAN6	1	China	2020	45.0191656	102.650335	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Chinese_CAN7	1	China	2020	45.0191656	102.650335	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Chinese_CAN9	1	China	2020	29.633774	91.0561504	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+InnerMongoliaWolf	1	China	2020	45.0191656	102.650335	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+LiaoNingWolf	1	China	2020	41.0836561	120.075563	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Novembre_Chinese_Wolf	1	China	2015	40.5690774	85.0269548	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Shanxi1Wolf	1	China	2020	37.6384029	110.156489	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+Shanxi2Wolf	NA	China	2020	37.6384029	110.156489	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW1075	1	Kazakhstan	2020	51	51	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+MW1076	1	Kazakhstan	2020	51	51	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+MW1077	1	Kazakhstan	2020	51	51	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+MW1078	1	Kazakhstan	2020	51	51	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+MW1079	NA	Kazakhstan	2020	51	51	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+MW1080	NA	Kazakhstan	2020	51	51	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+MW1216	1	Kazakhstan	2020	51	53	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+KoreanWolf4	1	Korea	2020	36.3050619	125.238034	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+KoreanWolf5	NA	Korea	2020	36.3050619	125.238034	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW561	1	Mongolia	2018	43.71147	111.91448	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW563	1	Mongolia	2018	47.89048	106.95719	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW564	1	Mongolia	2018	47.89048	106.95719	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW574	1	Mongolia	2019	47.89048	106.95719	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW575	1	Mongolia	2019	47.89048	106.95719	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW576	1	Mongolia	2019	47.89048	106.95719	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW577	1	Mongolia	2019	47.89048	106.95719	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW578	1	Mongolia	2019	47.89048	106.95719	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW588	1	Mongolia	2019	48.73024	98.23747	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW601	1	Mongolia	2018	43.19782	107.19761	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW607	1	Mongolia	2019	47.17159	110.81555	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW608	1	Mongolia	2019	47.17159	110.81555	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW610	1	Mongolia	2019	47.17159	110.81555	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW497	1	Russia	2000	60.97868	32.97086	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+MW498	NA	Russia	2000	60.97868	32.97086	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+MW522	1	Russia	2015	58.823997	126.200618	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW523	1	Russia	2015	58.12038	125.029419	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW524	1	Russia	2015	57.443441	127.41704	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW525	NA	Russia	2015	57.845394	128.90366	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW526	1	Russia	2015	59.557867	125.349784	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW527	NA	Russia	2015	59.373691	128.610295	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW528	1	Russia	2015	58.963331	131.302699	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW529	NA	Russia	2015	57.393416	131.614782	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW530	1	Russia	2015	64.882755	111.577808	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW531	1	Russia	2015	64.882755	109.181271	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW532	1	Russia	2015	63.924068	110.477065	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW533	1	Russia	2015	65.650613	110.237129	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW534	1	Russia	2015	64.774078	125.904257	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW535	1	Russia	2015	60.760583	128.023531	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW536	NA	Russia	2015	64.789251	127.814014	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW537	NA	Russia	2015	63.195141	126.966924	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW538	1	Russia	2015	72.384805	114.594015	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW539	1	Russia	2015	63.349629	124.076338	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW540	1	Russia	2015	63.37469	143.005505	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW874	1	Russia	2020	53	50	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+MW875	1	Russia	2020	53	50	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+Wang_GW1	1	Russia	2020	50.843683	84.6522059	Wolf	Wolf_Modern	Asian_Central	EASIA	Eastern Asian
+Wang_GW2	1	Russia	2020	65.6873915	156.795897	Wolf	Wolf_Modern	Asian	EASIA	Eastern Asian
+MW886	1	Ukraine	2011	50.5301	30.4224	Wolf	Wolf_Modern	Baltic	EASIA	Eastern Asian
+MW1101	9	Belarus	1995	52.86	24.14	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1102	9	Belarus	1995	52.94	24.06	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1103	9	Belarus	1999	52.58	23.85	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1104	9	Belarus	1999	51.78	29.75	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1105	9	Belarus	1999	55.33	30.67	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1106	9	Belarus	2000	55.67	30.5	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1108	9	Belarus	2000	54.3	29.67	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1109	9	Belarus	2000	55.42	29.5	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW785	NA	Latvia	2020	56.31339	26.51155	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW800	9	Latvia	2014	56.67453	22.00497	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW015	9	Lithuania	2009	54.054096	24.528943	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW021	9	Lithuania	2009	56.213542	24.925611	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW022	NA	Lithuania	2009	56.213542	24.925611	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW027	9	Lithuania	2009	54.97959	24.739058	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW035	NA	Lithuania	2009	56.318486	24.923767	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW039	9	Lithuania	2010	54.470509	24.798117	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW040	9	Lithuania	2010	53.996045	23.803762	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1147	9	Lithuania	2000	54.89	25.4	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW367	9	Lithuania	2014	54.65194	23.03515	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW368	9	Lithuania	2014	54.65194	23.03515	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW369	9	Lithuania	2014	54.65194	23.03515	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW374	9	Lithuania	2014	54.63791	24.93468	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW722A	9	Lithuania	2013	55.83883	24.98014	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW723A	9	Lithuania	2013	55.16943	23.88127	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW724A	NA	Lithuania	2014	55.16943	23.88127	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1163	9	Poland	1997	52.79	23.85	Wolf	Wolf_Modern	Carpathian	EEL	Eastern European Lowlands
+MW297	9	Poland	2019	50.5353	22.8904	Wolf	Wolf_Modern	Carpathian	EEL	Eastern European Lowlands
+MW1081	9	Russia	2020	53.32	48.06	Wolf	Wolf_Modern	Asian_Central	EEL	Eastern European Lowlands
+Wang_GW3	9	Russia	2020	53.2799469	34.2068799	Wolf	Wolf_Modern	Asian_Central	EEL	Eastern European Lowlands
+MW1175	9	Ukraine	2001	50.83	27.17	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1183	9	Ukraine	2003	51.75	33.25	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW1184	9	Ukraine	2005	48.13	39.8	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW694A	9	Ukraine	2020	46.8333	35.2667	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW695A	9	Ukraine	2020	48.4833	28.9	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW702A	9	Ukraine	2011	50.9167	34.55	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW707A	9	Ukraine	2020	47.5	32.25	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW882	9	Ukraine	2011	48.5736	39.3023	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW885	9	Ukraine	2011	50.5301	30.4224	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW887	9	Ukraine	2011	48.0112	37.7927	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW888	9	Ukraine	2011	48.0112	37.7927	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW896	9	Ukraine	2020	51.2333	31.4667	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW897	9	Ukraine	2020	51.2333	31.4667	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW900	9	Ukraine	2020	47.5	32.25	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW901	NA	Ukraine	2020	47.5	32.25	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW902	NA	Ukraine	2020	47.5	32.25	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW904	NA	Ukraine	2020	47.5	32.25	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW906	9	Ukraine	2020	50.9167	34.55	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW907	9	Ukraine	2020	48.4833	28.9	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW908	9	Ukraine	2020	48.37943	31.16557	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW909	NA	Ukraine	2020	50.9167	34.55	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW910	NA	Ukraine	2020	48.37943	31.16557	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW911	9	Ukraine	2020	50.95	28.9333	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW912	9	Ukraine	2020	50.95	28.9333	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW913	NA	Ukraine	2020	50.95	28.9333	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW914	NA	Ukraine	2020	50.95	28.9333	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW916	9	Ukraine	2020	47.0333	30.8833	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW917	9	Ukraine	2020	47.0333	30.8833	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW918	9	Ukraine	2020	47.65	30.1	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW920	9	Ukraine	2020	47.9167	30.1167	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW926	9	Ukraine	2020	47.45	36.0833	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW928	NA	Ukraine	2020	46.8333	35.2667	Wolf	Wolf_Modern	Asian_Central	EEL	Eastern European Lowlands
+MW929	9	Ukraine	2020	48.45	39.1333	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW930	9	Ukraine	2020	49.75	38.6333	Wolf	Wolf_Modern	Baltic	EEL	Eastern European Lowlands
+MW931	NA	Ukraine	2020	48.8333	38.9	Wolf	Wolf_Modern	Asian_Central	EEL	Eastern European Lowlands
+MW932	NA	Ukraine	2020	49.2667	39.6167	Wolf	Wolf_Modern	Asian_Central	EEL	Eastern European Lowlands
+MW732A	3	Estonia	2014	58.9574	24.22799	Wolf	Wolf_Modern	Baltic	EKAR	Eastern Karelian
+MW1000	3	Finland	1984	62.6734482	30.9116358	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1001	3	Finland	1984	62.6734482	30.9116358	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1003	3	Finland	1985	62.6734482	30.9116358	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1004	3	Finland	1985	62.2118357	30.3615205	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1011	NA	Finland	1997	62.6734482	30.9116358	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1014	NA	Finland	2007	62.6734482	30.9116358	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1016	3	Finland	1998	66.87593	28.95791	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1017	3	Finland	1999	66.76782	28.99474	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1018	NA	Finland	1997	64.23104	27.82074	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1019	3	Finland	2001	66.59099	29.13842	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1025	3	Finland	2008	66.6896	28.78461	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1028	3	Finland	2009	65.70976	29.90863	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1029	3	Finland	2009	66.84249	28.91923	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1032	3	Finland	2010	68.1648	28.33854	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1033	NA	Finland	2020	68.25869	28.56026	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1035	NA	Finland	2020	68.40985	28.23673	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1037	3	Finland	2011	69.0947	27.92322	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1042	3	Finland	2011	65.47214	29.72865	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1043	NA	Finland	2020	67.6108	27.74849	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1047	3	Finland	2012	64.5861	29.3431518	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1048	NA	Finland	2020	68.1021071	29.0689734	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1049	NA	Finland	2020	68.0794097	28.7032482	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1051	3	Finland	2013	68.4091766	28.3223679	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1052	NA	Finland	2020	68.369156	28.0193695	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1053	NA	Finland	2020	68.1238972	28.807709	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW1054	3	Finland	2014	62.3756426	30.2513095	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW348	3	Finland	2017	61.6748233	29.8212187	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW351	NA	Finland	2017	61.6036759	29.7321313	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW359	3	Finland	2016	63.6762401	28.0423145	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW403	3	Finland	1998	63.3185	30.02645	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW404	3	Finland	1998	66.83265	28.67011	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW406	3	Finland	1999	61.89182	29.82726	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW415	3	Finland	2000	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW417	NA	Finland	2000	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW422	3	Finland	2001	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW423	NA	Finland	2001	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW431	NA	Finland	2001	64.88411	28.91165	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW433	3	Finland	2001	64.88411	28.91165	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW435	NA	Finland	2001	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW436	NA	Finland	2001	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW437	NA	Finland	2001	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW441	NA	Finland	1997	64.13065	28.39049	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW442	3	Finland	1996	64.99809	25.69908	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW443	NA	Finland	1997	64.13065	28.39049	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW450	NA	Finland	1998	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW451	3	Finland	1998	62.66788	30.93949	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW454	NA	Finland	1977	62.66788	30.93949	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW456	NA	Finland	1998	61.92411	25.74815	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW457	3	Finland	1997	62.66788	30.93949	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW461	NA	Finland	2002	64.12874	29.52028	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW733A	3	Finland	2017	64.34331604	25.88144639	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW734A	3	Finland	2016	65.10894048	29.63221293	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW740A	3	Finland	2017	68.6402804	28.469675	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW744A	3	Finland	2017	64.67183	29.07741	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW747A	3	Finland	2011	67.69996	29.51117	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW751A	3	Finland	2012	68.1428958	28.8980399	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW756A	NA	Finland	2016	63.4873693	29.4326467	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW759A	3	Finland	2015	63.58929683	29.53955399	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW766A	NA	Finland	2015	63.8200248	26.3077974	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW976	3	Finland	2016	66.1832798	28.250044	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW981	3	Finland	2018	64.5970192	29.3901424	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW986	3	Finland	2018	68.1120395	25.899859	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW988	3	Finland	2019	63.1265554	30.0604154	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW989	NA	Finland	2020	62.2999571	27.1612423	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW990	3	Finland	1982	66.8309713	28.6699331	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW992	3	Finland	1983	62.6734482	30.9116358	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW993	NA	Finland	2020	62.6734482	30.9116358	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW996	NA	Finland	2020	67.4701512	29.6006718	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW997	3	Finland	2017	65.5202578	29.7808303	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW999	3	Finland	1984	62.2118357	30.3615205	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W10	NA	Finland	2007	67.53171	29.61319	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W100	NA	Finland	2007	64.2512	28.24039	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W101	NA	Finland	2020	68.40573	27.9387	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W11	NA	Finland	2001	68.1496	28.74481	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W31	NA	Finland	2020	65.73355	29.90839	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W33	NA	Finland	2020	64.34953	28.46488	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W36	NA	Finland	2020	68.43074	28.3123	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W43	NA	Finland	2020	63.9461	29.26945	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W44	NA	Finland	2020	65.56017	29.34629	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W45	NA	Finland	2020	64.21888	30.2657	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W46	NA	Finland	2020	64.21888	30.2657	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W55	NA	Finland	2020	65.07972	29.63893	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W57	NA	Finland	2020	64.60146	29.77953	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W58	NA	Finland	2020	64.23515	30.47497	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W6	NA	Finland	2020	68.11051	28.66718	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W63	3	Finland	2020	64.19328	28.69488	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W71	3	Finland	2010	65.43394	28.07916	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W77	3	Finland	2017	67.66502	28.50351	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W79	3	Finland	2013	68.05804	29.20357	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W80	3	Finland	2014	67.7943	29.50003	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W81	NA	Finland	2020	67.65116	27.95489	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W82	3	Finland	2014	67.31318	29.3362	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W86	3	Finland	2015	68.64109	28.55907	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W88	NA	Finland	2020	67.75952	29.48339	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W90	NA	Finland	2020	65.63229	29.68094	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+W94	NA	Finland	2020	68.39339	28.35634	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW464	3	Russia	1997	63.15587	32.99055	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW466	3	Russia	1999	63.15587	32.99055	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW472	3	Russia	1999	62.91318	34.46192	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW474	3	Russia	1999	63.15587	32.99055	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW476	3	Russia	1998	63.15587	32.99055	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW477	NA	Russia	1998	63.15587	32.99055	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW478	3	Russia	1995	62.2062	34.26757	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW479	NA	Russia	1999	62.2062	34.26757	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW482	3	Russia	2000	60.97868	32.97086	Wolf	Wolf_Modern	Asian_Central	EKAR	Eastern Karelian
+MW483	3	Russia	2000	61.80423	36.52604	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW484	3	Russia	2000	61.80423	36.52604	Wolf	Wolf_Modern	Asian_Central	EKAR	Eastern Karelian
+MW485	3	Russia	2000	63.15587	32.99055	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW490	3	Russia	1999	63.91905	38.08377	Wolf	Wolf_Modern	Asian_Central	EKAR	Eastern Karelian
+MW495	3	Russia	1999	63.91905	38.08377	Wolf	Wolf_Modern	Asian_Central	EKAR	Eastern Karelian
+MW499	NA	Russia	2020	61.52401	40	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW504	3	Russia	2020	61.52401	40	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW545	3	Russia	2018	62.665931	34.292776	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW546	NA	Russia	2018	62.665931	34.292776	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW547	NA	Russia	2018	62.665931	34.292776	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW548	NA	Russia	2018	62.665931	34.292776	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW549	NA	Russia	2018	62.665931	34.292776	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW550	3	Russia	2018	61.419537	35.262143	Wolf	Wolf_Modern	Asian_Central	EKAR	Eastern Karelian
+MW551	NA	Russia	2018	61.419537	35.262143	Wolf	Wolf_Modern	Asian_Central	EKAR	Eastern Karelian
+MW552	3	Russia	2018	61.419537	35.262143	Wolf	Wolf_Modern	Asian_Central	EKAR	Eastern Karelian
+MW553	3	Russia	2018	61.419537	35.262143	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW554	NA	Russia	2018	61.419537	35.262143	Wolf	Wolf_Modern	Asian_Central	EKAR	Eastern Karelian
+MW555	3	Russia	2018	62.45033	33.238877	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW556	3	Russia	2018	62.295949	34.405013	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW557	NA	Russia	2018	62.477836	34.135643	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW558	NA	Russia	2018	62.491814	34.102684	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW559	NA	Russia	2018	62.250839	34.388362	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+MW560	3	Russia	2017	62.486782	33.711679	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V113	3	Russia	2020	62.3659	34.215968	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V114	3	Russia	2020	61.843127	36.495927	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V115	3	Russia	2020	61.810496	36.219553	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V116	3	Russia	2020	61.662461	37.212984	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V117	3	Russia	2020	62.153229	36.696085	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V126	3	Russia	2020	64.260856	32.024328	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V132	3	Russia	2020	61.419537	35.262143	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V134	NA	Russia	2020	62.487814	33.71803	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V136	3	Russia	2020	62.295949	34.405013	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V138	NA	Russia	2020	62.465124	34.167228	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V141	NA	Russia	2020	62.477836	34.135643	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V142	NA	Russia	2020	62.253721	34.37686	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+V143	3	Russia	2020	62.57127	33.978121	Wolf	Wolf_Modern	Karelian	EKAR	Eastern Karelian
+D-05-18	3	Sweden	1975	69.6304287	29.6547394	Wolf	Wolf_Modern	Scandinavian	EKAR	Eastern Karelian
+D-77-01	3	Sweden	1975	67.3349132	20.1703108	Wolf	Wolf_Modern	Scandinavian	EKAR	Eastern Karelian
+D-79-01	3	Sweden	1975	67.7597268	21.648905	Wolf	Wolf_Modern	Scandinavian	EKAR	Eastern Karelian
+M-02-15	3	Sweden	1975	67.4752128	18.4850953	Wolf	Wolf_Modern	Scandinavian	EKAR	Eastern Karelian
+M-05-01	NA	Sweden	1981	64.210038	15.4137242	Wolf	Wolf_Modern	Scandinavian	EKAR	Eastern Karelian
+MW057	12	Germany	2015	48.661604	9.350134	Wolf	Wolf_Modern	Central_European_lowlands	ITA	Italian
+MW071	NA	Germany	2015	48.661604	9.350134	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW086	NA	Germany	2016	48.790447	11.49789	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW097	12	Germany	2018	52.636704	9.845077	Wolf	Wolf_Modern	Central_European_lowlands	ITA	Italian
+MW298	12	Italy	2003	41.98833	13.06826	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW300	12	Italy	2007	42.05603	13.10448	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW301	12	Italy	2007	41.92571	13.23055	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW302	NA	Italy	2010	42.01882	13.10791	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW303	12	Italy	2010	41.98833	13.06826	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW304	12	Italy	2010	41.87194	12.56737	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW306	12	Italy	2011	41.98048	13.03602	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW307	NA	Italy	2012	41.92465	13.09366	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW308	12	Italy	2012	42.14003	12.10473	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW309	12	Italy	2012	42.1	12.86666	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+MW310	12	Italy	2020	41.8088	13.79008	Wolf	Wolf_Modern	Italian_peninsula	ITA	Italian
+AlaskanWolf	NA	Alaska	2020	66.6713283	-162.24902	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL141_JRRW018	NA	America	2009	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL175_RWJR014	NA	America	2009	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL189_RWJR008	NA	America	2012	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL25_RWJR010	NA	America	1988	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+Minnesota_RKW119_RWJR007	NA	America	2020	46.7417239	-90.732822	Wolf	Wolf_Modern	North_American	NA	NA
+Minnesota_RKW2515_RWJR016	NA	America	2020	46.7417239	-90.732822	Wolf	Wolf_Modern	North_American	NA	NA
+Minnesota_RKW2518_RWJR012	NA	America	1989	46.7417239	-90.732822	Wolf	Wolf_Modern	North_American	NA	NA
+Minnesota_RKW2523_RWJR009	NA	America	2020	46.7417239	-90.732822	Wolf	Wolf_Modern	North_American	NA	NA
+Arctic_AW12_RKW2297	NA	Arctic-North-America	2020	61.49534	-105.43329	Wolf	Wolf_Modern	North_American	NA	NA
+Arctic_AW13_RKW7615	NA	Arctic-North-America	2020	77.22	-85.42	Wolf	Wolf_Modern	North_American	NA	NA
+Arctic_AW18_RKW7631	NA	Arctic-North-America	2020	73.44	-121.925	Wolf	Wolf_Modern	North_American	NA	NA
+Arctic_AW19_RKW7636	NA	Arctic-North-America	2020	71.191287	-85.508735	Wolf	Wolf_Modern	North_American	NA	NA
+Arctic_AW20_RKW7652	NA	Arctic-North-America	2020	69.62	-93.9	Wolf	Wolf_Modern	North_American	NA	NA
+MW701A	NA	Bulgaria	2020	41.7333	24.35	Wolf	Wolf_Modern	Dinaric-Balkan	NA	NA
+Arctic_AW16_RKW7622	NA	Canada	2020	72.538139	-110.53423	Wolf	Wolf_Modern	North_American	NA	NA
+Arctic_BaffinIsl_CD130_RKW7639	NA	Canada	2020	64.16	-76.58	Wolf	Wolf_Modern	North_American	NA	NA
+Arctic_EllesmereIsl_GF44_RKW7640	NA	Canada	1999	77.19	-84.26	Wolf	Wolf_Modern	North_American	NA	NA
+Arctic_Nunavut_CB177_RKW7649	NA	Canada	2020	66.77	-102.6	Wolf	Wolf_Modern	North_American	NA	NA
+Arctic_VictoriaIsl_CB215_RKW7619	NA	Canada	2020	68.92	-104.37	Wolf	Wolf_Modern	North_American	NA	NA
+AtlanticCoast	NA	Canada	2020	54.9	-59.78	Wolf	Wolf_Modern	North_American	NA	NA
+BanksIsland	NA	Canada	2020	74.13	-119.75	Wolf	Wolf_Modern	North_American	NA	NA
+Ellesmere1	NA	Canada	2002	77.22	-85.42	Wolf	Wolf_Modern	North_American	NA	NA
+Ellesmere2	NA	Canada	2002	76.42	-82.88	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL152_RWJR001	NA	Canada	2003	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL55_RWJR015	NA	Canada	1998	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL61_RWJR005	NA	Canada	2001	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL62_RWJR011	NA	Canada	2001	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL65_RWJR002	NA	Canada	2003	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL67_JRRW017	NA	Canada	2009	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+IsleRoyaleNP_CL75_RWJR004	NA	Canada	2007	48.3421676	-89.157312	Wolf	Wolf_Modern	North_American	NA	NA
+NorthBaffin	NA	Canada	1999	72.7	-77.98	Wolf	Wolf_Modern	North_American	NA	NA
+PacificCoast	NA	Canada	1992	56.75	-133.5	Wolf	Wolf_Modern	North_American	NA	NA
+Qamanirjuaq	NA	Canada	2000	64.43	-93.1	Wolf	Wolf_Modern	North_American	NA	NA
+Quebec_MontTremblantNP_RWBH001	NA	Canada	2007	46.4022398	-75.522596	Wolf	Wolf_Modern	North_American	NA	NA
+Saskatchewan	NA	Canada	2000	55.1	-105.28	Wolf	Wolf_Modern	North_American	NA	NA
+SouthBaffin	NA	Canada	2020	65.17	-65.5	Wolf	Wolf_Modern	North_American	NA	NA
+StLawrenceIsland	NA	Canada	2020	63.7797222	-171.74111	Wolf	Wolf_Modern	North_American	NA	NA
+Toronto	NA	Canada	2020	43.72	-79.55	Wolf	Wolf_Modern	North_American	NA	NA
+VictoriaIsland	NA	Canada	2020	72.77	-111.02	Wolf	Wolf_Modern	North_American	NA	NA
+MW1139	NA	Greece	2010	40.86	21.83	Wolf	Wolf_Modern	Dinaric-Balkan	NA	NA
+214_Uummannaq	NA	Greenland	2020	70.678981	-52.146692	Wolf	Wolf_Modern	Greenland	NA	NA
+Greenland_wolf_A1	NA	Greenland	2020	74.3	-20.23347	Wolf	Wolf_Modern	Greenland	NA	NA
+Qaanaaq_P6307_101	NA	Greenland	2015	77.4669	-69.229	Wolf	Wolf_Modern	Greenland	NA	NA
+Siorapaluk_P6307_102	NA	Greenland	2020	77.7853	-70.631389	Wolf	Wolf_Modern	Greenland	NA	NA
+MexicanWolf	NA	Mexico	2020	0	0	Wolf	Wolf_Modern	North_American	NA	NA
+MW611	NA	Mongolia	2019	50.169039	102.750158	Wolf	Wolf_Modern	Asian	NA	NA
+Alaska1	NA	North-America	2002	65.3401204	-158.02777	Wolf	Wolf_Modern	North_American	NA	NA
+MW1107	2	Belarus	2000	55.67	29	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW1110	2	Belarus	2002	51.65	27.5	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW725A	2	Estonia	2013	59.19153	26.20508	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW726A	2	Estonia	2011	59.31418	26.37123	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW727A	2	Estonia	2012	58.21048	27.25667	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW728A	2	Estonia	2013	59.12216	25.02187	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW729A	2	Estonia	2012	58.68466	26.58329	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW730A	2	Estonia	2014	58.5792	25.18318	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW731A	2	Estonia	2015	58.6001	27.13331	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW826	2	Estonia	2012	58.0639	24.77399	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW827	2	Estonia	2012	58.26687	25.40363	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW828	2	Estonia	2012	58.60342	26.21017	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW829	2	Estonia	2013	58.05383	26.23935	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW830	2	Estonia	2012	59.45635	26.00972	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW831	2	Estonia	2012	58.92829	24.87684	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW832	NA	Estonia	2020	59.19631	25.54195	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW833	2	Estonia	2013	59.18324	25.46497	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW834	2	Estonia	2014	58.98892	26.24269	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW835	2	Estonia	2014	58.3316	22.25549	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW836	2	Estonia	2014	58.10514	26.13706	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW837	NA	Estonia	2020	57.9481	25.82096	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW838	NA	Estonia	2020	58.22434	26.42173	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW839	2	Estonia	2014	58.13212	26.81311	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW840	2	Estonia	2014	58.70525	22.59625	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW841	2	Estonia	2014	58.80506	25.42214	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW842	NA	Estonia	2020	58.98892	26.24269	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW843	2	Estonia	2014	58.98892	26.24269	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW844	2	Estonia	2013	58.3617	26.89136	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW845	2	Estonia	2014	58.28652	22.02447	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW846	NA	Estonia	2020	58.14976	25.045	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW847	2	Estonia	2014	58.68616	24.77731	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW848	NA	Estonia	2020	58.73477	25.78077	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW849	2	Estonia	2014	58.50415	23.11514	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW850	2	Estonia	2014	58.9574	24.22799	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW851	NA	Estonia	2020	58.55935	23.08216	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW852	2	Estonia	2014	57.60886	26.83421	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW853	2	Estonia	2014	57.7321	27.28346	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW854	2	Estonia	2014	58.92395	22.59194	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW855	2	Estonia	2014	57.60104	27.22926	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW856	NA	Estonia	2020	58.25495	22.49189	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW857	2	Estonia	2020	58.25495	22.49189	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW858	NA	Estonia	2020	58.55935	23.08216	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW859	2	Estonia	2014	58.81528	26.28567	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW860	NA	Estonia	2020	58.89957	24.1273	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW862	2	Estonia	2014	57.92663	27.33287	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW863	NA	Estonia	2020	59.08607	25.24129	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW864	NA	Estonia	2020	57.92097	26.1227	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW865	2	Estonia	2013	59.19631	25.54195	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW866	NA	Estonia	2020	57.60104	27.22926	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW867	2	Estonia	2013	59.36186	27.18939	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW1141	2	Latvia	1999	57.25	26.5	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW1142	2	Latvia	1999	56.53	26.97	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW1150	2	Latvia	2008	57.27	27.12	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW715A	2	Latvia	2015	57.08066	27.12569	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW716A	2	Latvia	2016	56.79746	27.7513	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW717A	2	Latvia	2013	57.4337	26.59737	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW720A	2	Latvia	2012	56.63119	24.75658	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW789	2	Latvia	2014	57.86075	24.97655	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW791	2	Latvia	2015	56.86696	25.87458	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW792	2	Latvia	2011	56.58834	26.68068	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW793	2	Latvia	2016	56.66865	26.56162	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW794	NA	Latvia	2020	56.86696	25.87458	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW797	2	Latvia	2015	56.71255	26.4029	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW803	2	Latvia	2015	57.76941	24.53916	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW805	2	Latvia	2014	57.58732	25.06566	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW806	2	Latvia	2015	57.70238	24.7483	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW808	2	Latvia	2013	57.32734	27.53034	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW809	2	Latvia	2016	57.60859	24.60747	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW810	2	Latvia	2013	57.4668	26.23402	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW816	2	Latvia	2016	57.09259	25.46923	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW818	2	Latvia	2016	57.29179	27.10834	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW819	2	Latvia	2011	57.76245	24.88793	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW821	2	Latvia	2011	56.5501	26.92296	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW823	2	Latvia	2014	57.49908	27.00554	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW824	2	Latvia	2013	56.99705	26.43065	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW019	2	Lithuania	2009	55.058071	25.070977	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW043	NA	Lithuania	2010	55.029921	25.206769	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW044	NA	Lithuania	2010	55.029921	25.206769	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW364	NA	Lithuania	2020	55.0431	24.95698	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW721A	2	Lithuania	2013	55.0431	24.95698	Wolf	Wolf_Modern	Baltic	NBAL	Northern Baltic
+MW119	7	Portugal	2020	41.80611	-6.75673	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+PortugueseWolf	7	Portugal	2015	39.620094	-8.528193	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW109	7	Spain	2020	42.57505	-8.13385	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW113	7	Spain	2020	43.36139	-5.85932	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW117	7	Spain	2020	42.57505	-8.13385	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW121	7	Spain	2020	42.57505	-8.13385	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW122	7	Spain	2020	42.57505	-8.13385	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW123	7	Spain	2020	42.57505	-8.13385	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW124	7	Spain	2020	43.36139	-5.85932	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW126	7	Spain	2020	41.83568	-4.39763	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW127	7	Spain	2020	41.83568	-4.39763	Wolf	Wolf_Modern	Iberian	NWIB	North Western Iberian
+MW133	NA	Spain	2020	39.27956	-3.0977	Wolf	Wolf_Modern	NW_Iberian	NWIB	North Western Iberian
+MW1143	13	Latvia	2000	56.45	23.04	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW1144	13	Latvia	2000	56.97	21.52	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW1145	13	Latvia	2000	56.97	21.52	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW1146	13	Latvia	2000	57.36	25.92	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW1149	13	Latvia	2006	56.97	23.44	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW1151	NA	Latvia	2008	56.41	25.68	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW1152	13	Latvia	2008	57.16	22.55	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW713A	13	Latvia	2014	56.16369	21.15948	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW714A	13	Latvia	2011	56.71573	21.6053	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW718A	13	Latvia	2012	56.67331	22.57438	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW719A	13	Latvia	2015	57.06998	22.24288	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW784	13	Latvia	2013	56.54676	22.62796	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW786	13	Latvia	2011	56.60623	24.52218	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW787	13	Latvia	2016	56.3113	25.50704	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW788	13	Latvia	2015	57.50763	22.35196	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW790	13	Latvia	2013	56.90309	22.81014	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW795	13	Latvia	2016	56.45032	26.2288	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW796	13	Latvia	2016	57.54032	24.71344	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW798	13	Latvia	2015	57.22462	21.67758	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW799	13	Latvia	2020	57.05759	22.49862	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW801	13	Latvia	2016	56.59535	24.19895	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW802	13	Latvia	2016	57.03406	22.78018	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW804	13	Latvia	2015	57.33077	23.10214	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW807	NA	Latvia	2020	56.22836	25.6114	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW812	13	Latvia	2015	57.51502	22.02315	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW813	NA	Latvia	2020	56.84919	22.71962	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW814	13	Latvia	2015	57.50484	27.19197	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW815	13	Latvia	2015	56.3136	24.4405	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW817	NA	Latvia	2020	57.15926	21.62748	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW820	13	Latvia	2014	56.44887	21.57967	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW822	13	Latvia	2014	56.88665	21.19518	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW825	13	Latvia	2012	56.55936	25.63925	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW012	13	Lithuania	2010	55.70708	22.310879	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW013	13	Lithuania	2010	55.963611	22.714514	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW014	13	Lithuania	2010	55.776516	23.301206	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW016	NA	Lithuania	2009	55.891037	22.658114	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW017	13	Lithuania	2009	54.426991	23.840195	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW018	13	Lithuania	2010	56.142613	21.350396	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW020	13	Lithuania	2009	56.152023	23.224096	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW024	13	Lithuania	2009	56.226309	22.142644	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW025	NA	Lithuania	2009	56.226309	22.142644	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW026	13	Lithuania	2010	54.98302	24.689207	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW028	13	Lithuania	2009	55.780094	25.007696	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW029	13	Lithuania	2009	54.960751	24.372238	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW030	NA	Lithuania	2009	56.090678	22.548895	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW031	13	Lithuania	2009	55.370458	22.608719	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW032	NA	Lithuania	2010	55.530764	23.158704	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW033	13	Lithuania	2009	54.844232	23.566109	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW034	NA	Lithuania	2010	56.283393	22.667897	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW036	13	Lithuania	2010	55.206593	22.58431	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW037	NA	Lithuania	2009	55.798652	22.16517	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW038	NA	Lithuania	2009	55.798652	22.16517	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW041	13	Lithuania	2011	54.451083	23.549764	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW042	13	Lithuania	2010	55.029921	25.206769	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW366	13	Lithuania	2014	54.85886	24.42779	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW370	13	Lithuania	2014	56.2455	22.74711	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW372	13	Lithuania	2014	55.91078	21.8454	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW373	13	Lithuania	2014	55.33468	26.16591	Wolf	Wolf_Modern	Baltic	SBAL	Southern Baltic
+MW1045	15	Finland	2011	67.59133	29.32968	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+MW1056	NA	Finland	2020	68.4072457	28.1839583	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+MW735A	NA	Finland	2016	65.1089405	29.6322129	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+MW742A	NA	Finland	2017	65.1044579	29.8321658	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+MW745A	NA	Finland	2006	64.42794	28.45764	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+MW746A	NA	Finland	2006	64.65937	28.32856	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+MW975	NA	Finland	2020	65.1231006	29.6262206	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+W89	NA	Finland	2020	65.75044	30.07419	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+W9	NA	Finland	2020	65.68754	30.07733	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+W99	NA	Finland	2020	67.88802	29.51268	Wolf	Wolf_Modern	Karelian	SCAN	Scandinavian
+AW033	15	Norway	2014	62.293914	10.967767	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+AW043	NA	Norway	2003	58.342349	6.277312	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+AW087	NA	Norway	2007	60.997159	11.3751913	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+AW088	NA	Norway	2011	62.019808	12.037931	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+AW100	NA	Norway	2007	60.329646	11.272252	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+AW129	NA	Norway	2003	60.882072	11.562468	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+AW130A	NA	Norway	2004	58.428586	8.215235	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW005	NA	Norway	2013	60.600249	10.56905	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW006	NA	Norway	2012	61.044723	11.28778	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW007	NA	Norway	2012	61.332537	11.262976	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW011	15	Norway	2018	61.444915	11.383014	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1234	15	Norway	2021	60.75822	12.06164	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1235	NA	Norway	2021	60.74957	12.01733	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1236	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1237	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1238	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1239	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1240	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1241	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1242	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1243	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1244	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW1245	NA	Norway	2021	60.472	8.4689	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW145	15	Norway	2004	59.95454	11.763735	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW148	NA	Norway	2010	60.066974	12.061668	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW149	NA	Norway	2020	59.968101	11.218617	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW151	15	Norway	2015	58.62437	7.43113	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW152	15	Norway	2011	60.449007	12.127128	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW154	NA	Norway	2013	61.966672	11.533331	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW155	NA	Norway	2015	61.57515	5.898423	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW156	15	Norway	2016	59.767993	11.07334	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW157	NA	Norway	2017	64.321111	13.415833	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW158	15	Norway	2016	62.166667	11.2	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW159	NA	Norway	2018	61.603813	10.776709	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW160	NA	Norway	2018	61.40581	11.350784	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW161	NA	Norway	2018	60.449007	12.127128	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW162	15	Norway	2018	59.433139	10.705307	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW163	15	Norway	2018	59.469166	11.162215	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW164	15	Norway	2019	61.471177	11.323356	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW165	NA	Norway	2019	61.386919	12.034568	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+MW166	NA	Norway	2019	61.361111	11.995	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-00-12	15	Sweden	2002.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-00-15	15	Sweden	1994.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-05-23	15	Sweden	1995.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-06-14	15	Sweden	2002.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-06-16	NA	Sweden	2002.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-07-09	15	Sweden	2002.5	60.201993	14.1897029	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-07-17	15	Sweden	2002.5	60.8159705	13.548185	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-07-24	15	Sweden	2002.5	60.9971681	11.3752095	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-08-19	15	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-08-20	NA	Sweden	2002.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-08-21	15	Sweden	2010.5	59.6799085	16.0181417	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-10-15	15	Sweden	2009	60.7260156	14.6059004	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-10-20	15	Sweden	2002.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-10-30	15	Sweden	2002.5	61.034411	16.0361435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-10-44	15	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-10-50	15	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-10-53	NA	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-11-58	15	Sweden	2009	58.8475349	11.6791043	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-84-03	NA	Sweden	1986.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-89-01	15	Sweden	1986.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-89-03	15	Sweden	1986.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-91-01	15	Sweden	1986.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-92-05	15	Sweden	1986.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-93-02	15	Sweden	1986.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G100-12	NA	Sweden	2010.5	62.2924088	14.4517582	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G106-13	15	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G110-11	15	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G126-13	15	Sweden	2010.5	62.0913261	13.0278821	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G174-13	15	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G175-13	NA	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G24-14	15	Sweden	2013	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G32-15	15	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G34-10	15	Sweden	2010.5	62.1750636	15.3580596	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G58-15	15	Sweden	2010.5	59.6403173	13.5828845	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G87-12	15	Sweden	2011	61.8467975	12.4174112	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-05-07	NA	Sweden	2002.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-09-05	15	Sweden	2002.5	61.6283885	11.3336976	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-10-04	15	Sweden	2010.5	61.507213	15.8839979	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-01-18	NA	Sweden	1995	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-07-16	NA	Sweden	2004	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-07-28	NA	Sweden	2003	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-08-08	15	Sweden	2007	60.3083792	14.9471122	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-08-10	NA	Sweden	2004	59.3116101	14.3161926	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-10-23	NA	Sweden	2008	60.7258396	14.8041358	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-10-29	NA	Sweden	2006	60.5682335	13.2498168	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-10-68	15	Sweden	2008	62.0197239	12.8715016	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-11-17	15	Sweden	2006	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-11-22	NA	Sweden	2009	59.4179131	15.3301383	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-85-01	NA	Sweden	1981	60.6708491	12.560003	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-85-02	NA	Sweden	1984	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-86-01	15	Sweden	1983	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-92-01	NA	Sweden	1992	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-92-02	NA	Sweden	1991	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-92-06	NA	Sweden	1992	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-93-01	NA	Sweden	1992	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-93-03	NA	Sweden	1991	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-94-01	NA	Sweden	1992	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-96-01	NA	Sweden	1992	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+D-99-02	NA	Sweden	1991	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G109-11	15	Sweden	2010	59.2766869	14.7364393	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G111-14	NA	Sweden	2010	62.810058	13.7641873	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G139-12	15	Sweden	2010	62.1586274	12.344931	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G32-12	NA	Sweden	2010	60.3309585	12.8369568	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G37-10	NA	Sweden	2010	61.2251131	15.4663207	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G47-11	15	Sweden	2010	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G50-12	15	Sweden	2010	60.9575446	16.0472353	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G9-05	NA	Sweden	2002	61.429825	15.0146041	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+G97-13	15	Sweden	2010	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-00-09	NA	Sweden	1995	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-00-10	NA	Sweden	1999	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-01-04	NA	Sweden	1994	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-01-06	15	Sweden	2000	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-01-10	NA	Sweden	1998	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-03-06	NA	Sweden	2001	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-03-07	NA	Sweden	1998	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-06-03	15	Sweden	2005	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-06-04	NA	Sweden	2005	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-07-06	15	Sweden	2006	60.3876967	13.5295308	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-09-03	NA	Sweden	1981	61.6588365	16.0202321	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-09-17	NA	Sweden	2002	60.2586752	13.6796909	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-10-10	NA	Sweden	1981	60.8342799	12.1333337	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-11-02	NA	Sweden	2010	61.6601493	15.7776835	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-98-01	NA	Sweden	1998	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-98-02	NA	Sweden	1991	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-98-03	15	Sweden	1992	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+M-98-08	NA	Sweden	1998	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SCAN	Scandinavian
+IndiaWolf	11	India	2020	20.7504232	73.7273399	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+IranWolf	11	Iran	2020	32.214843	49.1915619	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+IsraeliWolf	11	Israel	2020	33.262671	35.7398528	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW167	11	Israel	2004	33.2	35.66	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW169	11	Israel	2008	33.044	35.838	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW170	11	Israel	2013	33.27	36.62	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW171	11	Israel	2013	29.51	34.92	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW172	11	Israel	2013	32.84	35.81	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW174	11	Israel	2015	32.642	35.519	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW175	11	Israel	2016	31.201	35.353	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW176	11	Israel	2017	31.153	35.364	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+Novembre_Israeli_Wolf	NA	Israel	2015	33.262671	35.7398528	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+Saudi_wolf_B1	11	Saudi	2020	23.9530695	46.2544796	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+Syrian_wolf	11	Syria	2020	32.2502095	36.4156797	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW376	11	Turkey	2011	40.19272	42.29462	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW377	NA	Turkey	2020	40.280274	42.595819	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW378	11	Turkey	2013	40.192723	42.294624	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW379	11	Turkey	2013	40.276919	42.583303	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW380	NA	Turkey	2020	40.192723	42.294624	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW381	11	Turkey	2013	40.277573	42.711946	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW382	NA	Turkey	2020	40.192723	42.294624	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW383	11	Turkey	2013	40.192723	42.294624	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW384	NA	Turkey	2014	40.192723	42.294624	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW385	11	Turkey	2020	40.311065	42.592634	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW386	11	Turkey	2014	40.192723	42.294624	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW387	11	Turkey	2017	40.192723	42.294624	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW388	11	Turkey	2018	40.271596	42.616514	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW389	11	Turkey	2020	40.192723	42.294624	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW390	11	Turkey	2017	40.265505	42.614991	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW391	11	Turkey	2017	40.271596	42.638596	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW393	11	Turkey	2018	40.270073	42.680474	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW394	11	Turkey	2018	40.28454	42.575397	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW395	11	Turkey	2018	40.243423	42.493924	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW396	11	Turkey	2019	40.277687	42.581488	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW397	11	Turkey	2019	40.245707	42.492401	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW398	11	Turkey	2019	40.244238	42.466792	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW399	11	Turkey	2019	40.270616	42.626751	Wolf	Wolf_Modern	Middle_East_Indian	SWASIA	South Western Asian
+MW1023	NA	Finland	2020	65.11219	27.56664	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW1030	NA	Finland	2020	68.4594	22.75566	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW1031	6	Finland	2010	67.67033	29.6659	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW1034	NA	Finland	2010	69.06714	26.25248	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW1038	6	Finland	2011	64.26391	30.40289	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW1055	NA	Finland	2015	63.9909725	24.2333242	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW314	6	Finland	2004	62.0788776	21.6252135	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW317	6	Finland	2004	60.7363744	28.0417279	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW319	6	Finland	2008	60.9031523	21.93624	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW321	NA	Finland	2009	60.8085262	28.1715783	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW322	6	Finland	2010	63.671639	27.522087	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW323	6	Finland	2010	63.084089	23.366698	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW324	NA	Finland	2010	60.9605238	28.514119	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW325	6	Finland	2010	62.2620173	24.0421082	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW327	NA	Finland	2011	59.9950238	23.559066	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW328	NA	Finland	2011	61.0662805	22.5310643	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW331	6	Finland	2012	61.7670342	24.3282483	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW343	6	Finland	2015	61.0849944	22.5615337	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW344	6	Finland	2016	60.8118365	22.5851296	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW345	6	Finland	2016	60.151865	23.3965385	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW346	6	Finland	2016	60.7720311	22.4387799	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW347	NA	Finland	2017	60.7539447	22.1861279	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW349	NA	Finland	2017	61.0712915	22.8274185	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW350	6	Finland	2016	61.0078654	28.4609596	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW353	NA	Finland	2012	62.971972	23.002363	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW354	NA	Finland	2018	63.8387116	23.8336229	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW355	NA	Finland	2018	63.7607922	23.602202	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW356	6	Finland	2015	63.5876671	24.5905758	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW357	6	Finland	2014	63.3886446	24.5931381	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW407	6	Finland	1999	62.66788	30.93949	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW408	NA	Finland	1999	62.66788	30.93949	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW453	6	Finland	1997	62.66788	30.93949	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW754A	NA	Finland	2015	63.3667605	24.639301	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW764A	NA	Finland	2016	60.7078321	22.2122694	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW767A	NA	Finland	2016	60.4230611	22.5249141	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW768A	NA	Finland	2016	60.08145	23.2422365	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW772A	NA	Finland	2017	60.9152347	21.6027238	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW773A	NA	Finland	2017	60.1524392	23.2557549	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW775A	NA	Finland	2017	62.4946793	21.9224993	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW776A	NA	Finland	2017	62.9853136	22.3796548	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW777A	NA	Finland	2017	60.4508201	24.8328959	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW780A	NA	Finland	2017	60.0330074	23.653432	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW973	6	Finland	2018	62.4359465	22.4217054	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW977	6	Finland	2017	64.0289819	24.3745799	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW978	6	Finland	2017	63.9921851	24.4585624	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW980	6	Finland	2017	63.6936051	22.8799924	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW982	6	Finland	2018	68.7714791	28.7307936	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW985	NA	Finland	2020	68.2397456	24.4553241	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW987	6	Finland	2019	66.8920486	28.8500604	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+W32	NA	Finland	2020	60.81808	22.60191	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+W35	NA	Finland	2020	63.56291	29.75275	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+W37	NA	Finland	2020	61.70168	24.92463	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+W59	NA	Finland	2020	60.99044	27.99769	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+W70	NA	Finland	2020	63.9249	25.58224	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+W72	NA	Finland	2020	65.15936	29.34185	Wolf	Wolf_Modern	Karelian	SWKAR	South Western Karelian
+MW023	6	Lithuania	2009	56.153484	25.194591	Wolf	Wolf_Modern	Baltic	SWKAR	South Western Karelian
+MW365	NA	Lithuania	2020	56.20177	24.75601	Wolf	Wolf_Modern	Baltic	SWKAR	South Western Karelian
+AW086	6	Norway	2009	64.246503	12.38226	Wolf	Wolf_Modern	Scandinavian	SWKAR	South Western Karelian
+G100-14	6	Sweden	2010.5	60.1282	18.6435	Wolf	Wolf_Modern	Scandinavian	SWKAR	South Western Karelian
+G23-13	NA	Sweden	1981	66.8788386	23.515903	Wolf	Wolf_Modern	Scandinavian	SWKAR	South Western Karelian
+G31-13	NA	Sweden	1981	66.8788386	23.515903	Wolf	Wolf_Modern	Scandinavian	SWKAR	South Western Karelian
+G67-15	NA	Sweden	2010	57.8096361	13.269262	Wolf	Wolf_Modern	Scandinavian	SWKAR	South Western Karelian
+AW538	14	Finland	2003	62.53633	24.18494	ZWolf	Wolf_Zoo	Karelian_captive	CASIA	Central Asian
+AW539	14	Finland	1999	62.53633	24.18494	ZWolf	Wolf_Zoo	Karelian_captive	CASIA	Central Asian
+AW541	14	Finland	1981	60.17487	24.98467	ZWolf	Wolf_Zoo	Karelian_captive	CASIA	Central Asian
+AW553	NA	Finland	2003	62.53633	24.18494	ZWolf	Wolf_Zoo	Karelian_captive	CASIA	Central Asian
+AW554	NA	Finland	2003	62.53633	24.18494	ZWolf	Wolf_Zoo	Karelian_captive	CASIA	Central Asian
+MW1002	14	Finland	1985	62.6734482	30.9116358	ZWolf	Wolf_Zoo	Karelian	CASIA	Central Asian
+MW1005	14	Finland	1986	62.5377395	24.1798262	ZWolf	Wolf_Zoo	Karelian	CASIA	Central Asian
+MW1006	14	Finland	1986	62.5377395	24.1798262	ZWolf	Wolf_Zoo	Karelian	CASIA	Central Asian
+MW1230	NA	Latvia	2019	57.0062	24.15753	ZWolf	Wolf_Zoo	Baltic_captive	CASIA	Central Asian
+MW1220	NA	Sweden	2020	60.1282	18.6435	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1221	NA	Sweden	2020	60.1282	18.6435	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1222	14	Sweden	2020	61.71045	16.15425	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1223	NA	Sweden	2020	61.71045	16.15425	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1224	NA	Sweden	2020	60.1282	18.6435	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1225	NA	Sweden	2020	60.1282	18.6435	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1226	NA	Sweden	2020	60.1282	18.6435	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1227	14	Sweden	2020	59.32442	18.10098	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1228	NA	Sweden	2020	59.32442	18.10098	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1229	14	Sweden	2018	61.21232	14.53508	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1231	14	Sweden	2019	59.32704	18.10374	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+MW1232	14	Sweden	2020	60.1282	18.6435	ZWolf	Wolf_Zoo	Scandinavian	CASIA	Central Asian
+MW1233	NA	Sweden	2020	60.1282	18.6435	ZWolf	Wolf_Zoo	Scandinavian_captive	CASIA	Central Asian
+

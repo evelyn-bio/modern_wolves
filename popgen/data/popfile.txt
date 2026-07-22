@@ -1,0 +1,11 @@
+M-07-06	SCAN
+M-09-05	SCAN
+M-98-01	SCAN
+GShepDog	DOG
+BasenjiDog	DOG
+FinnishLapphundDog	DOG
+Tasiilaq_51603	DOG
+AW105_merge Hybrid
+V3065 Hybrid
+V3064 Hybrid
+V3069 Hybrid

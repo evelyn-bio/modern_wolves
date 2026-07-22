@@ -32,28 +32,22 @@ This workflow includes:
   * OrientAGraph 
 
 * **Genetic diversity**
-  * Per-country nucleotide diversity (p).
+  * Per-country pi diversity.
 
 ---
 
 ## Workflow structure
 
 ```
-Imputed VCF
-      ¦
-      ?
-Quality control
-      ¦
-      ?
-Population structure
-      ¦
-      +--------? PCA
-      +--------? ADMIXTURE
-      +--------? HaploNet
-      +--------? D-statistics
-      +--------? f4-ratio
-      +--------? OrientAGraph
-      +--------? p Diversity
+- Quality control
+- Population structure
+      - PCA
+      - ADMIXTURE
+      - HaploNet
+      - D-statistics
+      - f4-ratio
+      - OrientAGraph
+      - pi Diversity
 ```
 
 ## Repository structure

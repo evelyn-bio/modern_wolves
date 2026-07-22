@@ -51,15 +51,6 @@ See `popgen/README.md` for details.
 
 ---
 
-## Citation
-
-If you use this workflow, please cite:
-
-E. T. Todd et al., The population structure and genetic health of European wolves. bioRxiv 10.64898/2026.03.20.712003 (2026).
-
-
----
-
 ## License
 
 This repository is released under the MIT License. See the `LICENSE` file for details.
