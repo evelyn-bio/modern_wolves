@@ -3,11 +3,11 @@
 #Date: 15/09/25
 ####################
 ##set env ----
-setwd("/projects/psg/people/pkb156/MW")
+setwd("/projects/psg/people/pkb156/MW_sub2")
 library(admixtools)
-df1<-read.table("Dstats/asian/Dstat_asian_NWIB.list", header=F)
+df1<-read.table("Dstats/ancient/Dstat_ancient_NWIB.list", header=F)
 
-Dstats1<-qpdstat("PH/phased.all.info08.name.nodups.maf01.tv",
+Dstats1<-qpdstat("PH/ancient_modern_merged",
         pop1 = unique(df1$V1),
         pop2 = unique(df1$V2),
         pop3 = unique(df1$V3),
@@ -17,11 +17,11 @@ Dstats1<-qpdstat("PH/phased.all.info08.name.nodups.maf01.tv",
         f4mode=FALSE)
 str(Dstats1)
 
-saveRDS(Dstats1, file = "Dstats/asian/Dstat_asian_NWIB.rds")
+saveRDS(Dstats1, file = "Dstats/ancient/Dstat_ancient_NWIB.rds")
 
-df2<-read.table("Dstats/asian/Dstat_asian_SCAN.list", header=F)
+df2<-read.table("Dstats/ancient/Dstat_ancient_SCAN.list", header=F)
 
-Dstats2<-qpdstat("PH/phased.all.info08.name.nodups.maf01.tv",
+Dstats2<-qpdstat("PH/ancient_modern_merged",
         pop1 = unique(df2$V1),
         pop2 = unique(df2$V2),
         pop3 = unique(df2$V3),
@@ -31,4 +31,4 @@ Dstats2<-qpdstat("PH/phased.all.info08.name.nodups.maf01.tv",
         f4mode=FALSE)
 str(Dstats2)
 
-saveRDS(Dstats2, file = "Dstats/asian/Dstat_asian_SCAN.rds")
+saveRDS(Dstats2, file = "Dstats/ancient/Dstat_ancient_SCAN.rds")

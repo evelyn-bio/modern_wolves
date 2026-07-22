@@ -1,0 +1,11 @@
+#convertf for ancient samples
+genotypename: Dstats/combined.nodups.maf01.tv.ped
+snpname: Dstats/combined.nodups.maf01.tv.map
+indivname: Dstats/combined.nodups.maf01.tv.ped
+outputformat: EIGENSTRAT
+genotypeoutname: PH/combined.nodups.maf01.tv.geno
+snpoutname:      PH/combined.nodups.maf01.tv.snp
+indivoutname:    PH/combined.nodups.maf01.tv.indiv
+familynames: NO
+checksizemode: NO
+

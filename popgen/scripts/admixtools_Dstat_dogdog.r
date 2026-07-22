@@ -3,11 +3,11 @@
 #Date: 15/09/25
 ####################
 ##set env ----
-setwd("/projects/psg/people/pkb156/MW")
+setwd("/projects/psg/people/pkb156/MW_sub2")
 library(admixtools)
-df1<-read.table("Dstats/ancientdog/Dstat_ancientdog.list", header=F)
+df1<-read.table("Dstats/dogdog/Dstat_dogdog.list", header=F)
 
-Dstats1<-qpdstat("PH/ancient_modern_merged",
+Dstats1<-qpdstat("Dstats/combined.nodups.maf01.tv",
         pop1 = unique(df1$V1),
         pop2 = unique(df1$V2),
         pop3 = unique(df1$V3),
@@ -17,4 +17,4 @@ Dstats1<-qpdstat("PH/ancient_modern_merged",
         f4mode=FALSE)
 str(Dstats1)
 
-saveRDS(Dstats1, file = "Dstats/ancientdog/Dstat_ancientdog.rds")
+saveRDS(Dstats1, file = "Dstats/dogdog/Dstat_dogdog.rds")

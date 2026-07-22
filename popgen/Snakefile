@@ -1,0 +1,882 @@
+#snakemake  --use-conda --use-env --workflow-profile slurm
+configfile: "config.yaml"
+#load modules
+shell.prefix("module load " + " ".join(config["modules"]) + " || true; ")
+
+#Population genomic analyses of modern wolf genomes.
+__author__ = "Evelyn Todd"
+__copyright__ = "Copyright (c) 2026 Evelyn Todd"
+__license__ = "MIT"
+
+rule all:
+    input:
+      "popgen/combined.kin0",
+      "popgen/combined.nodups.vcf.gz",
+      "popgen/combined.norelated.vcf.gz",
+      "popgen/combined_infoscore.kin0",
+      "king/removedups_infoscore.txt",
+      "king/removerelated_infoscore.txt",
+      "popgen/combined.norelated.maf01.vcf.gz",
+      "popgen/combined.nodups.maf01.vcf.gz",
+      "popgen/combined.europeanwolves.nodups.maf01.vcf.gz",
+      "popgen/combined.europeanwolves.norelated.maf01.vcf.gz",
+      "smartpca/combined.europeanwolves.nodups.maf01.evec",
+      "smartpca/combined.europeanwolves.nodups.maf01.eval",
+      expand("haplonet/europeanall/rep{rep}/haplonet.admixture.k{K}.q", K=config["K_range"], rep=[1, 2, 3]),
+      expand("haplonet/europeanall/rep{rep}/haplonet.admixture.k{K}.log", K=config["K_range"], rep=[1, 2, 3]),
+      "haplonet/europeanall/names.list",
+      "Dstats/dog/Dstat_dog_NWIB.rds",
+      "Dstats/dog/Dstat_dog_SCAN.rds",
+      "Dstats/wild/Dstat_wild_NWIB.rds",
+      "Dstats/wild/Dstat_wild_SCAN.rds",
+      "Dstats/ancientmodern/Dstat_ancientmodern.rds",
+      "Dstats/ancientdog/Dstat_ancientdog.rds",
+      "Dstats/dogdog/Dstat_dogdog.rds",
+      "Dstats/asian/Dstat_asian_SCAN.rds",
+      "Dstats/asian/Dstat_asian_NWIB.rds",
+      "Dstats/ancient/Dstat_ancient_SCAN.rds",
+      "Dstats/ancient/Dstat_ancient_NWIB.rds",
+      "qpadm/f4ratio_all.RData",
+      expand("admixture/combined.europeanwolves.norelated.maf01.prune.{k}.Q", k=config["K_range"]),
+      expand("PH/angsd_genotypes/{chr}_ancient_PH.haplo.gz", chr=config["chromosomes"]),
+      "PH/ancient_modern_merged.ind",
+      expand("orientagraph/og_rep/allpop_m{m}_rep{r}.treeout.gz", m=config["migrations"], r=config["replicates"]),
+      expand("orientagraph/og_log/log_allpop_m{m}_rep{r}.log", m=config["migrations"], r=config["replicates"]),
+      expand("orientagraph/og_rep2/allpop_m{m}_rep{r}.treeout.gz", m=config["migrations"], r=config["replicates"]),
+      expand("orientagraph/og_log2/log_allpop_m{m}_rep{r}.log", m=config["migrations"], r=config["replicates"]),
+      expand("pidiversity/country/{country}_pi5000_all.windowed.pi", country=config["pi_locations"]),
+      expand("pidiversity/country/{country}_average_pi.txt", country=config["pi_locations"]),
+      "pidiversity/country/average_pi5000_all.txt"
+      
+# ---- RELATED: identify related samples in king ----
+rule king_related:
+    input: 
+        vcf=config["vcf"]
+    output: 
+        kin="popgen/combined.kin0",
+        dups="king/removedups.txt",
+        related="king/removerelated.txt",
+        bed="popgen/combined.bed",
+        bim="popgen/combined.bim",
+        fam="popgen/combined.fam"
+    resources:
+        mem_mb=80000,
+        runtime=1*60
+    params:    
+        prefix = "popgen/combined"
+    shell:
+        """
+        plink --vcf {input.vcf} --double-id --dog --make-bed --out {params.prefix}
+        king -b {params.prefix}.bed --related --sexchr 39 --prefix {params.prefix} --degree 2
+        awk '$14=="Dup/MZ"{{print $4}}' {output.kin} > {output.dups}
+        awk 'NR>1 && $10>0.177{{if(!seen[$3]++) print $3}}' {output.kin} > {output.related}
+        """
+
+# ---- RELATED: identify related samples in king using infoscore file ----
+rule king_relate_infoscore:
+    input: 
+        vcf=config["vcf"]
+    output: 
+        kin="popgen/combined_infoscore.kin0",
+        dups="king/removedups_infoscore.txt",
+        related="king/removerelated_infoscore.txt"
+    resources:
+        mem_mb=80000,
+        runtime=1*60
+    params:    
+        prefix = "popgen/combined_infoscore"
+    shell:
+        """
+        plink --vcf {input.vcf} --double-id --dog --make-bed --out {params.prefix}
+        king -b {params.prefix}.bed --related --sexchr 39 --prefix {params.prefix} --degree 2
+        awk '$14=="Dup/MZ"{{print $4}}' {output.kin} > {output.dups}
+        awk 'NR>1 && $10>0.177{{if(!seen[$3]++) print $3}}' {output.kin} > {output.related}
+        """
+
+# ---- FILE FILTER: remove dups ----
+rule remove_dups:
+    input: 
+      vcf=config["vcf"],
+      rmfile="king/removedups.txt"
+    output: 
+      vcf="popgen/combined.nodups.vcf.gz",
+      vcfidx="popgen/combined.nodups.vcf.gz.csi",
+      vcfstats="popgen/combined.nodups.stats"    
+    resources:
+      mem_mb=30000,
+      runtime=3*60
+    threads: 4
+    shell:
+        """
+        bcftools view -Oz --threads 4 -S ^{input.rmfile} --force-samples {input.vcf} -o {output.vcf}
+        bcftools index -f {output.vcf}
+        bcftools stats {output.vcf} > {output.vcfstats}
+        """
+
+# ---- FILE FILTER: remove related ----
+rule remove_related:
+    input: 
+      vcf=config["vcf"],
+      rmfile="king/removerelated.txt"
+    output: 
+      vcf="popgen/combined.norelated.vcf.gz",
+      vcfidx="popgen/combined.norelated.vcf.gz.csi",
+      vcfstats="popgen/combined.norelated.stats"
+    params: 
+      rmfile="king/removerelated.txt"
+    resources:
+      mem_mb=30000,
+      runtime=3*60
+    threads: 4
+    shell:
+        """
+        bcftools view -Oz --threads 4 -S ^{input.rmfile} --force-samples {input.vcf} -o {output.vcf}
+        bcftools index -f {output.vcf}
+        bcftools stats {output.vcf} > {output.vcfstats}
+        """
+
+# ---- FILE FILTER: apply MAF filter ----
+rule maf_filter:
+    input:
+      "popgen/combined.{subset}.vcf.gz"
+    output: 
+      vcf="popgen/combined.{subset}.maf01.vcf.gz",
+      vcfidx="popgen/combined.{subset}.maf01.vcf.gz.csi",
+      vcfstats="popgen/combined.{subset}.maf01.stats"
+    resources:
+      mem_mb=30000,
+      runtime=3*60
+    threads: 4
+    shell:
+        """
+        bcftools view -Oz --threads 4 -i 'MAF>=0.01' {input} -o {output.vcf}
+        bcftools index -f {output.vcf}
+        bcftools stats {output.vcf} > {output.vcfstats}
+        """
+        
+##----- D-stats for dog ancestry----
+rule dstat_plink_convert:
+    input:
+        vcf="popgen/combined.nodups.maf01.vcf.gz"
+    output:
+        bed="Dstats/combined.nodups.maf01.tv.bed",
+        bim="Dstats/combined.nodups.maf01.tv.bim",
+        fam="Dstats/combined.nodups.maf01.tv.fam",
+        vcf="Dstats/combined.nodups.maf01.tv.vcf.gz"
+    resources:
+        mem_mb=50000,
+        runtime=2*60
+    params: 
+      file="Dstats/combined.nodups.maf01.tv"
+    shell:
+        """
+        # select transversions only
+        zcat {input.vcf} |  awk -F '\t' '(($4 == "A" && $5 == "C") || ($4 == "C" && $5 == "A") || \
+        ($4 == "C" && $5 == "G") || ($4 == "G" && $5 == "C") || ($4 == "T" && $5 == "G") || \
+        ($4 == "A" && $5 == "T") || ($4 == "T" && $5 == "G") || ($4 == "G" && $5 == "T") || \
+        ($4 == "T" && $5 == "A") || $0 ~ /^#/ )' | bgzip -c  >  {params.file}.vcf.gz
+        bcftools index {params.file}.vcf.gz
+        # Convert to PLINK format
+        plink --vcf {params.file}.vcf.gz \
+              --dog --double-id --allow-extra-chr \
+              --make-bed \
+              --out {params.file}
+
+        # Fix BIM file naming
+        awk '{{ $2 = "chr" $1 "_" $4; print }}' {params.file}.bim > {params.file}.snp.bim
+        mv {params.file}.snp.bim {params.file}.bim
+        """
+        
+rule dstat_dog:
+    input:
+        indiv = "Dstats/combined.nodups.maf01.tv.fam",
+        scripts = "scripts/admixtools_Dstat_dog.r"
+    output:
+          nwib="Dstats/dog/Dstat_dog_NWIB.list",
+          scan="Dstats/dog/Dstat_dog_SCAN.list",
+          dstats1="Dstats/dog/Dstat_dog_NWIB.rds",
+          dstats2="Dstats/dog/Dstat_dog_SCAN.rds"
+    conda:
+        "Renv"
+    resources:
+        mem_mb=80000,
+        runtime=3*60
+    shell:
+        """
+        # MW122_merged (NWIB)
+        awk '{{print "AndeanFox\tBasenjiDog\tMW122_merged\t" $1}}' {input.indiv} > {output.nwib}
+        awk '{{print "AndeanFox\tTasiilaq_51603\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tGShepDog\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tFinnishLapphundDog\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        # MW145 (SCAN)
+        awk '{{print "AndeanFox\tBasenjiDog\tMW145_merged\t" $1}}' {input.indiv} > {output.scan}
+        awk '{{print "AndeanFox\tTasiilaq_51603\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tGShepDog\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tFinnishLapphundDog\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        conda activate Renv
+        Rscript {input.scripts} --vanilla
+        """
+
+
+#exclude samples with dog dstat with Z score over 20, resamples, contaminatedsamples
+rule euro_subset:
+    input:
+        vcf="popgen/combined.{subset}.vcf.gz",
+        vcfidx="popgen/combined.{subset}.vcf.gz.csi",
+        european="data/europeanwolvesonlytarget.txt",
+        dog_dstats="data/exclude_dogintrogression_Dstats.txt"
+    output: 
+        vcf="popgen/combined.europeanwolves.{subset}.maf01.vcf.gz",
+        vcfstats="popgen/combined.europeanwolves.{subset}.maf01.stats"
+    resources:
+        mem_mb=30000,
+        runtime=3*60
+    threads: 4
+    shell:
+        """
+        bcftools view -Oz --threads {threads} --force-samples -S {input.european} {input.vcf} | \
+        bcftools view -i 'MAF>=0.01' --threads {threads} --force-samples -S ^{input.dog_dstats} - -o {output.vcf}
+        bcftools index -f {output.vcf}
+        bcftools stats {output.vcf} > {output.vcfstats}
+        """
+
+# ---- SMARTPCA: european wolves ----
+rule smartpca_subset_european:
+    input:
+        vcf="popgen/combined.europeanwolves.nodups.maf01.vcf.gz",
+        convertf="scripts/convertf_wolves_european.par",
+        rscript="scripts/smartpca_related.r",
+        smartpca="scripts/smartpca_wolves_european.par",
+        euwolves=config["eu_wolves_only_list"]
+    output:
+        "smartpca/combined.europeanwolves.nodups.maf01.evec",
+        "smartpca/combined.europeanwolves.nodups.maf01.eval"
+    resources:
+        mem_mb = 150000,
+        runtime = 10*60
+    conda:
+        "Renv"
+    params:    
+        prefix = "smartpca/combined.europeanwolves.nodups.maf01"
+    shell:
+        """
+        plink --vcf {input.vcf} --dog --double-id --allow-extra-chr \
+              --keep-fam {input.euwolves} --recode \
+              --out {params.prefix}
+
+        convertf -p {input.convertf}
+
+        Rscript {input.rscript} \
+            {params.prefix}.indiv \
+            king/removerelated.txt \
+            {params.prefix}.norelated.indiv \
+            --vanilla
+
+        smartpca -p {input.smartpca}
+        """
+
+# ---- Haplonet: admixture european wolves ----
+rule haplonet_npy:
+    input:
+        vcf="haplonet/europeanall/combined.europeanwolves.norelated.maf01.chr{chr}.vcf.gz"
+    output:
+        npy="haplonet/europeanall/rep{rep}/haplonet.chr{chr}.loglike.npy"
+    resources:
+        mem_mb = 150000,
+        runtime = 15 * 60
+    conda:
+        "haplonet"
+    shell:
+        """
+        haplonet train --vcf {input.vcf} --seed {wildcards.rep} --out haplonet/europeanall/rep{wildcards.rep}/haplonet.chr{wildcards.chr}
+        """
+
+rule haplonet_filelist:
+    input:
+        npys=expand("haplonet/europeanall/rep{{rep}}/haplonet.chr{chr}.loglike.npy", chr=config["chromosomes"])
+    output:
+        "haplonet/europeanall/rep{rep}/haplonet.filelist"
+    run:
+        with open(output[0], "w") as f:
+            for npy in input.npys:
+                f.write(npy + "\n")
+
+rule haplonet_admix:
+    input:
+        filelist="haplonet/europeanall/rep{rep}/haplonet.filelist"
+    output:
+        q  ="haplonet/europeanall/rep{rep}/haplonet.admixture.k{K}.q",
+        npy="haplonet/europeanall/rep{rep}/haplonet.admixture.k{K}.f.npy",
+        log="haplonet/europeanall/rep{rep}/haplonet.admixture.k{K}.log"
+    threads: 4
+    resources:
+        mem_mb = 150000,
+        runtime = 15 * 60
+    conda:
+        "haplonet"
+    shell:
+        """
+        haplonet admix \
+            --filelist {input.filelist} \
+            --K {wildcards.K} \
+            --threads {threads} \
+            --seed {wildcards.rep} \
+            --out haplonet/europeanall/rep{wildcards.rep}/haplonet.admixture.k{wildcards.K} \
+            2>&1 | tee {output.log}
+        """
+        
+rule haplonet_header:
+    input:
+        vcf = "haplonet/europeanall/combined.europeanwolves.norelated.maf01.chr38.vcf.gz"
+    output:
+        list="haplonet/europeanall/names.list"
+    resources:
+        mem_mb = 20000,
+        runtime = 60
+    shell:
+        """
+        bcftools query -l {input.vcf} > {output.list}
+        """       
+
+# ---- ADMIXTURE: european wolves ----    
+rule admixture_preprocessing_european:
+    input:
+        vcf="popgen/combined.europeanwolves.norelated.maf01.vcf.gz",
+    output:
+        ped="admixture/combined.europeanwolves.norelated.maf01.prune.ped",
+        map="admixture/combined.europeanwolves.norelated.maf01.prune.map"
+    resources:
+        mem_mb = 20000,
+        runtime = 3*60
+    shell:
+        """
+        plink --vcf {input.vcf} \
+              --dog --allow-extra-chr --double-id --make-bed \
+              --out admixture/combined.europeanwolves.norelated.maf01
+
+        # Fix BIM file naming
+        awk '{{ $2 = "chr"$1"_"$4; print }}' \
+            admixture/combined.europeanwolves.norelated.maf01.bim > \
+            admixture/combined.europeanwolves.norelated.maf01.tmp.bim
+        mv admixture/combined.europeanwolves.norelated.maf01.tmp.bim \
+           admixture/combined.europeanwolves.norelated.maf01.bim
+
+        # LD prune
+        plink --bfile admixture/combined.europeanwolves.norelated.maf01 \
+              --indep-pairwise 500 50 0.1 \
+              --dog --allow-extra-chr --keep-allele-order \
+              --out admixture/combined.europeanwolves.norelated.maf01.prune
+
+        # Recode pruned dataset
+        plink --bfile admixture/combined.europeanwolves.norelated.maf01 \
+              --extract admixture/combined.europeanwolves.norelated.maf01.prune.prune.in \
+              --recode 12 --dog \
+              --out admixture/combined.europeanwolves.norelated.maf01.prune
+        """
+
+rule admixture_run_european:
+    input:
+        ped="admixture/combined.europeanwolves.norelated.maf01.prune.ped",
+        map="admixture/combined.europeanwolves.norelated.maf01.prune.map"
+    output:
+        log="admixture/combined.europeanwolves.norelated.maf01.prune.{k}.log",
+        Qfile="admixture/combined.europeanwolves.norelated.maf01.prune.{k}.Q",
+        Pfile="admixture/combined.europeanwolves.norelated.maf01.prune.{k}.P",
+    resources:
+        mem_mb = 50000,
+        runtime = 7 * 60
+    params:
+          file="combined.europeanwolves.norelated.maf01.prune.{k}"
+    shell:
+        """
+        admixture --cv {input.ped} {wildcards.k} | tee {output.log}
+        mv {params.file}.Q {output.Qfile}
+        mv {params.file}.P {output.Pfile}
+        """
+        
+
+# ---- ANGSD: PH ancient wolves for Dstats ----
+rule ancient_PH:
+    input:
+        vcf="Dstats/combined.nodups.maf01.tv.vcf.gz",
+        ref=config["ref_genome"],
+        bamlist=config["ancient_bams"]
+    output:
+        sites="PH/sites/combined.nodups.maf01.{chr}.tv.positions.txt",
+        haplo="PH/angsd_genotypes/{chr}_ancient_PH.haplo.gz",
+        plink_bed="PH/angsd_genotypes/{chr}_ancient_PH.bed",
+        plink_bim="PH/angsd_genotypes/{chr}_ancient_PH.bim",
+        plink_fam="PH/angsd_genotypes/{chr}_ancient_PH.fam",
+        plink_positions="PH/sites/plink.{chr}.tv.positions.txt"
+    resources:
+        mem_mb=40000,
+        runtime=4*60
+    shell:
+        """
+        set -euo pipefail
+        # extract site list
+        bcftools query -f '%CHROM\\t%POS\\t%REF\\t%ALT\\n' -r chr{wildcards.chr} {input.vcf} -o {output.sites}
+        # index reference
+        #samtools faidx {input.ref}
+        # index sites for ANGSD
+        angsd sites index {output.sites}
+        # run ANGSD
+        angsd -bam {input.bamlist} -checkBamHeaders 0 \
+            -dohaplocall 1 -doCounts 1 -doMajorMinor 3 -ref {input.ref} \
+            -remove_bads 1 -C 50 -minMapQ 25 -minQ 30 -uniqueOnly 1 -baq 1 \
+            -r chr{wildcards.chr} -sites {output.sites} \
+            -out PH/angsd_genotypes/{wildcards.chr}_ancient_PH
+        # convert to PLINK format
+        haploToPlink {output.haplo} PH/angsd_genotypes/{wildcards.chr}_ancient_PH
+        # clean zeros in TPED file
+        sed -i 's/N/0/g' PH/angsd_genotypes/{wildcards.chr}_ancient_PH.tped
+        # make PLINK binary files
+        plink --tfile PH/angsd_genotypes/{wildcards.chr}_ancient_PH \
+            --allow-extra-chr --dog --make-bed --double-id \
+            --out PH/angsd_genotypes/{wildcards.chr}_ancient_PH --keep-allele-order
+        awk '{{ print $1 "_" $2 }}' {output.sites} > {output.plink_positions}       
+        """
+
+
+rule ancient_PH_combine:
+    input:
+        bed=expand("PH/angsd_genotypes/{chr}_ancient_PH.bed", chr=config["chromosomes"]),
+        bim=expand("PH/angsd_genotypes/{chr}_ancient_PH.bim", chr=config["chromosomes"]),
+        fam=expand("PH/angsd_genotypes/{chr}_ancient_PH.fam", chr=config["chromosomes"]),
+        plink_positions=expand("PH/sites/plink.{chr}.tv.positions.txt", chr=config["chromosomes"]),
+        modern_bed="Dstats/combined.nodups.maf01.tv.bed",
+        modern_bim="Dstats/combined.nodups.maf01.tv.bim",
+        modern_fam="Dstats/combined.nodups.maf01.tv.fam",
+        bamnames="data/ancientwolves_bamnames.txt",
+        convertfancient="scripts/convertf_ancient.par",
+        convertfmodern="scripts/convertf_modern.par",
+        mergeit="scripts/mergeit_ancient_modern.par"
+    output:
+        combined_ped="PH/angsd_genotypes/combined.ped",
+        combined_map="PH/angsd_genotypes/combined.map",
+        merged_ind="PH/ancient_modern_merged.indiv"
+    resources:
+        mem_mb=60000,
+        runtime=4*60
+    shell:
+        """
+        # Create list of ancient files
+        rm -f PH/angsd_genotypes/filelist
+        for f in {input.bed}; do
+            echo "${{f%.bed}}" >> PH/angsd_genotypes/filelist
+        done
+
+        # Merge ancient chromosomes
+        plink --merge-list PH/angsd_genotypes/filelist \
+              --allow-extra-chr --dog --recode \
+              --out PH/angsd_genotypes/combined
+        
+        # Replace names in ped file
+        awk 'NR==FNR {{a[NR]=$1; next}} {{$1=a[FNR]; $2=a[FNR]; print}}' \
+        {input.bamnames} PH/angsd_genotypes/combined.ped > PH/angsd_genotypes/combined.tmp.ped
+        mv PH/angsd_genotypes/combined.tmp.ped PH/angsd_genotypes/combined.ped
+              
+        awk '{{ $2 = "chr" $1 "_" $4; print }}' Dstats/combined.nodups.maf01.tv.bim > Dstats/combined.nodups.maf01.tv.snp.bim
+        mv Dstats/combined.nodups.maf01.tv.snp.bim Dstats/combined.nodups.maf01.tv.bim
+        
+        # make ped file
+        plink --bfile Dstats/combined.nodups.maf01.tv \
+              --dog --allow-extra-chr --recode \
+              --out Dstats/combined.nodups.maf01.tv
+
+
+        # Convert to eigenstrat
+        convertf -p {input.convertfmodern}
+        convertf -p {input.convertfancient}
+
+        # Merge ancient + modern
+        mergeit -p scripts/mergeit_ancient_modern.par > PH/mergeit.log
+        """
+        
+# ---- ADMIXTOOLS: Dstats and f4ratio ----  
+
+rule dstat_ancient:
+    input:
+        indiv = "Dstats/combined.nodups.maf01.tv.fam",
+        scripts = "scripts/admixtools_Dstat_ancient.r"
+    output:
+        nwib = "Dstats/ancient/Dstat_ancient_NWIB.list",
+        scan = "Dstats/ancient/Dstat_ancient_SCAN.list",
+        dstats1="Dstats/ancient/Dstat_ancient_SCAN.rds",
+        dstats2="Dstats/ancient/Dstat_ancient_NWIB.rds"
+    conda:
+        "Renv"
+    resources:
+        mem_mb=80000,
+        runtime=2*60
+    shell:
+        """
+        # MW122_merged (NWIB)
+        awk '{{print "AndeanFox\tIN18-005\tMW122_merged\t" $1}}' {input.indiv} > {output.nwib}
+        awk '{{print "AndeanFox\tAL2657\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tCGG33\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tJK2181\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tTumat2\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tJK2179\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tTU839\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tTU840\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tAL2370\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tDS-CANIS-HMNH-011\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tAL3185\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tAL2350\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tPON012\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tCANIS-HMNH-007\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        # MW145_merged (SCAN)
+        awk '{{print "AndeanFox\tIN18-005\tMW145_merged\t" $1}}' {input.indiv} > {output.scan}
+        awk '{{print "AndeanFox\tAL2657\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tCGG33\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tJK2181\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tTumat2\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tJK2179\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tTU839\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tTU840\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tAL2370\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tDS-CANIS-HMNH-011\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tAL3185\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tAL2350\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tPON012\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tCANIS-HMNH-007\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        Rscript {input.scripts} --vanilla
+        """
+        
+rule dstat_ancientmodern:
+    input:
+        indiv = "Dstats/combined.nodups.maf01.tv.fam",
+        scripts = "scripts/admixtools_Dstat_ancient.r"
+    output:
+        list = "Dstats/ancientmodern/Dstat_ancientmodern.list",
+        dstats="Dstats/ancientmodern/Dstat_ancientmodern.rds",
+    conda:
+        "Renv"
+    resources:
+        mem_mb=150000,
+        runtime=3*60
+    shell:
+        """
+        for p2 in JK2179 TU839 TU840 AL2370 DS-CANIS-HMNH-011 AL3185 CANIS-HMNH-007
+        do
+        awk -v p2="$p2" '{{ids[++n] = $1}}
+        END {{
+          for (i = 1; i <= n; i++) {{
+            for (j = i + 1; j <= n; j++) {{
+              print "AndeanFox\t" p2 "\t" ids[i] "\t" ids[j]
+              }}
+            }}
+          }}' {input.indiv} >> {output.list}
+        done
+
+        Rscript {input.scripts} --vanilla
+        """
+        
+rule dstat_wild:
+    input:
+        indiv = "Dstats/combined.nodups.maf01.tv.fam",
+        scripts = "scripts/admixtools_Dstat_dog.r"
+    output:
+        nwib = "Dstats/wild/Dstat_wild_NWIB.list",
+        scan = "Dstats/wild/Dstat_wild_SCAN.list",
+        dstats1 = "Dstats/wild/Dstat_wild_SCAN.rds",
+        dstats2 = "Dstats/wild/Dstat_wild_NWIB.rds"
+    conda:
+        "Renv"
+    resources:
+        mem_mb=120000,
+        runtime=2*60
+    shell:
+        """
+        # MW122_merged (NWIB)
+        awk '{{print "AndeanFox\tKenyaJackal\tMW122_merged\t" $1}}' {input.indiv} > {output.nwib}
+        awk '{{print "AndeanFox\tMW692\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tBerlinZoo\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tKruger\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        # MW145 (SCAN)
+        awk '{{print "AndeanFox\tKenyaJackal\tMW145_merged\t" $1}}' {input.indiv} > {output.scan}
+        awk '{{print "AndeanFox\tMW692\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tBerlinZoo\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tKruger\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        conda activate Renv
+        Rscript {input.scripts} --vanilla
+        """
+        
+rule dstat_asian:
+    input:
+        indiv = "Dstats/combined.nodups.maf01.tv.fam",
+        scripts = "scripts/admixtools_Dstat_asian.r"
+    output:
+        nwib = "Dstats/asian/Dstat_asian_NWIB.list",
+        scan = "Dstats/asian/Dstat_asian_SCAN.list",
+        dstats1="Dstats/asian/Dstat_asian_SCAN.rds",
+        dstats2="Dstats/asian/Dstat_asian_NWIB.rds"
+    conda:
+        "Renv"
+    resources:
+        mem_mb=50000,
+        runtime=6*60
+    shell:
+        """
+        # MW122 (NWIB)
+        awk '{{print "AndeanFox\tMW1063\tMW122_merged\t" $1}}' {input.indiv} > {output.nwib}
+        awk '{{print "AndeanFox\tMW522\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        awk '{{print "AndeanFox\tMW167\tMW122_merged\t" $1}}' {input.indiv} >> {output.nwib}
+        # MW145 (SCAN)
+        awk '{{print "AndeanFox\tMW1063\tMW145_merged\t" $1}}' {input.indiv} > {output.scan}
+        awk '{{print "AndeanFox\tMW522\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        awk '{{print "AndeanFox\tMW167\tMW145_merged\t" $1}}' {input.indiv} >> {output.scan}
+        Rscript {input.scripts} --vanilla
+        """
+
+                   
+rule dstat_dogdog:
+    input:
+        indiv = "Dstats/combined.nodups.maf01.tv.fam",
+        scripts = "scripts/admixtools_Dstat_dogdog.r"
+    output:
+        list="Dstats/dogdog/Dstat_dogdog.list",
+        dstats="Dstats/dogdog/Dstat_dogdog.rds"
+    conda:
+        "Renv"
+    resources:
+        mem_mb=50000,
+        runtime=6*60
+    shell:
+        """
+        awk '{{print "AndeanFox\t" $1 "\tBasenjiDog\tGShepDog"}}' {input.indiv} > {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tTasiilaq_51603\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tFinnishLapphundDog\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tBasenjiDog\tFinnishLapphundDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tTasiilaq_51603\tFinnishLapphundDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tBasenjiDog\tTasiilaq_51603"}}' {input.indiv} >> {output.list}
+        Rscript {input.scripts} --vanilla
+        """
+        
+        
+rule dstat_ancientdog:
+    input:
+        indiv = "Dstats/combined.nodups.maf01.tv.fam",
+        scripts = "scripts/admixtools_Dstat_ancientdog.r"
+    output:
+        list="Dstats/ancientdog/Dstat_ancientdog.list",
+        dstats="Dstats/ancientdog/Dstat_ancientdog.rds"
+    conda:
+        "Renv"
+    resources:
+        mem_mb=80000,
+        runtime=1*60
+    shell:
+        """
+        awk '{{print "AndeanFox\t" $1 "\tAL2657\tGShepDog"}}' {input.indiv} > {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tIN18-005\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tCGG33\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tJK2181\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tTumat2\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tJK2179\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tTU839\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tTU840\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tAL2370\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tDS-CANIS-HMNH-011\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tAL3185\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tAL2350\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tPON012\tGShepDog"}}' {input.indiv} >> {output.list}
+        awk '{{print "AndeanFox\t" $1 "\tCANIS-HMNH-007\tGShepDog"}}' {input.indiv} >> {output.list}
+        Rscript {input.scripts} --vanilla
+        """
+
+rule f4_ratio:
+    input:
+        indiv = "Dstats/combined.nodups.maf01.tv.fam",
+        scripts = "scripts/f4ratio_1.r"
+    output:
+        "qpadm/f4ratio_all.RData"
+    conda:
+        "Renv"
+    resources:
+        mem_mb=60000,
+        runtime=24*60
+    shell:
+        """
+        Rscript {input.scripts} --vanilla
+        """
+
+# ---- ORIENTAGRAPH: topology  ----           
+rule orientagraph_preprocessing_all:
+    input:
+        ids="scripts/europeanwolves_Afox.txt",
+        bed="popgen/combined.bed",
+        bim="popgen/combined.bim",
+        fam="popgen/combined.fam",
+        snps="admixture/combined.europeanwolves.norelated.maf01.prune.prune.in",
+        renamepops="scripts/populations.r"
+    params:
+        plink="popgen/combined"
+    output:
+        strat="orientagraph/european.fox.prune.input.frq.strat.gz"
+    resources:
+        mem_mb = 20000,
+        runtime = 10
+    conda:
+        "Renv" 
+    shell:
+        """
+        #rename the snps in the plink file
+        awk '{{ $2 = "chr" $1 "_" $4; print }}' {params.plink}.bim > popgen/combined.snp.bim
+        mv popgen/combined.snp.bim {params.plink}.bim 
+        #filter for European wolves
+        plink --bfile {params.plink} --keep-fam {input.ids} --extract {input.snps} --make-bed --dog \
+        --out orientagraph/european.fox.prune
+        #rename the populations
+        Rscript {input.renamepops}  --vanilla
+        #convert to the treemix format
+        plink --bfile orientagraph/european.fox.prune --family --dog --freq --out orientagraph/european.fox.prune.input
+        gzip orientagraph/european.fox.prune.input.frq.strat
+        """
+
+rule orientagraph_preprocessing_all2:
+    input:
+        strat="orientagraph/european.fox.prune.input.frq.strat.gz",
+        py="scripts/plink2treemix.py"
+    output:
+        ogfile="orientagraph/european.fox.prune.input.frq.gz"
+    resources:
+        mem_mb = 20000,
+        runtime = 1*60
+    shell:
+        """
+        module purge
+        module load python/2.7.17
+        module load plink/1.9.0
+        module load openblas/0.3.24
+        python "{input.py}" "{input.strat}" "{output.ogfile}" || echo "Script exited with $?"
+        """        
+
+rule run_orientagraph_all:
+    input:
+        freq="orientagraph/european.fox.prune.input.frq.gz" 
+    output:
+        "orientagraph/og_rep/allpop_m{m}_rep{r}.treeout.gz",
+        log="orientagraph/og_log/log_allpop_m{m}_rep{r}.log"
+    resources:
+        mem_mb=200000,
+        runtime=45*60
+    conda:
+        "orientagraph"
+    shell:
+        """
+        set -euo pipefail
+        # Run OrientAGraph
+        orientagraph -i {input.freq} -m {wildcards.m} \
+        -o orientagraph/og_rep/allpop_m{wildcards.m}_rep{wildcards.r} \
+        -k 2000 -root "AndeanFox" -mlno > {output.log} 2>&1
+        # Fail if treeout.gz was not created
+        if [ ! -f {output[0]} ]; then
+            echo "Error: {output[0]} not created" >&2
+            exit 1
+        fi
+        """
+
+rule orientagraph_preprocessing_noSWASIA:
+    input:
+        bim="orientagraph/european.fox.prune.bim",
+        py="scripts/plink2treemix.py"
+    params:
+      plink="orientagraph/european.fox.prune"
+    output:
+        ogfile="orientagraph/european.fox.prune.noSWASIA.input.frq.gz"
+    resources:
+        mem_mb = 20000,
+        runtime = 40
+    shell:
+        """
+        module purge
+        module load python/2.7.17
+        module load plink/1.9.0
+        module load openblas/0.3.24
+        echo "SWASIA" > orientagraph/SWASIA.txt
+        plink --bfile {params.plink} --remove-fam data/SWASIA.txt --make-bed --dog \
+        --out orientagraph/european.fox.prune.noSWASIA   
+
+        #convert to frq format
+        plink --bfile orientagraph/european.fox.prune.noSWASIA --family --dog --freq \
+        --out orientagraph/european.fox.prune.noSWASIA.input
+        gzip orientagraph/european.fox.prune.noSWASIA.input.frq.strat
+        python {input.py} orientagraph/european.fox.prune.noSWASIA.input.frq.strat.gz  {output.ogfile}
+        """
+
+rule run_orientagraph_noSWASIA:
+    input:
+        freq="orientagraph/european.fox.prune.noSWASIA.input.frq.gz" 
+    output:
+        "orientagraph/og_rep2/allpop_m{m}_rep{r}.treeout.gz",
+        log="orientagraph/og_log2/log_allpop_m{m}_rep{r}.log"
+    resources:
+        mem_mb=lambda wc: 100000 + int(wc.m) * 20000,
+        runtime=lambda wc: (5 + int(wc.m) * 5) * 60
+    conda:
+        "orientagraph"
+    shell:
+        """
+        set -euo pipefail
+        # Run OrientAGraph
+        orientagraph -i {input.freq} -m {wildcards.m} \
+            -o orientagraph/og_rep2/allpop_m{wildcards.m}_rep{wildcards.r} \
+            -k 2000 -root "AndeanFox" -mlno \
+            > {output.log} 2>&1
+
+        # Fail if treeout.gz was not created
+        if [ ! -f {output[0]} ]; then
+            echo "Error: {output[0]} not created" >&2
+            exit 1
+        fi
+        """
+
+# ---- VCFTOOLS: pi diversity ----    
+
+rule pi_diversity_population:
+    input:
+        vcf="popgen/combined.europeanwolves.nodups.maf01.vcf.gz",
+        meta="data/sampleinformation_corrected_metadata.txt"
+    output:
+        "pidiversity/country/{country}_pi5000_all.windowed.pi",
+        avg="pidiversity/country/{country}_average_pi.txt"
+    resources:
+        mem_mb=50000,
+        runtime=4*60
+    shell:
+        """
+        set -euo pipefail
+        country="{wildcards.country}"
+        # Count individuals for this population
+        count=$(awk -F'\t' -v p="$country" 'NR > 1 && $2 == p' {input.meta} | wc -l)
+        if [ "$count" -gt 3 ]; then
+            # Make sample list
+            awk -F'\t' -v p="$country" 'NR > 1 && $2 == p {{print $1}}' {input.meta} | sort -u \
+                > pidiversity/country/${{country}}.txt
+
+            # Calculate nucleotide diversity (pi)
+            vcftools --gzvcf {input.vcf} \
+                     --keep pidiversity/country/${{country}}.txt \
+                     --window-pi 5000 \
+                     --out pidiversity/country/${{country}}_pi5000_all
+
+            # Append average pi
+            awk -v country="$country" 'NR > 1 {{sum += $6; n++}} END {{print country "\\t" (n ? sum / n : 0)}}' \
+                pidiversity/country/${{country}}_pi5000_all.windowed.pi > {output.avg}
+        else
+            > pidiversity/country/${{country}}_pi5000_all.windowed.pi
+            echo -e "$country\tNA" > {output.avg}
+        fi
+        """
+
+rule pi_diversity_summary:
+    input:
+        expand("pidiversity/country/{country}_average_pi.txt", country=config["pi_locations"])
+    output:
+        "pidiversity/country/average_pi5000_all.txt"
+    shell:
+        """
+        cat {input} >> {output}
+        """

@@ -1,0 +1,11 @@
+#convertf for ancient samples
+genotypename: smartpca/combined.europeanwolves.nodups.maf01.ped
+snpname: smartpca/combined.europeanwolves.nodups.maf01.map
+indivname: smartpca/combined.europeanwolves.nodups.maf01.ped
+outputformat: EIGENSTRAT
+genotypeoutname: smartpca/combined.europeanwolves.nodups.maf01.geno
+snpoutname:      smartpca/combined.europeanwolves.nodups.maf01.snp
+indivoutname:    smartpca/combined.europeanwolves.nodups.maf01.indiv
+familynames: NO
+checksizemode: NO
+

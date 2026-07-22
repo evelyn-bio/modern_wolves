@@ -1,13 +1,13 @@
-#Description: Dstats of ancient admixture into wolves
+#Description: Dstats of dog admixture into wolves
 #Author: Evelyn Todd
-#Date: 15/09/25
+#Date: 12/09/25
 ####################
 ##set env ----
-setwd("/projects/psg/people/pkb156/MW")
+setwd("/projects/psg/people/pkb156/MW_sub2")
 library(admixtools)
-df1<-read.table("Dstats/ancient/Dstat_ancient_NWIB.list", header=F)
+df1<-read.table("Dstats/dog/Dstat_dog_NWIB.list", header=F)
 
-Dstats1<-qpdstat("PH/ancient_modern_merged",
+Dstats1<-qpdstat("Dstats/combined.nodups.maf01.tv",
         pop1 = unique(df1$V1),
         pop2 = unique(df1$V2),
         pop3 = unique(df1$V3),
@@ -17,11 +17,11 @@ Dstats1<-qpdstat("PH/ancient_modern_merged",
         f4mode=FALSE)
 str(Dstats1)
 
-saveRDS(Dstats1, file = "Dstats/ancient/Dstat_ancient_NWIB.rds")
+saveRDS(Dstats1, file = "Dstats/dog/Dstat_dog_NWIB.rds")
 
-df2<-read.table("Dstats/ancient/Dstat_ancient_SCAN.list", header=F)
+df2<-read.table("Dstats/dog/Dstat_dog_SCAN.list", header=F)
 
-Dstats2<-qpdstat("PH/ancient_modern_merged",
+Dstats2<-qpdstat("Dstats/combined.nodups.maf01.tv",
         pop1 = unique(df2$V1),
         pop2 = unique(df2$V2),
         pop3 = unique(df2$V3),
@@ -31,4 +31,4 @@ Dstats2<-qpdstat("PH/ancient_modern_merged",
         f4mode=FALSE)
 str(Dstats2)
 
-saveRDS(Dstats2, file = "Dstats/ancient/Dstat_ancient_SCAN.rds")
+saveRDS(Dstats2, file = "Dstats/dog/Dstat_dog_SCAN.rds")

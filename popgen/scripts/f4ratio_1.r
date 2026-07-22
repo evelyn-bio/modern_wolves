@@ -1,13 +1,13 @@
 ##Author: Evelyn Todd
 ##Date: 27/09/2025
 ##Description: qpadm for dog introgression
-setwd("/projects/psg/people/pkb156/MW")
+setwd("/projects/psg/people/pkb156/MW_sub2")
 library(admixtools)
 library(tidyverse)
 
 ##################################################
 ##read in the names of all individuals to test-----------------
-df<-read.table("PH/phased.all.info08.name.nodups.maf01.tv.fam", header=F)
+df<-read.table("Dstats/combined.nodups.maf01.tv.fam", header=F)
 str(df) 
 
 ##################################################
@@ -18,13 +18,13 @@ models <- expand_grid(
         pop1 = "FinnishLapphundDog",
         pop2 = "AndeanFox",
         pop3 = unique(df$V1),
-        pop4 = "MW122",
+        pop4 = "MW122_merged",
         pop5 = "GShepDog")
 
 head(models)
 
 
-prefix = 'PH/phased.all.info08.name.nodups.maf01.tv'
+prefix = 'Dstats/combined.nodups.maf01.tv'
 
 batch_size <- 100  # tune depending on memory
 n_models <- nrow(models)

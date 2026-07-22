@@ -1,0 +1,21 @@
+#snakemake --executor slurm --use-conda --use-env --workflow-profile slurm --dry-run
+#imputation pipeline for wolf samples using a canid reference panel
+__author__ = "Evelyn Todd"
+__copyright__ = "Copyright (c) 2026 Evelyn Todd"
+__license__ = "MIT"
+
+configfile: "config.yaml"
+
+#load modules
+shell.prefix("module load " + " ".join(config["modules"]) + " || true; ")
+
+# Master Snakefile
+include: "rules/refpanel.smk"
+include: "rules/downsample.smk"
+include: "rules/imputepanel.smk"
+
+rule all:
+    input:
+        rules.all_refpanel.input,
+        rules.all_downsample.input,
+        rules.all_imputepanel.input

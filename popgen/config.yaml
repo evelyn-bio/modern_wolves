@@ -1,4 +1,4 @@
-# Config file for MW
+# Config file for popgen analysis
 
 modules:
   - gsl/2.5
@@ -13,16 +13,17 @@ modules:
   - python/2.7.17
   - angsd/0.940
   - samtools/1.21
+  - htslib/1.22
+
 
 # === Input files ===
-vcf: "/projects/psg/data/Shyam_sharing/bcf/phased.all.info08.name.excludesamples.bcf"
+vcf: "/MW_imputation/impute/combine/combined_allchr.vcf.gz"
 
 # Sample lists
 wolves_list: "data/wolvesandcanids.txt"
 eu_wolves_list: "data/europeanwolvesandcanids.txt"
 wolves_only_list: "data/wolvesonly.txt"
 eu_wolves_only_list: "data/europeanwolvesonly.txt"
-meta: "data/allcanids_metadata_ancestrygroups_new_related_edited.txt"
 ancient_bams: "data/ancientwolves_bams.txt"
 ref_genome: "/projects/psg/people/pkb156/MW/data/canFam31.fasta"
 
